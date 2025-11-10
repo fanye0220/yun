@@ -1,0 +1,29 @@
+{
+    "version": 2,
+    "name": "QR",
+    "disableSend": false,
+    "placeBeforeInput": false,
+    "injectInput": false,
+    "color": "rgba(0, 0, 0, 0)",
+    "onlyBorderColor": true,
+    "qrList": [
+        {
+            "id": 1,
+            "showLabel": false,
+            "label": "📱",
+            "title": "",
+            "message": "/sendas name={{char}}  ===BLMX_LOG_BEGIN=== ===BLMX_LOG_END===\n",
+            "contextList": [],
+            "preventAutoExecute": true,
+            "isHidden": false,
+            "executeOnStartup": false,
+            "executeOnUser": false,
+            "executeOnAi": false,
+            "executeOnChatChange": false,
+            "executeOnGroupMemberDraft": false,
+            "executeOnNewChat": false,
+            "automationId": ""
+        }
+    ],
+    "idIndex": 5
+}
