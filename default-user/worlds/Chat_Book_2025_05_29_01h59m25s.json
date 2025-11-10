@@ -1,0 +1,38 @@
+{
+    "entries": {
+        "0": {
+            "uid": 0,
+            "key": [],
+            "keysecondary": [],
+            "comment": "聊天记录缓存",
+            "content": "\n[All Test Messages Rejected]\n\n[前情提要]\n在新宿站月台角落，筱原冬弥在电车内被常九猥亵后逃离，但被常九追上。常九强行钳制住冬弥，捂住他的嘴，向路人谎称是\"朋友吵架\"，并将他拖拽出站台。在车站外的僻静角落，常九松开了冬弥，冬弥剧烈咳嗽后愤怒质问常九的动机和目的。冬弥一边寻找逃跑机会，一边强撑着不让自己倒下。此时，常九向冬弥展示手机屏幕，上面显示冬弥的频道ID和几天前发布的视频，同时播放出轻微的喘息声，用日语问道：\"是你吧？\"这表明常九已经发现了冬弥的网络身份。\n\n[All Test Messages Rejected]\n\n# [前情提要]\n\n在新宿站出口外的僻静角落，筱原冬弥在得知常九已经发现了他是ASMR主播兼成人内容创作者的身份后，陷入了极度恐惧和愤怒中。常九点燃香烟，告诉冬弥他已跟踪他多日，通过推特照片背景找到了他的行踪。冬弥更加惊恐，尖叫着威胁要报警，颤抖着试图掏出手机。常九轻易夺走了冬弥的手机，并威胁说如果和他发生性关系就归还手机，还询问\"中出是否会怀孕\"。冬弥爆发出歇斯底里的咒骂和威胁，表示宁愿同归于尽也不会屈服。常九无视冬弥的反抗，提着他的领子将他带到了附近的一家旅店并丢进房间。\n\n在廉价旅店房间内，冬弥被粗暴地摔在地上，后脑撞击地面几乎晕厥。他蜷缩在地板上剧烈咳嗽，浑身疼痛且湿冷。冬弥绝望地哀求常九放过他，试图用金钱交换自由，并艰难地向墙角挪动寻求保护。当常九靠近时，冬弥爆发出最后的歇斯底里尖叫和咒骂。最终，常九进行了粗暴的性侵，他抓住冬弥的头发将他按在床上，扯掉他的裤子，用手指掰开了冬弥的会阴部分并评价道\"真漂亮\"。",
+            "constant": true,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 100,
+            "position": 1,
+            "disable": false,
+            "excludeRecursion": false,
+            "preventRecursion": false,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4,
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": null,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "displayIndex": 0
+        }
+    }
+}
