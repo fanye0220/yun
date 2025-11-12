@@ -3,7 +3,7 @@
     "accountStorage": {
         "__migrated": "1",
         "LNavOpened": "false",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"3090278210222208\":{\"fieldsWarned\":{}}}}",
         "SelectedNavTab": "rm_button_characters",
@@ -29,7 +29,7 @@
         "AlertWI_向未.png": "true",
         "mediaWarningShown:伊凡德.png": "true",
         "mediaWarningShown:伊凡德1.png": "true",
-        "extension_update_nag": "Wed Nov 12 2025",
+        "extension_update_nag": "Tue Nov 11 2025",
         "Proxy_SkipConfirm_5834304746370893": "true",
         "AlertWI_贺劲草.png": "true",
         "AlertRegex_贺劲草.png": "true",
@@ -118,13 +118,11 @@
         "AlertWI_莫旌.png": "true",
         "AlertRegex_莫旌.png": "true",
         "AlertWI_程妄.png": "true",
-        "AlertRegex_程妄.png": "true",
-        "AlertWI_陆一汀1.png": "true",
-        "AlertRegex_陆一汀1.png": "true"
+        "AlertRegex_程妄.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "沈长昀",
-    "active_character": "陆一汀1.png",
+    "active_character": "程妄.png",
     "active_group": null,
     "user_avatar": "1747381429587-user.png",
     "amount_gen": 350,
@@ -345,8 +343,9 @@
         "play_sound_unfocused": true,
         "auto_save_msg_edits": true,
         "confirm_message_delete": true,
-        "sort_field": "create_date",
+        "sort_field": "chat_size",
         "sort_order": "desc",
+        "sort_rule": null,
         "font_scale": 0.95,
         "blur_strength": 0,
         "shadow_width": 0,
@@ -1924,8 +1923,7 @@
             "林寞舒.png",
             "莫旌.png",
             "林亦哲.png",
-            "程妄.png",
-            "陆一汀1.png"
+            "程妄.png"
         ],
         "preset_allowed_regex": {},
         "tts": {
@@ -2118,8 +2116,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1081,
-                "LAST_RECEIVE_CHARS": 1798,
+                "LAST_RECEIVE_TOKENS": 913,
+                "LAST_RECEIVE_CHARS": 1136,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 2387,
@@ -2170,9 +2168,6 @@
                     "setList": []
                 },
                 "程妄.png": {
-                    "setList": []
-                },
-                "陆一汀1.png": {
                     "setList": []
                 }
             }
@@ -6526,7 +6521,7 @@
         "chat_completion_source": "custom",
         "max_context_unlocked": true,
         "show_external_models": true,
-        "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
+        "proxy_password": "",
         "assistant_prefill": "",
         "assistant_impersonation": "",
         "claude_use_sysprompt": false,
