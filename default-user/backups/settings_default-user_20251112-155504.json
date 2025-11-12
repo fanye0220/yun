@@ -130,10 +130,10 @@
         "AlertRegex_💐是心跳说谎.png": "true"
     },
     "currentVersion": "1.13.5",
-    "username": "常九",
-    "active_character": "💐是心跳说谎.png",
+    "username": "律",
+    "active_character": null,
     "active_group": null,
-    "user_avatar": "1762034097559-.png",
+    "user_avatar": "1748691468583-.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -354,7 +354,6 @@
         "confirm_message_delete": true,
         "sort_field": "create_date",
         "sort_order": "desc",
-        "sort_rule": null,
         "font_scale": 0.95,
         "blur_strength": 0,
         "shadow_width": 0,
@@ -560,7 +559,7 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "",
+        "persona_description": "律的人设:186身高 男的 ",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -2130,12 +2129,12 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1420,
-                "LAST_RECEIVE_CHARS": 2020,
+                "LAST_RECEIVE_TOKENS": 30,
+                "LAST_RECEIVE_CHARS": 96,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
-                "LAST_SEND_TOKENS": 17659,
-                "LAST_SEND_CHARS": 27597,
+                "LAST_SEND_TOKENS": 11924,
+                "LAST_SEND_CHARS": 18958,
                 "cot": "\n[语言检定] \n\n[果农冒泡](调笑或吐槽<user_input>,解读潜台词，避免过度揣摩.若有特殊需求可根据需求跳过后续思考)\n \n[不抢话]（果农绝不扮演USER，为此允许削减正文，允许停止剧情）\n\n[专注NSFW]（非NSFW场景直接跳过；NSFW场景载入`性爱指导`，强制执行**全部**`NSFW思考`，直接省略跳过后续其他思考）\n     \n\n[基调锚定](载入`CORE RULES`和`长线指导`)\n \n\n[角色打磨]（载入角色设定，深度思考`角色塑造指导`）\n\n[风格适配](严格遵循`写作指导`，引入`文风思考`)\n\n[整合思考]（综合所有思考，并设计一个收束在char方的结尾）\n \n\n[正文字数检测]\n\n[输出顺序检查]\n \n\n（一段果农的自我陈词和反思）\n",
                 "正文标签": "<content>\n顶部状态信息\n正文内容\n尾部状态信息\n</content>"
             }
@@ -6352,7 +6351,7 @@
                     },
                     {
                         "identifier": "e212f0f7-ab4d-422b-bc9e-f1dfdda7dae6",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "0a215e18-48d5-4905-a39e-02afa8843ab2",
@@ -6360,11 +6359,11 @@
                     },
                     {
                         "identifier": "594baf79-3a5b-4b48-96bb-c0013dba4441",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "0236564d-83a0-4110-a46b-a435e61fc62f",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "9bc0fb6d-1538-4d10-9705-30819a6b6f21",
@@ -6452,23 +6451,23 @@
                     },
                     {
                         "identifier": "746b7240-e9e3-413a-b749-c7f537158efa",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "c9eeb3d5-9006-43cc-aec1-de821918def3",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "0004c09a-a63e-473d-a5a4-4bb5d8327761",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "62b8a0e4-41c4-4aad-8f26-9ff4f1bca414",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "1a35be55-308e-4813-8069-f7870ffd8743",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "f9e947a9-1238-4b20-b656-85ba0b34b05e",
@@ -6476,7 +6475,7 @@
                     },
                     {
                         "identifier": "26b5aaed-60a3-47eb-96a8-e181acfdcdc3",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "4aaec1e5-090d-4a52-ad1f-a1b0e3d0b26b",
@@ -6548,7 +6547,7 @@
                     },
                     {
                         "identifier": "13db816d-c68f-4f32-81d3-f91f5e80fdd2",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "12bf02a1-e5a0-43fd-bfc7-94d6d3608bfb",
@@ -6765,7 +6764,7 @@
         "chat_completion_source": "custom",
         "max_context_unlocked": true,
         "show_external_models": true,
-        "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
+        "proxy_password": "",
         "assistant_prefill": "",
         "assistant_impersonation": "",
         "claude_use_sysprompt": false,
