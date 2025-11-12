@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "NavOpened": "true",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"3090278210222208\":{\"fieldsWarned\":{}}}}",
@@ -2122,8 +2122,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 3200,
-                "LAST_RECEIVE_CHARS": 2898,
+                "LAST_RECEIVE_TOKENS": 183,
+                "LAST_RECEIVE_CHARS": 147,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 8806,
@@ -5926,7 +5926,7 @@
         "azure_deployment_name": "",
         "azure_api_version": "2024-02-15-preview",
         "azure_openai_model": "",
-        "custom_model": "[WEB]claude-4.1-opus",
+        "custom_model": "[WEB]claude-4.5-sonnet",
         "custom_url": "https://ar26710.online/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
