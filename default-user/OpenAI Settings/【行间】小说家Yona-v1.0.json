@@ -1,4 +1,40 @@
 {
+    "chat_completion_source": "custom",
+    "openai_model": "[云愿]claude-4-sonnet",
+    "claude_model": "claude-3-7-sonnet-20250219",
+    "openrouter_model": "OR_Website",
+    "openrouter_use_fallback": false,
+    "openrouter_group_models": false,
+    "openrouter_sort_models": "alphabetically",
+    "openrouter_providers": [],
+    "openrouter_allow_fallbacks": true,
+    "openrouter_middleout": "on",
+    "ai21_model": "jamba-1.5-large",
+    "mistralai_model": "mistral-medium",
+    "cohere_model": "command-r",
+    "perplexity_model": "llama-3-70b-instruct",
+    "groq_model": "llama3-70b-8192",
+    "xai_model": "grok-3-beta",
+    "pollinations_model": "openai",
+    "aimlapi_model": "gpt-4o-mini-2024-07-18",
+    "electronhub_model": "gpt-4o-mini",
+    "electronhub_sort_models": "alphabetically",
+    "electronhub_group_models": false,
+    "moonshot_model": "kimi-latest",
+    "fireworks_model": "accounts/fireworks/models/kimi-k2-instruct",
+    "cometapi_model": "gpt-4o",
+    "custom_model": "流式抗截断/gemini-2.5-pro",
+    "custom_url": "https://wcesa.zeabur.app/v1",
+    "custom_include_body": "",
+    "custom_exclude_body": "",
+    "custom_include_headers": "",
+    "custom_prompt_post_processing": "strict",
+    "google_model": "kingfall-ab-test",
+    "vertexai_model": "gemini-2.0-flash-001",
+    "azure_base_url": "",
+    "azure_deployment_name": "",
+    "azure_api_version": "2024-02-15-preview",
+    "azure_openai_model": "",
     "temperature": 1.2,
     "frequency_penalty": 0.3,
     "presence_penalty": 0.3,
@@ -18,6 +54,8 @@
     "new_example_chat_prompt": "[Example Chat]",
     "continue_nudge_prompt": "[Continue your last message without repeating its original content.]",
     "bias_preset_selected": "Default (none)",
+    "reverse_proxy": "",
+    "proxy_password": "",
     "max_context_unlocked": true,
     "wi_format": "{0}",
     "scenario_format": "{{scenario}}",
@@ -1190,7 +1228,7 @@
                 },
                 {
                     "identifier": "f77ad182-1fd9-464d-821a-57b382478070",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "81c3ca21-e0a7-44ea-ae42-ded7f18a88d5",
@@ -1198,7 +1236,7 @@
                 },
                 {
                     "identifier": "6c01b510-ef9e-4159-82be-28bc0c1b310f",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "fad71bb9-dc45-4c34-875b-8b8272962507",
@@ -1322,11 +1360,11 @@
                 },
                 {
                     "identifier": "46f73878-d351-450e-83af-562bc4e8380b",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "b8d39078-52d7-44ea-bbc2-5ba93b7e5737",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "61989fe7-54bd-4dac-a6ae-08bed81dff2b",
@@ -1523,14 +1561,19 @@
             ]
         }
     ],
+    "show_external_models": true,
     "assistant_prefill": "",
     "assistant_impersonation": "",
     "claude_use_sysprompt": false,
     "use_makersuite_sysprompt": false,
+    "vertexai_auth_mode": "express",
+    "vertexai_region": "us-central1",
+    "vertexai_express_project_id": "",
     "squash_system_messages": true,
     "image_inlining": false,
     "inline_image_quality": "auto",
     "video_inlining": false,
+    "bypass_status_check": true,
     "continue_prefill": true,
     "continue_postfix": " ",
     "function_calling": true,
