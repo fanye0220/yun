@@ -8,7 +8,7 @@
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"3090278210222208\":{\"fieldsWarned\":{}}}}",
         "SelectedNavTab": "rm_button_characters",
         "mediaWarningShown:1746391246350": "true",
-        "NavLockOn": "false",
+        "NavLockOn": "true",
         "AlertWI_夏映安1.png": "true",
         "AlertRegex_夏映安1.png": "true",
         "AlertWI_西伦.png": "true",
@@ -127,17 +127,11 @@
         "AlertRegex_《操操你的》女性向bl游戏.png": "true",
         "AlertWI_谢云止1.png": "true",
         "AlertWI_💐是心跳说谎.png": "true",
-        "AlertRegex_💐是心跳说谎.png": "true",
-        "AlertWI_秦枭1.1.png": "true",
-        "AlertRegex_秦枭1.1.png": "true",
-        "AlertWI_荆珩1.png": "true",
-        "AlertRegex_荆珩1.png": "true",
-        "AlertWI_风狩.png": "true",
-        "AlertRegex_风狩.png": "true"
+        "AlertRegex_💐是心跳说谎.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "常九",
-    "active_character": "卡.png",
+    "active_character": "💐是心跳说谎.png",
     "active_group": null,
     "user_avatar": "1762034097559-.png",
     "amount_gen": 350,
@@ -358,8 +352,9 @@
         "play_sound_unfocused": true,
         "auto_save_msg_edits": true,
         "confirm_message_delete": true,
-        "sort_field": "chat_size",
+        "sort_field": "create_date",
         "sort_order": "desc",
+        "sort_rule": null,
         "font_scale": 0.95,
         "blur_strength": 0,
         "shadow_width": 0,
@@ -1925,11 +1920,7 @@
             "沈秋实.png",
             "仙尊洗白指南1.png",
             "《操操你的》女性向bl游戏.png",
-            "💐是心跳说谎.png",
-            "秦枭1.11.png",
-            "秦枭1.1.png",
-            "荆珩1.png",
-            "风狩.png"
+            "💐是心跳说谎.png"
         ],
         "preset_allowed_regex": {},
         "tts": {
@@ -2122,8 +2113,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2608,
-                "LAST_RECEIVE_CHARS": 7374,
+                "LAST_RECEIVE_TOKENS": 2444,
+                "LAST_RECEIVE_CHARS": 3444,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 15718,
@@ -2163,7 +2154,20 @@
                     }
                 ]
             },
-            "characterConfigs": {}
+            "characterConfigs": {
+                "仙尊洗白指南1.png": {
+                    "setList": []
+                },
+                "《操操你的》女性向bl游戏.png": {
+                    "setList": []
+                },
+                "谢云止1.png": {
+                    "setList": []
+                },
+                "💐是心跳说谎.png": {
+                    "setList": []
+                }
+            }
         },
         "TavernHelper": {
             "enabled_extension": true,
@@ -4612,6 +4616,7 @@
         "方沐阳.png": [],
         "蒋再再.png": [],
         "江闻远.png": [],
+        "荆珩.png": [],
         "周栩怀.png": [],
         "蒋君行.png": [],
         "宋星海.png": [],
@@ -4620,9 +4625,8 @@
         "苏鹤清.png": [],
         "周烬.png": [],
         "严瑾.png": [],
-        "褚渐与.png": [],
-        "秦枭1.1.png": [],
-        "荆珩1.png": []
+        "秦枭1.11.png": [],
+        "褚渐与.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
