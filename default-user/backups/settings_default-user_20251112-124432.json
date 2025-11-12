@@ -124,7 +124,7 @@
     },
     "currentVersion": "1.13.5",
     "username": "沈长昀",
-    "active_character": "陆一汀1.png",
+    "active_character": null,
     "active_group": null,
     "user_avatar": "1747381429587-user.png",
     "amount_gen": 350,
@@ -2119,8 +2119,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1081,
-                "LAST_RECEIVE_CHARS": 1798,
+                "LAST_RECEIVE_TOKENS": 196,
+                "LAST_RECEIVE_CHARS": 265,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 2387,
