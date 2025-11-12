@@ -2,7 +2,6 @@
     "chat_completion_source": "custom",
     "openai_model": "[云愿]claude-4-sonnet",
     "claude_model": "claude-3-7-sonnet-20250219",
-    "windowai_model": "",
     "openrouter_model": "OR_Website",
     "openrouter_use_fallback": false,
     "openrouter_group_models": false,
@@ -15,10 +14,15 @@
     "cohere_model": "command-r",
     "perplexity_model": "llama-3-70b-instruct",
     "groq_model": "llama3-70b-8192",
-    "zerooneai_model": "yi-large",
     "xai_model": "grok-3-beta",
     "pollinations_model": "openai",
     "aimlapi_model": "gpt-4o-mini-2024-07-18",
+    "electronhub_model": "gpt-4o-mini",
+    "electronhub_sort_models": "alphabetically",
+    "electronhub_group_models": false,
+    "moonshot_model": "kimi-latest",
+    "fireworks_model": "accounts/fireworks/models/kimi-k2-instruct",
+    "cometapi_model": "gpt-4o",
     "custom_model": "流式抗截断/gemini-2.5-pro",
     "custom_url": "https://wcesa.zeabur.app/v1",
     "custom_include_body": "",
@@ -27,6 +31,10 @@
     "custom_prompt_post_processing": "strict",
     "google_model": "kingfall-ab-test",
     "vertexai_model": "gemini-2.0-flash-001",
+    "azure_base_url": "",
+    "azure_deployment_name": "",
+    "azure_api_version": "2024-02-15-preview",
+    "azure_openai_model": "",
     "temperature": 1.05,
     "frequency_penalty": 0,
     "presence_penalty": 0,
@@ -2514,7 +2522,7 @@
                 },
                 {
                     "identifier": "c18e7bca-77a0-454e-bb5d-ed05e5f12a05",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "1a082867-8968-4529-8ac3-807b7d3e672b",
@@ -2546,7 +2554,7 @@
                 },
                 {
                     "identifier": "e39fdeb2-4204-417d-8343-b9680fc988b6",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "6706fcc5-7d6c-49b3-8e6e-a29c5cebdc15",
@@ -2995,7 +3003,6 @@
             ]
         }
     ],
-    "api_url_scale": "",
     "show_external_models": true,
     "assistant_prefill": "",
     "assistant_impersonation": "",
@@ -3004,7 +3011,6 @@
     "vertexai_auth_mode": "express",
     "vertexai_region": "us-central1",
     "vertexai_express_project_id": "",
-    "use_alt_scale": false,
     "squash_system_messages": false,
     "image_inlining": true,
     "inline_image_quality": "low",
@@ -3018,5 +3024,6 @@
     "enable_web_search": false,
     "request_images": false,
     "seed": -1,
-    "n": 1
+    "n": 1,
+    "extensions": {}
 }
