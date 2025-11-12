@@ -3,7 +3,7 @@
     "accountStorage": {
         "__migrated": "1",
         "LNavOpened": "false",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"3090278210222208\":{\"fieldsWarned\":{}}}}",
         "SelectedNavTab": "rm_button_characters",
@@ -120,16 +120,10 @@
         "AlertWI_程妄.png": "true",
         "AlertRegex_程妄.png": "true",
         "AlertWI_陆一汀1.png": "true",
-        "AlertRegex_陆一汀1.png": "true",
-        "AlertWI_仙尊洗白指南1.png": "true",
-        "AlertRegex_仙尊洗白指南1.png": "true",
-        "AlertWI_《操操你的》女性向bl游戏.png": "true",
-        "AlertRegex_《操操你的》女性向bl游戏.png": "true",
-        "AlertWI_谢云止1.png": "true"
+        "AlertRegex_陆一汀1.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "律",
-    "active_character": "谢云止1.png",
     "active_group": null,
     "user_avatar": "1748691468583-.png",
     "amount_gen": 350,
@@ -352,6 +346,7 @@
         "confirm_message_delete": true,
         "sort_field": "create_date",
         "sort_order": "desc",
+        "sort_rule": null,
         "font_scale": 0.95,
         "blur_strength": 0,
         "shadow_width": 0,
@@ -1931,9 +1926,7 @@
             "林亦哲.png",
             "程妄.png",
             "陆一汀1.png",
-            "沈秋实.png",
-            "仙尊洗白指南1.png",
-            "《操操你的》女性向bl游戏.png"
+            "沈秋实.png"
         ],
         "preset_allowed_regex": {},
         "tts": {
@@ -2126,8 +2119,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 471,
-                "LAST_RECEIVE_CHARS": 591,
+                "LAST_RECEIVE_TOKENS": 1081,
+                "LAST_RECEIVE_CHARS": 1798,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 2387,
@@ -2167,17 +2160,7 @@
                     }
                 ]
             },
-            "characterConfigs": {
-                "仙尊洗白指南1.png": {
-                    "setList": []
-                },
-                "《操操你的》女性向bl游戏.png": {
-                    "setList": []
-                },
-                "谢云止1.png": {
-                    "setList": []
-                }
-            }
+            "characterConfigs": {}
         },
         "TavernHelper": {
             "enabled_extension": true,
@@ -4218,6 +4201,7 @@
         "黎繁.png": [],
         "霖止衍.png": [],
         "苏青衢.png": [],
+        "仙尊洗白指南.png": [],
         "苏幕谦.png": [],
         "贺溪云.png": [],
         "谢闻声.png": [],
@@ -4294,6 +4278,7 @@
         "傅迟序.png": [],
         "傅嘉禾.png": [],
         "港娱模拟器-璀璨之城💎.png": [],
+        "高干港风熟男(4+1).png": [],
         "顾淮.png": [],
         "顾盼.png": [],
         "顾仞.png": [],
@@ -4371,6 +4356,7 @@
         "龙傲天万人迷模拟器.png": [],
         "楼祈晏.png": [],
         "陆驰野.png": [],
+        "陆怀瑾.png": [],
         "陆宁.png": [],
         "陆知遥.png": [],
         "路怀远.png": [],
@@ -4578,6 +4564,7 @@
         "宵町和真1.png": [],
         "杜嘉樾.png": [],
         "夜一.png": [],
+        "简随安.png": [],
         "💐是心跳说谎.png": [],
         "沈暮安 灰港往事.png": [],
         "林寞舒.png": [
@@ -4596,6 +4583,7 @@
         "陆一汀1.png": [],
         "沈郁2.png": [],
         "圣洁沦陷.png": [],
+        "谢云止.png": [],
         "周韫谦1.png": [],
         "高干港风熟男(4+1)1.png": [],
         "秦望.png": [],
@@ -4606,36 +4594,7 @@
         "江温言.png": [],
         "卫沧回.png": [],
         "柳若风.png": [],
-        "陆怀瑾1.png": [],
-        "封澍.png": [],
-        "姬笑却.png": [],
-        "谢云止1.png": [],
-        "《操操你的》女性向bl游戏.png": [],
-        "深境C网联动中1.png": [],
-        "宴白.png": [],
-        "陈俞.png": [],
-        "谢疏寒.png": [],
-        "听风渝.png": [],
-        "江祈先.png": [],
-        "双柏夹心.png": [],
-        "失乐园.png": [],
-        "松司悬.png": [],
-        "游闲.png": [],
-        "我都是合欢宗了你就超超我吧.png": [],
-        "秦枭1.1.png": [],
-        "张靖辞.png": [],
-        "方沐阳.png": [],
-        "蒋再再.png": [],
-        "江闻远.png": [],
-        "荆珩.png": [],
-        "周栩怀.png": [],
-        "蒋君行.png": [],
-        "宋星海.png": [],
-        "赵今有.png": [],
-        "往生录.png": [],
-        "苏鹤清.png": [],
-        "周烬.png": [],
-        "严瑾.png": []
+        "陆怀瑾1.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
