@@ -3,7 +3,7 @@
     "accountStorage": {
         "__migrated": "1",
         "LNavOpened": "false",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"3090278210222208\":{\"fieldsWarned\":{}}}}",
         "SelectedNavTab": "rm_button_characters",
@@ -158,27 +158,15 @@
         "AlertRegex_南波兔男鬼系统.png": "true",
         "AlertWI_兴安然.png": "true",
         "AlertRegex_兴安然.png": "true",
+        "AlertWI_慕悠.png": "true",
         "AlertRegex_openai_【MoM】梦梦K2T1.1.12ttt丨喵喵电波@ameng": "true",
         "AlertWI_戚斟雪.png": "true",
         "AlertWI_陈暮宇.png": "true",
-        "AlertRegex_陈暮宇.png": "true",
-        "AlertWI_顾清时.png": "true",
-        "AlertRegex_顾清时.png": "true",
-        "AlertWI_陈俞.png": "true",
-        "AlertWI_我都是合欢宗了你就超超我吧.png": "true",
-        "AlertRegex_我都是合欢宗了你就超超我吧.png": "true",
-        "AlertWI_张靖辞.png": "true",
-        "AlertRegex_张靖辞.png": "true",
-        "AlertWI_封澍.png": "true",
-        "AlertRegex_封澍.png": "true",
-        "AlertWI_周烬.png": "true",
-        "AlertRegex_周烬.png": "true",
-        "AlertWI_苏鹤清.png": "true",
-        "AlertRegex_苏鹤清.png": "true"
+        "AlertRegex_陈暮宇.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "沈长昀",
-    "active_character": "苏鹤清.png",
+    "active_character": "常疏.png",
     "active_group": null,
     "user_avatar": "1747381429587-user.png",
     "amount_gen": 350,
@@ -1984,13 +1972,7 @@
             "时未1.png",
             "南波兔男鬼系统.png",
             "兴安然.png",
-            "陈暮宇.png",
-            "顾清时.png",
-            "我都是合欢宗了你就超超我吧.png",
-            "张靖辞.png",
-            "封澍.png",
-            "周烬.png",
-            "苏鹤清.png"
+            "陈暮宇.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2187,8 +2169,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 3997,
-                "LAST_RECEIVE_CHARS": 12837,
+                "LAST_RECEIVE_TOKENS": 1331,
+                "LAST_RECEIVE_CHARS": 1750,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 50390,
@@ -2228,7 +2210,59 @@
                     }
                 ]
             },
-            "characterConfigs": {}
+            "characterConfigs": {
+                "程景珩.png": {
+                    "setList": []
+                },
+                "💐是心跳说谎.png": {
+                    "setList": []
+                },
+                " 陆时宴.png": {
+                    "setList": []
+                },
+                "郁衔烛.png": {
+                    "setList": []
+                },
+                "季淮北1.png": {
+                    "setList": []
+                },
+                "喻今朝.png": {
+                    "setList": []
+                },
+                "时未.png": {
+                    "setList": []
+                },
+                "时未1.png": {
+                    "setList": []
+                },
+                "常疏.png": {
+                    "setList": []
+                },
+                "破产Omega.png": {
+                    "setList": []
+                },
+                "南波兔男鬼系统.png": {
+                    "setList": []
+                },
+                "兴安然.png": {
+                    "setList": []
+                },
+                "小林和也.png": {
+                    "setList": []
+                },
+                "慕悠.png": {
+                    "setList": []
+                },
+                "徐知意.png": {
+                    "setList": []
+                },
+                "戚斟雪.png": {
+                    "setList": []
+                },
+                "陈暮宇.png": {
+                    "setList": []
+                }
+            }
         },
         "TavernHelper": {
             "enabled_extension": true,
@@ -2478,8 +2512,7 @@
                         "穿越惡役逃離死亡FLAG",
                         "谭尧",
                         "莫旌",
-                        "时未",
-                        "张靖辞"
+                        "时未"
                     ]
                 },
                 "popuped": {
@@ -2494,8 +2527,7 @@
                         "谭尧",
                         "莫旌",
                         "时未",
-                        "陈暮宇",
-                        "张靖辞"
+                        "陈暮宇"
                     ]
                 },
                 "scripts": [
@@ -4687,6 +4719,7 @@
         "方沐阳.png": [],
         "蒋再再.png": [],
         "江闻远.png": [],
+        "周栩怀.png": [],
         "蒋君行.png": [],
         "宋星海.png": [],
         "赵今有.png": [],
@@ -4711,7 +4744,8 @@
         "兴安然.png": [],
         "顾清时.png": [],
         "时未1.png": [],
-        "沈季白.png": []
+        "沈季白.png": [],
+        "慕悠.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -6620,7 +6654,7 @@
         "chat_completion_source": "custom",
         "max_context_unlocked": true,
         "show_external_models": true,
-        "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
+        "proxy_password": "",
         "assistant_prefill": "",
         "assistant_impersonation": "",
         "claude_use_sysprompt": false,
