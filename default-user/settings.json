@@ -156,10 +156,10 @@
         "AlertRegex_时未1.png": "true"
     },
     "currentVersion": "1.13.5",
-    "username": "律",
-    "active_character": "时未1.png",
+    "username": "沈长昀",
+    "active_character": "常疏.png",
     "active_group": null,
-    "user_avatar": "1748691468583-.png",
+    "user_avatar": "1747381429587-user.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -586,9 +586,9 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "律的人设:186身高 男的 35岁",
-        "persona_description_position": 0,
-        "persona_description_role": 0,
+        "persona_description": " 男的 身高186 35岁",
+        "persona_description_position": 3,
+        "persona_description_role": 1,
         "persona_description_depth": 2,
         "persona_description_lorebook": "",
         "persona_show_notifications": true,
@@ -2153,8 +2153,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 9175,
-                "LAST_RECEIVE_CHARS": 33189,
+                "LAST_RECEIVE_TOKENS": 2035,
+                "LAST_RECEIVE_CHARS": 1620,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 16428,
@@ -2217,6 +2217,9 @@
                     "setList": []
                 },
                 "时未1.png": {
+                    "setList": []
+                },
+                "常疏.png": {
                     "setList": []
                 }
             }
