@@ -2160,8 +2160,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 153,
-                "LAST_RECEIVE_CHARS": 239,
+                "LAST_RECEIVE_TOKENS": 80,
+                "LAST_RECEIVE_CHARS": 106,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 183934,
