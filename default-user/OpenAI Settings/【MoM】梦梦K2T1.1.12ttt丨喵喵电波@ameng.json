@@ -1,5 +1,5 @@
 {
-    "chat_completion_source": "custom",
+    "chat_completion_source": "deepseek",
     "openai_model": "[云愿]claude-4-sonnet",
     "claude_model": "claude-3-7-sonnet-20250219",
     "openrouter_model": "OR_Website",
@@ -1211,7 +1211,7 @@
                 },
                 {
                     "identifier": "d90182c7-11e3-452e-b829-2792c2876bc2",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "0bdc619c-42e0-4d46-8159-a86e042de59a",
@@ -1283,7 +1283,7 @@
                 },
                 {
                     "identifier": "24d618a9-eeb0-4229-83b6-0a5cdcf49d52",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "f4614bd7-0de0-4383-a735-617104b338cd",

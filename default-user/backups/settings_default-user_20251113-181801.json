@@ -159,8 +159,7 @@
         "AlertWI_兴安然.png": "true",
         "AlertRegex_兴安然.png": "true",
         "AlertWI_慕悠.png": "true",
-        "AlertRegex_openai_【MoM】梦梦K2T1.1.12ttt丨喵喵电波@ameng": "true",
-        "AlertWI_戚斟雪.png": "true"
+        "AlertRegex_openai_【MoM】梦梦K2T1.1.12ttt丨喵喵电波@ameng": "true"
     },
     "currentVersion": "1.13.5",
     "username": "沈长昀",
@@ -385,8 +384,9 @@
         "play_sound_unfocused": true,
         "auto_save_msg_edits": true,
         "confirm_message_delete": true,
-        "sort_field": "create_date",
+        "sort_field": "chat_size",
         "sort_order": "desc",
+        "sort_rule": null,
         "font_scale": 0.95,
         "blur_strength": 0,
         "shadow_width": 0,
@@ -2165,8 +2165,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 339,
-                "LAST_RECEIVE_CHARS": 362,
+                "LAST_RECEIVE_TOKENS": 1082,
+                "LAST_RECEIVE_CHARS": 1323,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 50842,
@@ -2250,9 +2250,6 @@
                     "setList": []
                 },
                 "徐知意.png": {
-                    "setList": []
-                },
-                "戚斟雪.png": {
                     "setList": []
                 }
             }
