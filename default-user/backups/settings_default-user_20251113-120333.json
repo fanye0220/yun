@@ -143,21 +143,11 @@
         "AlertWI_谢疏寒.png": "true",
         "AlertRegex_谢疏寒.png": "true",
         "AlertWI_程景珩.png": "true",
-        "AlertRegex_程景珩.png": "true",
-        "AlertWI_郁衔烛.png": "true",
-        "AlertRegex_郁衔烛.png": "true",
-        "AlertWI_季淮北1.png": "true",
-        "AlertRegex_季淮北1.png": "true",
-        "AlertWI_喻今朝.png": "true",
-        "AlertRegex_喻今朝.png": "true",
-        "AlertWI_时未.png": "true",
-        "AlertRegex_时未.png": "true",
-        "AlertWI_时未1.png": "true",
-        "AlertRegex_时未1.png": "true"
+        "AlertRegex_程景珩.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "律",
-    "active_character": "时未1.png",
+    "active_character": "程景珩.png",
     "active_group": null,
     "user_avatar": "1748691468583-.png",
     "amount_gen": 350,
@@ -1955,12 +1945,7 @@
             "王洧蔚.png",
             " 陆时宴.png",
             "谢疏寒.png",
-            "程景珩.png",
-            "郁衔烛.png",
-            "季淮北1.png",
-            "喻今朝.png",
-            "时未.png",
-            "时未1.png"
+            "程景珩.png"
         ],
         "preset_allowed_regex": {},
         "tts": {
@@ -2153,8 +2138,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 9175,
-                "LAST_RECEIVE_CHARS": 33189,
+                "LAST_RECEIVE_TOKENS": 5937,
+                "LAST_RECEIVE_CHARS": 19572,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 16428,
@@ -2196,27 +2181,6 @@
             },
             "characterConfigs": {
                 "程景珩.png": {
-                    "setList": []
-                },
-                "💐是心跳说谎.png": {
-                    "setList": []
-                },
-                " 陆时宴.png": {
-                    "setList": []
-                },
-                "郁衔烛.png": {
-                    "setList": []
-                },
-                "季淮北1.png": {
-                    "setList": []
-                },
-                "喻今朝.png": {
-                    "setList": []
-                },
-                "时未.png": {
-                    "setList": []
-                },
-                "时未1.png": {
                     "setList": []
                 }
             }
@@ -2466,8 +2430,7 @@
                         "朝雾静泉",
                         "穿越惡役逃離死亡FLAG",
                         "谭尧",
-                        "莫旌",
-                        "时未"
+                        "莫旌"
                     ]
                 },
                 "popuped": {
@@ -2477,8 +2440,7 @@
                         "朝雾静泉",
                         "穿越惡役逃離死亡FLAG",
                         "谭尧",
-                        "莫旌",
-                        "时未"
+                        "莫旌"
                     ]
                 },
                 "scripts": [
@@ -4687,15 +4649,7 @@
         "纪川.png": [],
         "顾川赦.png": [],
         "王洧蔚.png": [],
-        " 陆时宴.png": [],
-        "喻今朝.png": [],
-        "南波兔男鬼系统.png": [],
-        "戚斟雪.png": [],
-        "陈暮宇.png": [],
-        "兴安然.png": [],
-        "顾清时.png": [],
-        "时未1.png": [],
-        "沈季白.png": []
+        " 陆时宴.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
