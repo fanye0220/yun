@@ -3,7 +3,7 @@
     "accountStorage": {
         "__migrated": "1",
         "LNavOpened": "false",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"3090278210222208\":{\"fieldsWarned\":{}}}}",
         "SelectedNavTab": "rm_button_characters",
@@ -753,7 +753,7 @@
             "promptType": "raw"
         },
         "connectionManager": {
-            "selectedProfile": "a41504bf-0076-4372-9f0e-af12200842f0",
+            "selectedProfile": "cd9588e9-f9ea-470a-bef1-99de04081912",
             "profiles": [
                 {
                     "id": "cd9588e9-f9ea-470a-bef1-99de04081912",
@@ -2187,8 +2187,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 913,
-                "LAST_RECEIVE_CHARS": 1252,
+                "LAST_RECEIVE_TOKENS": 1023,
+                "LAST_RECEIVE_CHARS": 1485,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 31620,
@@ -6021,8 +6021,8 @@
         "azure_deployment_name": "",
         "azure_api_version": "2024-02-15-preview",
         "azure_openai_model": "",
-        "custom_model": "流式抗截断/gemini-2.5-pro",
-        "custom_url": "https://wcesa.zeabur.app/v1",
+        "custom_model": "gemini-2.5-pro-preview-06-05[假流-GG公益]",
+        "custom_url": "https://gemini.beijixingxing.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
