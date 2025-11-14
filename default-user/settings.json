@@ -144,8 +144,6 @@
         "AlertRegex_谢疏寒.png": "true",
         "AlertWI_程景珩.png": "true",
         "AlertRegex_程景珩.png": "true",
-        "AlertWI_郁衔烛.png": "true",
-        "AlertRegex_郁衔烛.png": "true",
         "AlertWI_季淮北1.png": "true",
         "AlertRegex_季淮北1.png": "true",
         "AlertWI_喻今朝.png": "true",
@@ -154,8 +152,6 @@
         "AlertRegex_时未.png": "true",
         "AlertWI_时未1.png": "true",
         "AlertRegex_时未1.png": "true",
-        "AlertWI_南波兔男鬼系统.png": "true",
-        "AlertRegex_南波兔男鬼系统.png": "true",
         "AlertWI_兴安然.png": "true",
         "AlertRegex_兴安然.png": "true",
         "AlertRegex_openai_【MoM】梦梦K2T1.1.12ttt丨喵喵电波@ameng": "true",
@@ -174,11 +170,39 @@
         "AlertWI_周烬.png": "true",
         "AlertRegex_周烬.png": "true",
         "AlertWI_苏鹤清.png": "true",
-        "AlertRegex_苏鹤清.png": "true"
+        "AlertRegex_苏鹤清.png": "true",
+        "AlertWI_闻阙.png": "true",
+        "AlertRegex_闻阙.png": "true",
+        "AlertWI_纪川.png": "true",
+        "AlertRegex_纪川.png": "true",
+        "AlertWI_沈季白.png": "true",
+        "AlertRegex_沈季白.png": "true",
+        "AlertWI_亓惟.png": "true",
+        "AlertRegex_亓惟.png": "true",
+        "AlertWI_萧竞驰.png": "true",
+        "AlertRegex_萧竞驰.png": "true",
+        "AlertWI_纪向渊2.png": "true",
+        "AlertWI_张雪彦.png": "true",
+        "AlertRegex_张雪彦.png": "true",
+        "AlertWI_埃尔文·阿斯特.png": "true",
+        "AlertRegex_埃尔文·阿斯特.png": "true",
+        "AlertWI_白忘忧.png": "true",
+        "AlertRegex_白忘忧.png": "true",
+        "AlertWI_陈彻.png": "true",
+        "AlertRegex_陈彻.png": "true",
+        "AlertWI_江祈先.png": "true",
+        "AlertRegex_江祈先.png": "true",
+        "AlertWI_后明昭.png": "true",
+        "AlertRegex_后明昭.png": "true",
+        "AlertWI_塞缪尔.png": "true",
+        "AlertRegex_塞缪尔.png": "true",
+        "AlertWI_🐶🦊非常规小队🐱🐻.png": "true",
+        "AlertRegex_🐶🦊非常规小队🐱🐻.png": "true",
+        "AlertWI_儿子老爹争夺赛.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "沈长昀",
-    "active_character": "常疏.png",
+    "active_character": "儿子老爹争夺赛.png",
     "active_group": null,
     "user_avatar": "1747381429587-user.png",
     "amount_gen": 350,
@@ -399,9 +423,8 @@
         "play_sound_unfocused": true,
         "auto_save_msg_edits": true,
         "confirm_message_delete": true,
-        "sort_field": "date_last_chat",
-        "sort_order": "desc",
-        "sort_rule": null,
+        "sort_field": "name",
+        "sort_order": "asc",
         "font_scale": 0.95,
         "blur_strength": 0,
         "shadow_width": 0,
@@ -753,7 +776,7 @@
             "promptType": "raw"
         },
         "connectionManager": {
-            "selectedProfile": "0206e91f-e509-4bed-be2a-6e5a33861e50",
+            "selectedProfile": "cd9588e9-f9ea-470a-bef1-99de04081912",
             "profiles": [
                 {
                     "id": "cd9588e9-f9ea-470a-bef1-99de04081912",
@@ -1990,7 +2013,20 @@
             "张靖辞.png",
             "封澍.png",
             "周烬.png",
-            "苏鹤清.png"
+            "苏鹤清.png",
+            "闻阙.png",
+            "纪川.png",
+            "沈季白.png",
+            "亓惟.png",
+            "萧竞驰.png",
+            "张雪彦.png",
+            "埃尔文·阿斯特.png",
+            "白忘忧.png",
+            "陈彻.png",
+            "江祈先.png",
+            "后明昭.png",
+            "塞缪尔.png",
+            "🐶🦊非常规小队🐱🐻.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2187,12 +2223,12 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1355,
-                "LAST_RECEIVE_CHARS": 1840,
+                "LAST_RECEIVE_TOKENS": 608,
+                "LAST_RECEIVE_CHARS": 749,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
-                "LAST_SEND_TOKENS": 32825,
-                "LAST_SEND_CHARS": 42262,
+                "LAST_SEND_TOKENS": 63459,
+                "LAST_SEND_CHARS": 115895,
                 "cot": "\n[语言检定] \n\n[果农冒泡](调笑或吐槽<user_input>,解读潜台词，避免过度揣摩.若有特殊需求可根据需求跳过后续思考)\n \n[不抢话]（果农绝不扮演USER，为此允许削减正文，允许停止剧情）\n\n[专注NSFW]（非NSFW场景直接跳过；NSFW场景载入`性爱指导`，强制执行**全部**`NSFW思考`，直接省略跳过后续其他思考）\n     \n\n[基调锚定](载入`CORE RULES`和`长线指导`)\n \n\n[角色打磨]（载入角色设定，深度思考`角色塑造指导`）\n\n[风格适配](严格遵循`写作指导`，引入`文风思考`)\n\n[整合思考]（综合所有思考，并设计一个收束在char方的结尾）\n \n\n[正文字数检测]\n\n[输出顺序检查]\n \n\n（一段果农的自我陈词和反思）\n",
                 "正文标签": "<content>\n顶部状态信息\n正文内容\n尾部状态信息\n</content>"
             }
@@ -2228,14 +2264,7 @@
                     }
                 ]
             },
-            "characterConfigs": {
-                "南波兔男鬼系统.png": {
-                    "setList": []
-                },
-                "常疏.png": {
-                    "setList": []
-                }
-            }
+            "characterConfigs": {}
         },
         "TavernHelper": {
             "enabled_extension": true,
@@ -2486,7 +2515,9 @@
                         "谭尧",
                         "莫旌",
                         "时未",
-                        "张靖辞"
+                        "张靖辞",
+                        "秦枭1.2",
+                        "白忘忧"
                     ]
                 },
                 "popuped": {
@@ -2502,7 +2533,9 @@
                         "莫旌",
                         "时未",
                         "陈暮宇",
-                        "张靖辞"
+                        "张靖辞",
+                        "秦枭1.2",
+                        "白忘忧"
                     ]
                 },
                 "scripts": [
@@ -4215,6 +4248,17 @@
             "color": "",
             "color2": "",
             "create_date": 1762825183743
+        },
+        {
+            "id": "c743a93e-2eb0-4f5c-aff4-96b2bd51f25c",
+            "name": "rapper",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": 141,
+            "is_hidden_on_character_card": false,
+            "color": "",
+            "color2": "",
+            "create_date": 1763132617947
         }
     ],
     "tag_map": {
@@ -4478,7 +4522,6 @@
         "山寅1.png": [],
         "佘柳.png": [],
         "谁嬷了我的长老！.png": [],
-        "深境C网联动中.png": [],
         "什么？你们怎么都在勾引我！.png": [],
         "沈柏砚.png": [],
         "沈沉星.png": [],
@@ -4645,7 +4688,6 @@
         "时书.png": [],
         "宵町和真1.png": [],
         "杜嘉樾.png": [],
-        "夜一.png": [],
         "💐是心跳说谎.png": [],
         "沈暮安 灰港往事.png": [],
         "林寞舒.png": [
@@ -4667,7 +4709,6 @@
         "周韫谦1.png": [],
         "高干港风熟男(4+1)1.png": [],
         "秦望.png": [],
-        "纪向渊2.png": [],
         "陈铭妄.png": [],
         "荼蘼.png": [],
         "仙尊洗白指南1.png": [],
@@ -4706,19 +4747,55 @@
         "荆珩1.png": [],
         "小林和也.png": [],
         "程景珩.png": [],
-        "郁衔烛.png": [],
         "纪川.png": [],
         "顾川赦.png": [],
         "王洧蔚.png": [],
         " 陆时宴.png": [],
         "喻今朝.png": [],
-        "南波兔男鬼系统.png": [],
         "戚斟雪.png": [],
         "陈暮宇.png": [],
         "兴安然.png": [],
         "顾清时.png": [],
         "时未1.png": [],
-        "沈季白.png": []
+        "沈季白.png": [],
+        "闻阙.png": [
+            "bec1dbb6-a259-48e1-a06d-70745cfa6458",
+            "213d98f3-7bd5-47a9-a863-bb0719e0fc4d",
+            "c743a93e-2eb0-4f5c-aff4-96b2bd51f25c"
+        ],
+        "萧竞驰.png": [],
+        "沈雀里1.png": [],
+        "亓惟.png": [],
+        "萧策.png": [],
+        "张雪彦.png": [],
+        "谢千雪.png": [],
+        "许归期.png": [],
+        "塞堤.png": [],
+        "祁寒.png": [],
+        "聂同阑.png": [],
+        "骆清澜（没变量）.png": [],
+        "江时温.png": [],
+        "江淮安.png": [],
+        "陆卿洲.png": [],
+        "陆声.png": [],
+        "宁荷荣.png": [],
+        "杉本直人.png": [],
+        "沈述.png": [],
+        "沈修.png": [],
+        "苏怀珩.png": [],
+        "拓跋珣.png": [],
+        "温玉言.png": [],
+        "谢雪时.png": [
+            "213d98f3-7bd5-47a9-a863-bb0719e0fc4d",
+            "a0c5a35e-9231-4521-bb68-05e8a743ee2a",
+            "44ecda12-18cb-4b09-8dbb-4e899e243bcb"
+        ],
+        "卓云和.png": [],
+        "Alisey.png": [],
+        "D7203.png": [],
+        "Lysander.png": [],
+        "纪向渊.png": [],
+        "纪向渊2.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -7000,8 +7077,8 @@
         "azure_deployment_name": "",
         "azure_api_version": "2024-02-15-preview",
         "azure_openai_model": "",
-        "custom_model": "流式抗截断/gemini-2.5-pro",
-        "custom_url": "https://wcesa.zeabur.app/v1",
+        "custom_model": "gemini-2.5-pro-preview-06-05[假流-GG公益]",
+        "custom_url": "https://gemini.beijixingxing.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
@@ -7016,7 +7093,7 @@
         "chat_completion_source": "custom",
         "max_context_unlocked": true,
         "show_external_models": true,
-        "proxy_password": "",
+        "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
         "assistant_prefill": "",
         "assistant_impersonation": "",
         "claude_use_sysprompt": false,
