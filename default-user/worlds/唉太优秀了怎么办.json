@@ -41,7 +41,12 @@
             "displayIndex": 0,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "1": {
             "uid": 1,
@@ -84,7 +89,12 @@
             "cooldown": 0,
             "delay": 0,
             "triggers": [],
-            "displayIndex": 1
+            "displayIndex": 1,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "2": {
             "key": [],
