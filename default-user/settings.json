@@ -29,7 +29,7 @@
         "AlertWI_向未.png": "true",
         "mediaWarningShown:伊凡德.png": "true",
         "mediaWarningShown:伊凡德1.png": "true",
-        "extension_update_nag": "Thu Nov 13 2025",
+        "extension_update_nag": "Fri Nov 14 2025",
         "Proxy_SkipConfirm_5834304746370893": "true",
         "AlertWI_贺劲草.png": "true",
         "AlertRegex_贺劲草.png": "true",
@@ -178,7 +178,7 @@
     },
     "currentVersion": "1.13.5",
     "username": "沈长昀",
-    "active_character": "苏鹤清.png",
+    "active_character": "常疏.png",
     "active_group": null,
     "user_avatar": "1747381429587-user.png",
     "amount_gen": 350,
@@ -399,7 +399,7 @@
         "play_sound_unfocused": true,
         "auto_save_msg_edits": true,
         "confirm_message_delete": true,
-        "sort_field": "create_date",
+        "sort_field": "date_last_chat",
         "sort_order": "desc",
         "sort_rule": null,
         "font_scale": 0.95,
@@ -2187,8 +2187,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 3997,
-                "LAST_RECEIVE_CHARS": 12837,
+                "LAST_RECEIVE_TOKENS": 1331,
+                "LAST_RECEIVE_CHARS": 1750,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 50390,
@@ -2228,7 +2228,14 @@
                     }
                 ]
             },
-            "characterConfigs": {}
+            "characterConfigs": {
+                "南波兔男鬼系统.png": {
+                    "setList": []
+                },
+                "常疏.png": {
+                    "setList": []
+                }
+            }
         },
         "TavernHelper": {
             "enabled_extension": true,
