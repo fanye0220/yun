@@ -171,8 +171,6 @@
         "AlertRegex_沈季白.png": "true",
         "AlertWI_亓惟.png": "true",
         "AlertRegex_亓惟.png": "true",
-        "AlertWI_萧竞驰.png": "true",
-        "AlertRegex_萧竞驰.png": "true",
         "AlertWI_纪向渊2.png": "true",
         "AlertWI_埃尔文·阿斯特.png": "true",
         "AlertRegex_埃尔文·阿斯特.png": "true",
@@ -205,11 +203,13 @@
         "AlertRegex_伊戈尔1.png": "true",
         "AlertWI_《凤锦凰权》.png": "true",
         "AlertRegex_《凤锦凰权》.png": "true",
-        "AlertWI_桑还.png": "true"
+        "AlertWI_桑还.png": "true",
+        "AlertWI_萧竞驰1.png": "true",
+        "AlertRegex_萧竞驰1.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "沈长昀",
-    "active_character": "桑还.png",
+    "active_character": "陆卿洲.png",
     "active_group": null,
     "user_avatar": "1747381429587-user.png",
     "amount_gen": 350,
@@ -2061,7 +2061,8 @@
             "江时温.png",
             "伊戈尔1.png",
             "泊舟评论.png",
-            "《凤锦凰权》.png"
+            "《凤锦凰权》.png",
+            "萧竞驰1.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2258,8 +2259,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 239,
-                "LAST_RECEIVE_CHARS": 192,
+                "LAST_RECEIVE_TOKENS": 944,
+                "LAST_RECEIVE_CHARS": 705,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 30449,
@@ -4472,9 +4473,6 @@
         "霍延清1.png": [],
         "纪行.png": [],
         "季淮北1.png": [],
-        "季让.png": [
-            "aea2bff3-bebd-4b20-b7b0-7c7ad2d6641a"
-        ],
         "寂妙1.png": [],
         "简随安1.png": [
             "abe522bb-3e55-4494-94fa-a39dd948dec8",
@@ -4641,7 +4639,6 @@
         "叶栖迟.png": [],
         "夜一1.png": [],
         "夜莺APP.png": [],
-        "伊戈尔.png": [],
         "姻缘薄 V0.2.png": [],
         "尹若木.png": [],
         "永野光一.png": [],
@@ -4752,7 +4749,6 @@
         "高干港风熟男(4+1)1.png": [],
         "秦望.png": [],
         "陈铭妄.png": [],
-        "荼蘼.png": [],
         "仙尊洗白指南1.png": [],
         "江温言.png": [],
         "卫沧回.png": [],
@@ -4801,7 +4797,6 @@
             "213d98f3-7bd5-47a9-a863-bb0719e0fc4d",
             "c743a93e-2eb0-4f5c-aff4-96b2bd51f25c"
         ],
-        "萧竞驰.png": [],
         "沈雀里1.png": [],
         "亓惟.png": [],
         "萧策.png": [],
@@ -4823,7 +4818,6 @@
         "Lysander.png": [],
         "纪向渊.png": [],
         "纪向渊2.png": [],
-        "沈凛1.png": [],
         " 陆时宴2.png": [],
         "Owen.png": [],
         "谢疏寒2.png": [],
@@ -4868,7 +4862,8 @@
         ],
         "桑还.png": [],
         "谢丛妄1.png": [],
-        "谢丛妄.png": []
+        "谢丛妄.png": [],
+        "萧竞驰1.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
