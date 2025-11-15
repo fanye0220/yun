@@ -174,8 +174,6 @@
         "AlertWI_萧竞驰.png": "true",
         "AlertRegex_萧竞驰.png": "true",
         "AlertWI_纪向渊2.png": "true",
-        "AlertWI_张雪彦.png": "true",
-        "AlertRegex_张雪彦.png": "true",
         "AlertWI_埃尔文·阿斯特.png": "true",
         "AlertRegex_埃尔文·阿斯特.png": "true",
         "AlertWI_白忘忧.png": "true",
@@ -194,7 +192,17 @@
         "AlertWI_全息色情游戏1.0.png": "true",
         "AlertRegex_全息色情游戏1.0.png": "true",
         "AlertWI_沈厉秉.png": "true",
-        "AlertRegex_沈厉秉.png": "true"
+        "AlertRegex_沈厉秉.png": "true",
+        "AlertWI_飛鳥沢也.png": "true",
+        "AlertRegex_飛鳥沢也.png": "true",
+        "AlertWI_黑色幽默高校日常1.png": "true",
+        "AlertRegex_黑色幽默高校日常1.png": "true",
+        "AlertWI_姬笑却.png": "true",
+        "AlertRegex_姬笑却.png": "true",
+        "AlertWI_江时温.png": "true",
+        "AlertRegex_江时温.png": "true",
+        "AlertWI_伊戈尔1.png": "true",
+        "AlertRegex_伊戈尔1.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "沈长昀",
@@ -2025,7 +2033,12 @@
             "🐶🦊非常规小队🐱🐻.png",
             "谢雪时.png",
             "全息色情游戏1.0.png",
-            "沈厉秉.png"
+            "沈厉秉.png",
+            "飛鳥沢也.png",
+            "黑色幽默高校日常1.png",
+            "姬笑却.png",
+            "江时温.png",
+            "伊戈尔1.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2222,8 +2235,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 5946,
-                "LAST_RECEIVE_CHARS": 16636,
+                "LAST_RECEIVE_TOKENS": 4519,
+                "LAST_RECEIVE_CHARS": 16169,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 63459,
@@ -4758,7 +4771,6 @@
         "沈雀里1.png": [],
         "亓惟.png": [],
         "萧策.png": [],
-        "张雪彦.png": [],
         "祁寒.png": [],
         "江时温.png": [],
         "江淮安.png": [],
@@ -4810,7 +4822,12 @@
         "非典型西幻.png": [],
         "塞堤1.png": [],
         "《沦界》.png": [],
-        "秦枭1.2.png": []
+        "秦枭1.2.png": [],
+        "裴鸷.png": [],
+        "季让1.png": [
+            "aea2bff3-bebd-4b20-b7b0-7c7ad2d6641a"
+        ],
+        "伊戈尔1.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
