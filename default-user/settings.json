@@ -206,7 +206,7 @@
     },
     "currentVersion": "1.13.5",
     "username": "沈长昀",
-    "active_character": null,
+    "active_character": "持之以恒的■■.png",
     "active_group": null,
     "user_avatar": "1747381429587-user.png",
     "amount_gen": 350,
@@ -2038,7 +2038,8 @@
             "黑色幽默高校日常1.png",
             "姬笑却.png",
             "江时温.png",
-            "伊戈尔1.png"
+            "伊戈尔1.png",
+            "泊舟评论.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2235,8 +2236,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 4519,
-                "LAST_RECEIVE_CHARS": 16169,
+                "LAST_RECEIVE_TOKENS": 74,
+                "LAST_RECEIVE_CHARS": 101,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 63459,
@@ -4827,7 +4828,8 @@
         "季让1.png": [
             "aea2bff3-bebd-4b20-b7b0-7c7ad2d6641a"
         ],
-        "伊戈尔1.png": []
+        "伊戈尔1.png": [],
+        "荼蘼1.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
