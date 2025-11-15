@@ -3,7 +3,7 @@
     "accountStorage": {
         "__migrated": "1",
         "LNavOpened": "true",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"3090278210222208\":{\"fieldsWarned\":{}}}}",
         "SelectedNavTab": "rm_button_characters",
@@ -206,11 +206,12 @@
         "AlertRegex_萧竞驰1.png": "true",
         "AlertWI_陈维生＆迟淮.png": "true",
         "AlertWI_周自衍&周自昭.png": "true",
-        "AlertWI_《沦界》.png": "true"
+        "AlertWI_《沦界》.png": "true",
+        "AlertWI_柏云.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "沈长昀",
-    "active_character": "常疏.png",
+    "active_character": "柏云.png",
     "active_group": null,
     "user_avatar": "1747381429587-user.png",
     "amount_gen": 350,
@@ -431,9 +432,8 @@
         "play_sound_unfocused": true,
         "auto_save_msg_edits": true,
         "confirm_message_delete": true,
-        "sort_field": "name",
-        "sort_order": "asc",
-        "sort_rule": null,
+        "sort_field": "create_date",
+        "sort_order": "desc",
         "font_scale": 0.95,
         "blur_strength": 0,
         "shadow_width": 0,
@@ -2262,8 +2262,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1397,
-                "LAST_RECEIVE_CHARS": 1880,
+                "LAST_RECEIVE_TOKENS": 55,
+                "LAST_RECEIVE_CHARS": 70,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 64306,
@@ -2314,6 +2314,9 @@
                     "setList": []
                 },
                 "常疏.png": {
+                    "setList": []
+                },
+                "柏云.png": {
                     "setList": []
                 }
             }
@@ -4896,7 +4899,8 @@
         "你要应观朝师傅炒，还是应逢期师傅炒？.png": [],
         "老婆我爱你1.png": [],
         "沈砚(Y)1.png": [],
-        "埃尔文·阿斯特1.png": []
+        "埃尔文·阿斯特1.png": [],
+        "柏云.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -6550,7 +6554,7 @@
         "chat_completion_source": "custom",
         "max_context_unlocked": true,
         "show_external_models": true,
-        "proxy_password": "",
+        "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
         "assistant_prefill": "",
         "assistant_impersonation": "",
         "claude_use_sysprompt": false,
