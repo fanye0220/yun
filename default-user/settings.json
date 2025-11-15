@@ -172,8 +172,6 @@
         "AlertWI_亓惟.png": "true",
         "AlertRegex_亓惟.png": "true",
         "AlertWI_纪向渊2.png": "true",
-        "AlertWI_埃尔文·阿斯特.png": "true",
-        "AlertRegex_埃尔文·阿斯特.png": "true",
         "AlertWI_白忘忧.png": "true",
         "AlertRegex_白忘忧.png": "true",
         "AlertWI_陈彻.png": "true",
@@ -205,11 +203,13 @@
         "AlertRegex_《凤锦凰权》.png": "true",
         "AlertWI_桑还.png": "true",
         "AlertWI_萧竞驰1.png": "true",
-        "AlertRegex_萧竞驰1.png": "true"
+        "AlertRegex_萧竞驰1.png": "true",
+        "AlertWI_陈维生＆迟淮.png": "true",
+        "AlertWI_周自衍&周自昭.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "沈长昀",
-    "active_character": "陆卿洲.png",
+    "active_character": null,
     "active_group": null,
     "user_avatar": "1747381429587-user.png",
     "amount_gen": 350,
@@ -430,8 +430,8 @@
         "play_sound_unfocused": true,
         "auto_save_msg_edits": true,
         "confirm_message_delete": true,
-        "sort_field": "create_date",
-        "sort_order": "desc",
+        "sort_field": "name",
+        "sort_order": "asc",
         "font_scale": 0.95,
         "blur_strength": 0,
         "shadow_width": 0,
@@ -2062,7 +2062,8 @@
             "伊戈尔1.png",
             "泊舟评论.png",
             "《凤锦凰权》.png",
-            "萧竞驰1.png"
+            "萧竞驰1.png",
+            "廉礼让.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2259,8 +2260,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 944,
-                "LAST_RECEIVE_CHARS": 705,
+                "LAST_RECEIVE_TOKENS": 1451,
+                "LAST_RECEIVE_CHARS": 1120,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 30449,
@@ -2300,7 +2301,14 @@
                     }
                 ]
             },
-            "characterConfigs": {}
+            "characterConfigs": {
+                "陈维生＆迟淮.png": {
+                    "setList": []
+                },
+                "周自衍&周自昭.png": {
+                    "setList": []
+                }
+            }
         },
         "TavernHelper": {
             "enabled_extension": true,
@@ -4367,7 +4375,6 @@
         "我的心也好痛.png": [],
         "林栖川.png": [],
         "白塔1.png": [],
-        "易持.png": [],
         "陈浩南.png": [],
         "霍利斯.png": [],
         "夏洛克.png": [],
@@ -4425,7 +4432,6 @@
         "🐶🦊非常规小队🐱🐻.png": [],
         "90年代.png": [],
         "阿尔德朗（Aldron）.png": [],
-        "埃尔文·阿斯特.png": [],
         "埃及大舞台.png": [],
         "白忘忧.png": [],
         "柏悠.png": [],
@@ -4505,7 +4511,6 @@
         "莱恩·阿什福德.png": [],
         "兰濯池.png": [],
         "蓝浔知.png": [],
-        "老婆我爱你.png": [],
         "黎栀.png": [],
         "李丹青.png": [],
         "李若早.png": [],
@@ -4521,7 +4526,6 @@
         "凛.png": [],
         "凛霜.png": [],
         "凌孤雁.png": [],
-        "柳知夏.png": [],
         "龙傲天万人迷模拟器.png": [],
         "楼祈晏.png": [],
         "陆驰野.png": [],
@@ -4558,7 +4562,6 @@
         "荣言欢.png": [],
         "容曦.png": [],
         "塞缪尔.png": [],
-        "塞维安.png": [],
         "桑草.png": [],
         "森川富江.png": [],
         "山寅1.png": [],
@@ -4577,7 +4580,6 @@
         "沈雀里.png": [],
         "沈肆.png": [],
         "沈向深.png": [],
-        "沈砚(Y).png": [],
         "师叔.png": [],
         "时未.png": [],
         "巳亚.png": [],
@@ -4622,7 +4624,6 @@
         "谢镜辞.png": [],
         "谢九春.png": [],
         "谢默言.png": [],
-        "谢信.png": [],
         "谢知渊1.png": [],
         "谢子临.png": [],
         "心之回响.png": [],
@@ -4800,7 +4801,6 @@
         "沈雀里1.png": [],
         "亓惟.png": [],
         "萧策.png": [],
-        "祁寒.png": [],
         "江时温.png": [],
         "江淮安.png": [],
         "陆卿洲.png": [],
@@ -4863,7 +4863,32 @@
         "桑还.png": [],
         "谢丛妄1.png": [],
         "谢丛妄.png": [],
-        "萧竞驰1.png": []
+        "萧竞驰1.png": [],
+        "踏舟赴.png": [],
+        "廉礼让1.png": [],
+        "易持.png": [],
+        "霍城.png": [],
+        "李明辉（Leon）.png": [],
+        "孽爱.png": [],
+        "Xerxes.png": [],
+        "周让.png": [],
+        "季燃.png": [],
+        "夏痣夷.png": [],
+        "长谷时雨.png": [],
+        "陆鸣野.png": [],
+        "云栖月.png": [],
+        "Bruce Banner.png": [],
+        "林祺佑.png": [],
+        "陈维生＆迟淮.png": [],
+        "季云霄.png": [],
+        "周自衍&周自昭.png": [],
+        "柳知夏1.png": [],
+        "塞维安1.png": [],
+        "谢信1.png": [],
+        "你要应观朝师傅炒，还是应逢期师傅炒？.png": [],
+        "老婆我爱你1.png": [],
+        "沈砚(Y)1.png": [],
+        "埃尔文·阿斯特1.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -6182,7 +6207,7 @@
         "chat_completion_source": "custom",
         "max_context_unlocked": true,
         "show_external_models": true,
-        "proxy_password": "",
+        "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
         "assistant_prefill": "",
         "assistant_impersonation": "",
         "claude_use_sysprompt": false,
