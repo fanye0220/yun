@@ -1,5 +1,5 @@
 {
-    "chat_completion_source": "custom",
+    "chat_completion_source": "makersuite",
     "openai_model": "[云愿]claude-4-sonnet",
     "claude_model": "claude-3-7-sonnet-20250219",
     "openrouter_model": "OR_Website",
@@ -23,13 +23,13 @@
     "moonshot_model": "kimi-latest",
     "fireworks_model": "accounts/fireworks/models/kimi-k2-instruct",
     "cometapi_model": "gpt-4o",
-    "custom_model": "gemini-2.5-pro-preview-06-05[假流-GG公益]",
+    "custom_model": "gemini-2.5-pro-preview-06-05[真流-GG公益-200/次]",
     "custom_url": "https://gemini.beijixingxing.com/v1",
     "custom_include_body": "",
     "custom_exclude_body": "",
     "custom_include_headers": "",
     "custom_prompt_post_processing": "strict",
-    "google_model": "kingfall-ab-test",
+    "google_model": "gemini-2.5-pro",
     "vertexai_model": "gemini-2.0-flash-001",
     "azure_base_url": "",
     "azure_deployment_name": "",
@@ -54,7 +54,7 @@
     "new_example_chat_prompt": "[Example Chat]",
     "continue_nudge_prompt": "[Continue your last message without repeating its original content.]",
     "bias_preset_selected": "Default (none)",
-    "reverse_proxy": "",
+    "reverse_proxy": "http://127.0.0.1:8889/",
     "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
     "max_context_unlocked": true,
     "wi_format": "{0}",
@@ -1842,7 +1842,7 @@
                 },
                 {
                     "identifier": "407f8153-ec2b-4d88-b500-7e1963126dfc",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "b12e4f9d-3efd-4806-a89b-7b9fc7660a92",
