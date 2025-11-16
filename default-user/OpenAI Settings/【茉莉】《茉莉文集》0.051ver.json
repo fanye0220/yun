@@ -19,8 +19,8 @@
     "xai_model": "grok-3-beta",
     "pollinations_model": "openai",
     "aimlapi_model": "gpt-4o-mini-2024-07-18",
-    "custom_model": "流式抗截断/gemini-2.5-pro",
-    "custom_url": "https://wcesa.zeabur.app/v1",
+    "custom_model": "gemini-2.5-pro-preview-06-05[真流-GG公益-200/次]",
+    "custom_url": "https://gemini.beijixingxing.com/v1",
     "custom_include_body": "",
     "custom_exclude_body": "",
     "custom_include_headers": "",
@@ -47,7 +47,7 @@
     "continue_nudge_prompt": "[Continue the following message. Do not include ANY parts of the original message. Use capitalization and punctuation as if your reply is a part of the original message: {{lastChatMessage}}]",
     "bias_preset_selected": "Default (none)",
     "reverse_proxy": "",
-    "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
+    "proxy_password": "",
     "max_context_unlocked": true,
     "wi_format": "{0}",
     "scenario_format": "[Circumstances and context of the dialogue: {{scenario}}]",
@@ -2287,7 +2287,7 @@
                 },
                 {
                     "identifier": "3a7c011a-2849-466e-8dcf-7fcb22f66174",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "7124e396-7583-4c1c-9d38-a55ad41f1aa0",
@@ -2307,7 +2307,7 @@
                 },
                 {
                     "identifier": "786cb836-06cc-4c1c-bf6e-5d5530c9c760",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "46ef06c0-e1e6-4fa7-828c-51bb983005d2",
