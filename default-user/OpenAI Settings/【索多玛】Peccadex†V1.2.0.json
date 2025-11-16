@@ -55,7 +55,7 @@
     "continue_nudge_prompt": "[Continue your last message without repeating its original content.]",
     "bias_preset_selected": "Default (none)",
     "reverse_proxy": "",
-    "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
+    "proxy_password": "",
     "max_context_unlocked": true,
     "wi_format": "{0}",
     "scenario_format": "{{scenario}}",
