@@ -607,7 +607,7 @@
                 "connections": []
             },
             "1747381429587-user.png": {
-                "description": " 男的 身高186 ",
+                "description": " 男的 身高186 能与常家平分秋色的商贾",
                 "position": 3,
                 "depth": 2,
                 "role": 1,
@@ -652,7 +652,7 @@
                 "lorebook": ""
             }
         },
-        "persona_description": " 男的 身高186 ",
+        "persona_description": " 男的 身高186 能与常家平分秋色的商贾",
         "persona_description_position": 3,
         "persona_description_role": 1,
         "persona_description_depth": 2,
@@ -798,7 +798,7 @@
             "promptType": "raw"
         },
         "connectionManager": {
-            "selectedProfile": "cd9588e9-f9ea-470a-bef1-99de04081912",
+            "selectedProfile": "7f526c67-0442-43b2-a2f4-95dac3ae8c9d",
             "profiles": [
                 {
                     "id": "cd9588e9-f9ea-470a-bef1-99de04081912",
@@ -2288,12 +2288,12 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2596,
-                "LAST_RECEIVE_CHARS": 3432,
+                "LAST_RECEIVE_TOKENS": 1947,
+                "LAST_RECEIVE_CHARS": 2551,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
-                "LAST_SEND_TOKENS": 81742,
-                "LAST_SEND_CHARS": 141002,
+                "LAST_SEND_TOKENS": 81752,
+                "LAST_SEND_CHARS": 141014,
                 "cot": "\n[语言检定] \n\n[果农冒泡](调笑或吐槽<user_input>,解读潜台词，避免过度揣摩.若有特殊需求可根据需求跳过后续思考)\n \n[不抢话]（果农绝不扮演USER，为此允许削减正文，允许停止剧情）\n\n[专注NSFW]（非NSFW场景直接跳过；NSFW场景载入`性爱指导`，强制执行**全部**`NSFW思考`，直接省略跳过后续其他思考）\n     \n\n[基调锚定](载入`CORE RULES`和`长线指导`)\n \n\n[角色打磨]（载入角色设定，深度思考`角色塑造指导`）\n\n[风格适配](严格遵循`写作指导`，引入`文风思考`)\n\n[整合思考]（综合所有思考，并设计一个收束在char方的结尾）\n \n\n[正文字数检测]\n\n[输出顺序检查]\n \n\n（一段果农的自我陈词和反思）\n",
                 "正文标签": "<content>\n顶部状态信息\n(空行)\n正文内容\n \n</content>"
             }
@@ -7448,7 +7448,7 @@
         "personality_format": "[{{char}}'s personality: {{personality}}]",
         "openai_model": "gpt-4-turbo",
         "claude_model": "claude-3-5-sonnet-20240620",
-        "google_model": "gemini-pro",
+        "google_model": "gemini-2.5-pro",
         "vertexai_model": "gemini-2.0-flash-001",
         "ai21_model": "jamba-1.5-large",
         "mistralai_model": "mistral-large-latest",
@@ -7470,8 +7470,8 @@
         "azure_deployment_name": "",
         "azure_api_version": "2024-02-15-preview",
         "azure_openai_model": "",
-        "custom_model": "gemini-2.5-pro-preview-06-05[真流-GG公益-200/次]",
-        "custom_url": "https://gemini.beijixingxing.com/v1",
+        "custom_model": "gemini-2.5-pro-preview-06-05",
+        "custom_url": "https://st.dslzl.top/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
@@ -7482,8 +7482,8 @@
         "openrouter_providers": [],
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
-        "reverse_proxy": "",
-        "chat_completion_source": "custom",
+        "reverse_proxy": "http://127.0.0.1:8889/",
+        "chat_completion_source": "makersuite",
         "max_context_unlocked": true,
         "show_external_models": true,
         "proxy_password": "",
@@ -7525,11 +7525,16 @@
             "name": "None",
             "url": "",
             "password": ""
+        },
+        {
+            "name": "build",
+            "url": "http://127.0.0.1:8889/",
+            "password": ""
         }
     ],
     "selected_proxy": {
-        "name": "None",
-        "url": "",
+        "name": "build",
+        "url": "http://127.0.0.1:8889/",
         "password": ""
     }
 }
