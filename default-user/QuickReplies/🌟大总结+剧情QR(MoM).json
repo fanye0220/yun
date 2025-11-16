@@ -22,7 +22,6 @@
             "executeOnChatChange": false,
             "executeOnGroupMemberDraft": false,
             "executeOnNewChat": false,
-            "executeBeforeGeneration": false,
             "automationId": ""
         },
         {
@@ -40,7 +39,6 @@
             "executeOnChatChange": false,
             "executeOnGroupMemberDraft": false,
             "executeOnNewChat": false,
-            "executeBeforeGeneration": false,
             "automationId": ""
         },
         {
@@ -59,7 +57,6 @@
             "executeOnChatChange": false,
             "executeOnGroupMemberDraft": false,
             "executeOnNewChat": false,
-            "executeBeforeGeneration": false,
             "automationId": ""
         },
         {
@@ -78,7 +75,6 @@
             "executeOnChatChange": false,
             "executeOnGroupMemberDraft": false,
             "executeOnNewChat": false,
-            "executeBeforeGeneration": false,
             "automationId": ""
         },
         {
@@ -97,7 +93,6 @@
             "executeOnChatChange": false,
             "executeOnGroupMemberDraft": false,
             "executeOnNewChat": false,
-            "executeBeforeGeneration": false,
             "automationId": ""
         }
     ],
