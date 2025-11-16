@@ -2288,12 +2288,12 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1947,
-                "LAST_RECEIVE_CHARS": 2551,
+                "LAST_RECEIVE_TOKENS": 1897,
+                "LAST_RECEIVE_CHARS": 2511,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
-                "LAST_SEND_TOKENS": 81752,
-                "LAST_SEND_CHARS": 141014,
+                "LAST_SEND_TOKENS": 84477,
+                "LAST_SEND_CHARS": 144745,
                 "cot": "\n[语言检定] \n\n[果农冒泡](调笑或吐槽<user_input>,解读潜台词，避免过度揣摩.若有特殊需求可根据需求跳过后续思考)\n \n[不抢话]（果农绝不扮演USER，为此允许削减正文，允许停止剧情）\n\n[专注NSFW]（非NSFW场景直接跳过；NSFW场景载入`性爱指导`，强制执行**全部**`NSFW思考`，直接省略跳过后续其他思考）\n     \n\n[基调锚定](载入`CORE RULES`和`长线指导`)\n \n\n[角色打磨]（载入角色设定，深度思考`角色塑造指导`）\n\n[风格适配](严格遵循`写作指导`，引入`文风思考`)\n\n[整合思考]（综合所有思考，并设计一个收束在char方的结尾）\n \n\n[正文字数检测]\n\n[输出顺序检查]\n \n\n（一段果农的自我陈词和反思）\n",
                 "正文标签": "<content>\n顶部状态信息\n(空行)\n正文内容\n \n</content>"
             }
@@ -5935,11 +5935,12 @@
                 "marker": false,
                 "name": "📌字数设置：2K",
                 "role": "system",
-                "content": "- 字数设置：续写章节的**正文**篇幅应该控制在1500-2500汉字。\n[注意:<disclaimerX>及番外不属于正文，不算入正文篇幅内，不受字数限制，你会注意区别并确保正文长度充足]",
+                "content": "- 字数设置：续写章节的**正文**篇幅应该控制在1000-2000汉字。\n[注意:<disclaimerX>及番外不属于正文，不算入正文篇幅内，不受字数限制，你会注意区别并确保正文长度充足]",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false,
-                "injection_order": 100
+                "injection_order": 100,
+                "injection_trigger": []
             },
             {
                 "identifier": "3daae1b9-3ea6-4f2d-b12c-a1d401567937",
