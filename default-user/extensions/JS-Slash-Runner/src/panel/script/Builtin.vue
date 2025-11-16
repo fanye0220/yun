@@ -22,7 +22,7 @@
         :key="builtin.name"
         class="flex w-full items-center justify-between rounded-sm border border-(--SmartThemeBorderColor) p-0.25"
       >
-        <div class="ml-0.5 flex-grow overflow-hidden text-left! text-ellipsis! whitespace-nowrap!">
+        <div class="ml-0.5 grow overflow-hidden text-left! text-ellipsis! whitespace-nowrap!">
           {{ builtin.name }}
         </div>
         <div class="flex shrink-0! flex-nowrap! items-center gap-0.5">
@@ -106,9 +106,9 @@ const builtins: BuiltinScript[] = [
   {
     name: t`一键禁用条目递归`,
     content_url:
-      'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/世界书强制用推荐的全局设置/index.js',
+      'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/一键禁用条目递归/index.js',
     info_url:
-      'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/src/酒馆助手/世界书强制用推荐的全局设置/README.md',
+      'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/src/酒馆助手/一键禁用条目递归/README.md',
   },
   {
     name: t`保存预设条目时直接保存预设`,
@@ -122,6 +122,11 @@ const builtins: BuiltinScript[] = [
     info_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/src/酒馆助手/预设条目更多按钮/README.md',
   },
   {
+    name: t`角色卡绑定预设: 切换到某个角色卡时切换为对应预设`,
+    content_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/角色卡绑定预设/index.js',
+    info_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/src/酒馆助手/角色卡绑定预设/README.md',
+  },
+  {
     name: t`输入助手`,
     content_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/输入助手/index.js',
     info_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/src/酒馆助手/输入助手/README.md',
@@ -132,6 +137,11 @@ const builtins: BuiltinScript[] = [
     info_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/src/酒馆助手/压缩相邻消息/README.md',
   },
   {
+    name: t`深度条目排斥器: 让深度条目只能在 D0 或 D9999`,
+    content_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/深度条目排斥器/index.js',
+    info_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/src/酒馆助手/深度条目排斥器/README.md',
+  },
+  {
     name: t`token数过多提醒: 防止玩傻子AI`,
     content_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/token数过多提醒/index.js',
     info_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/src/酒馆助手/token数过多提醒/README.md',
@@ -140,6 +150,11 @@ const builtins: BuiltinScript[] = [
     name: t`取消代码块高亮`,
     content_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/取消代码块高亮/index.js',
     info_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/src/酒馆助手/取消代码块高亮/README.md',
+  },
+  {
+    name: t`世界书繁简互换: 一键将繁体/简体世界书翻译成简体/繁体`,
+    content_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/世界书繁简互换/index.js',
+    info_url: 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/src/酒馆助手/世界书繁简互换/README.md',
   },
 ];
 

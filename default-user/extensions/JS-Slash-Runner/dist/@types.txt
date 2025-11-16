@@ -173,11 +173,14 @@ declare const builtin: {
   reloadEditor: (file: string, load_if_not_selected?: boolean) => void;
   /** 刷新世界书编辑器的显示 (防抖) */
   reloadEditorDebounced: (file: string, load_if_not_selected?: boolean) => void;
+  /** 将 markdown 渲染成 html */
+  renderMarkdown: (string: string) => string;
   /** 刷新预设提示词列表 */
   renderPromptManager: (after_try_generate?: boolean) => void;
   /** 刷新预设提示词列表 (防抖) */
   renderPromptManagerDebounced: (after_try_generate?: boolean) => void;
   saveSettings: () => Promise<void>;
+  uuidv4: () => string;
 };
 /** @deprecated 之前的 `Character` 已经重命名为 `RawCharacter`, 给之后制作角色卡接口 `Character` 腾位置 */
 type Character = RawCharacter;
@@ -1167,8 +1170,11 @@ type injectPromptsOptions = {
  * @param prompts 要注入的提示词
  * @param options 可选选项
  *   - `once:boolean`: 是否只在下一次请求生成中有效; 默认为 false
+ *
+ * @returns 后续操作
+ *   - `uninject`: 取消这个提示词的注入
  */
-declare function injectPrompts(prompts: InjectionPrompt[], options?: injectPromptsOptions): void;
+declare function injectPrompts(prompts: InjectionPrompt[], options?: injectPromptsOptions): { uninject: () => void };
 
 /**
  * 移除注入的提示词
@@ -2041,7 +2047,7 @@ type VariableOptionScript = {
   /** 对脚本变量 (`'script'`) 进行操作 */
   type: 'script';
   /** 指定要操作变量的脚本 ID; 如果在脚本内调用, 则无须指定, 当然你也可以用 `getScriptId()` 获取该脚本 ID */
-  script_id: string;
+  script_id?: string;
 };
 type VariableOptionExtension = {
   /** 对扩展变量 (`'extension'`) 进行操作 */
@@ -2526,6 +2532,11 @@ declare function deleteWorldbookEntries(
  */
 type EventType = IframeEventType | TavernEventType | string;
 
+type EventOnReturn = {
+  /** 取消监听 */
+  stop: () => void;
+};
+
 /**
  * 让 `listener` 监听 `event_type`, 当事件发生时自动运行 `listener`;
  * 如果 `listener` 已经在监听 `event_type`, 则调用本函数不会有任何效果.
@@ -2549,8 +2560,11 @@ type EventType = IframeEventType | TavernEventType | string;
  * eventOn(tavern_events.MESSAGE_UPDATED, message_id => {
  *   alert(`你刚刚更新了第 ${message_id} 条聊天消息对吧😡`);
  * });
+ *
+ * @returns 后续操作
+ *   - `stop`: 取消这个监听
  */
-declare function eventOn<T extends EventType>(event_type: T, listener: ListenerType[T]): void;
+declare function eventOn<T extends EventType>(event_type: T, listener: ListenerType[T]): EventOnReturn;
 
 /** @deprecated 请使用 `eventOn(getButtonEvent('按钮名称'), 函数)` 代替 */
 declare function eventOnButton<T extends EventType>(event_type: T, listener: ListenerType[T]): void;
@@ -2566,8 +2580,11 @@ declare function eventOnButton<T extends EventType>(event_type: T, listener: Lis
  *
  * @example
  * eventMakeLast(要监听的事件, 要注册的函数);
+ *
+ * @returns 后续操作
+ *   - `stop`: 取消这个监听
  */
-declare function eventMakeLast<T extends EventType>(event_type: T, listener: ListenerType[T]): void;
+declare function eventMakeLast<T extends EventType>(event_type: T, listener: ListenerType[T]): EventOnReturn;
 
 /**
  * 让 `listener` 监听 `event_type`, 当事件发生时自动在最先运行 `listener`;
@@ -2580,8 +2597,11 @@ declare function eventMakeLast<T extends EventType>(event_type: T, listener: Lis
  *
  * @example
  * eventMakeFirst(要监听的事件, 要注册的函数);
+ *
+ * @returns 后续操作
+ *   - `stop`: 取消这个监听
  */
-declare function eventMakeFirst<T extends EventType>(event_type: T, listener: ListenerType[T]): void;
+declare function eventMakeFirst<T extends EventType>(event_type: T, listener: ListenerType[T]): EventOnReturn;
 
 /**
  * 让 `listener` 仅监听下一次 `event_type`, 当该次事件发生时运行 `listener`, 此后取消监听;
@@ -2594,8 +2614,11 @@ declare function eventMakeFirst<T extends EventType>(event_type: T, listener: Li
  *
  * @example
  * eventOnce(要监听的事件, 要注册的函数);
+ *
+ * @returns 后续操作
+ *   - `stop`: 取消这个监听
  */
-declare function eventOnce<T extends EventType>(event_type: T, listener: ListenerType[T]): void;
+declare function eventOnce<T extends EventType>(event_type: T, listener: ListenerType[T]): EventOnReturn;
 
 /**
  * 发送 `event_type` 事件, 同时可以发送一些数据 `data`.
