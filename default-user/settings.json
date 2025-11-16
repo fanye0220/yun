@@ -2288,8 +2288,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 914,
-                "LAST_RECEIVE_CHARS": 1221,
+                "LAST_RECEIVE_TOKENS": 407,
+                "LAST_RECEIVE_CHARS": 2049,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 86437,
@@ -7077,7 +7077,7 @@
         "personality_format": "{{personality}}",
         "openai_model": "[云愿]claude-4-sonnet",
         "claude_model": "claude-3-7-sonnet-20250219",
-        "google_model": "kingfall-ab-test",
+        "google_model": "gemini-2.5-pro",
         "vertexai_model": "gemini-2.0-flash-001",
         "ai21_model": "jamba-1.5-large",
         "mistralai_model": "mistral-medium",
@@ -7111,11 +7111,11 @@
         "openrouter_providers": [],
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
-        "reverse_proxy": "",
-        "chat_completion_source": "custom",
+        "reverse_proxy": "http://127.0.0.1:8889/",
+        "chat_completion_source": "makersuite",
         "max_context_unlocked": true,
         "show_external_models": true,
-        "proxy_password": "",
+        "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
         "assistant_prefill": "",
         "assistant_impersonation": "",
         "claude_use_sysprompt": false,
@@ -7151,19 +7151,14 @@
     },
     "proxies": [
         {
-            "name": "None",
-            "url": "",
-            "password": ""
-        },
-        {
             "name": "build",
             "url": "http://127.0.0.1:8889/",
             "password": ""
         }
     ],
     "selected_proxy": {
-        "name": "None",
-        "url": "",
+        "name": "build",
+        "url": "http://127.0.0.1:8889/",
         "password": ""
     }
 }
