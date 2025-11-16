@@ -224,11 +224,12 @@
         "AlertWI_季燃.png": "true",
         "AlertRegex_季燃.png": "true",
         "AlertWI_周让.png": "true",
-        "AlertRegex_周让.png": "true"
+        "AlertRegex_周让.png": "true",
+        "AlertWI_Xerxes.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "茂卯",
-    "active_character": "周让.png",
+    "active_character": "Xerxes.png",
     "active_group": null,
     "user_avatar": "1746509319576-.png",
     "amount_gen": 350,
@@ -2287,8 +2288,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 517,
-                "LAST_RECEIVE_CHARS": 710,
+                "LAST_RECEIVE_TOKENS": 97,
+                "LAST_RECEIVE_CHARS": 136,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 17212,
@@ -2357,6 +2358,12 @@
                     "setList": []
                 },
                 "周让.png": {
+                    "setList": []
+                },
+                "沈砚(Y)1.png": {
+                    "setList": []
+                },
+                "Xerxes.png": {
                     "setList": []
                 }
             }
