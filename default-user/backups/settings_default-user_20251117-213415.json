@@ -102,13 +102,11 @@
         "AlertWI_岑川.png": "true",
         "AlertWI_Cassius.png": "true",
         "AlertWI_段易然.png": "true",
-        "AlertRegex_段易然.png": "true",
-        "AlertWI_祝千禾.png": "true",
-        "AlertRegex_祝千禾.png": "true"
+        "AlertRegex_段易然.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "茂卯",
-    "active_character": "祝千禾.png",
+    "active_character": "段易然.png",
     "active_group": null,
     "user_avatar": "1746509319576-.png",
     "amount_gen": 350,
@@ -2017,8 +2015,7 @@
             "江惊闲.png",
             "艾欧利亚1.1.png",
             "谢以声.png",
-            "段易然.png",
-            "祝千禾.png"
+            "段易然.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2216,8 +2213,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1939,
-                "LAST_RECEIVE_CHARS": 5405,
+                "LAST_RECEIVE_TOKENS": 1145,
+                "LAST_RECEIVE_CHARS": 1563,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 113707,
@@ -2514,8 +2511,7 @@
                     ],
                     "characters": [
                         "岑川",
-                        "Cassius",
-                        "祝千禾"
+                        "Cassius"
                     ]
                 },
                 "scripts": [
@@ -4392,6 +4388,7 @@
         "宋昫.png": [],
         "訾砚安.png": [],
         "祝千禾.png": [],
+        "江祈先.png": [],
         "陈佑礼.png": [],
         "段易然.png": [],
         "王洧蔚.png": []

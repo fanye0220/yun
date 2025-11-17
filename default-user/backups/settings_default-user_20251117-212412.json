@@ -97,20 +97,13 @@
         "AlertWI_秦逞.png": "true",
         "AlertWI_《操操你的》女性向bl游戏.png": "true",
         "AlertWI_陌惊玉.png": "true",
-        "AlertWI_江惊闲.png": "true",
-        "AlertRegex_江惊闲.png": "true",
-        "AlertWI_岑川.png": "true",
-        "AlertWI_Cassius.png": "true",
-        "AlertWI_段易然.png": "true",
-        "AlertRegex_段易然.png": "true",
-        "AlertWI_祝千禾.png": "true",
-        "AlertRegex_祝千禾.png": "true"
+        "AlertWI_贺君宵.png": "true"
     },
     "currentVersion": "1.13.5",
-    "username": "茂卯",
-    "active_character": "祝千禾.png",
+    "username": "常九",
+    "active_character": "贺君宵.png",
     "active_group": null,
-    "user_avatar": "1746509319576-.png",
+    "user_avatar": "1746404021892-.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -536,9 +529,9 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "女的，身高171",
+        "persona_description": "男的。山中的精怪，蛇。原型有一米长。人形身高186。",
         "persona_description_position": 0,
-        "persona_description_role": 0,
+        "persona_description_role": 1,
         "persona_description_depth": 2,
         "persona_description_lorebook": "",
         "persona_show_notifications": true,
@@ -2012,13 +2005,7 @@
             "秦炽.png",
             "李将远.png",
             "仁青嘉措.png",
-            "森川富江.png",
-            "姜溺.png",
-            "江惊闲.png",
-            "艾欧利亚1.1.png",
-            "谢以声.png",
-            "段易然.png",
-            "祝千禾.png"
+            "森川富江.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2216,8 +2203,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1939,
-                "LAST_RECEIVE_CHARS": 5405,
+                "LAST_RECEIVE_TOKENS": 155,
+                "LAST_RECEIVE_CHARS": 213,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 113707,
@@ -2503,20 +2490,14 @@
                     ],
                     "characters": [
                         "利恩2",
-                        "喻安1",
-                        "岑川",
-                        "Cassius"
+                        "喻安1"
                     ]
                 },
                 "popuped": {
                     "presets": [
                         "【MoM】梦梦K2T1.1.12ttt丨喵喵电波@ameng"
                     ],
-                    "characters": [
-                        "岑川",
-                        "Cassius",
-                        "祝千禾"
-                    ]
+                    "characters": []
                 },
                 "scripts": [
                     {
@@ -4380,21 +4361,13 @@
         "《操操你的》女性向bl游戏.png": [],
         "江砚.png": [],
         "隐庐谷.png": [],
+        "陈迟.png": [],
+        "姜溺.png": [],
+        "德米特里.png": [],
+        "贺君宵.png": [],
         "陌惊玉.png": [],
         "李金玉.png": [],
-        "李羡鱼.png": [],
-        "江惊闲.png": [],
-        "岑川.png": [],
-        "谢以声.png": [],
-        "Cassius.png": [
-            "354c437e-8ec4-4f10-a854-120c09c96f94"
-        ],
-        "宋昫.png": [],
-        "訾砚安.png": [],
-        "祝千禾.png": [],
-        "陈佑礼.png": [],
-        "段易然.png": [],
-        "王洧蔚.png": []
+        "李羡鱼.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
