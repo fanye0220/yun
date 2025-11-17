@@ -70,7 +70,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "1": {
@@ -143,7 +146,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "2": {
@@ -246,7 +252,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "3": {
@@ -319,7 +328,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "4": {
@@ -392,7 +404,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "5": {
@@ -465,7 +480,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "6": {
@@ -538,7 +556,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "7": {
@@ -651,7 +672,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "8": {
@@ -764,7 +788,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "9": {
@@ -865,7 +892,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "10": {
@@ -966,7 +996,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "11": {
@@ -1059,7 +1092,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "12": {
@@ -1149,7 +1185,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "13": {
@@ -1243,7 +1282,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "14": {
@@ -1338,7 +1380,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "15": {
@@ -1442,7 +1487,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "16": {
@@ -1536,7 +1584,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "17": {
@@ -1626,7 +1677,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "18": {
@@ -1715,7 +1769,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "19": {
@@ -1805,7 +1862,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "20": {
@@ -1892,7 +1952,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "21": {
@@ -2004,7 +2067,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "22": {
@@ -2117,7 +2183,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "23": {
@@ -2227,7 +2296,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "24": {
@@ -2317,7 +2389,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "25": {
@@ -2407,7 +2482,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "26": {
@@ -2496,7 +2574,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "27": {
@@ -2583,7 +2664,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "28": {
@@ -2673,7 +2757,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "29": {
@@ -2769,7 +2856,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "30": {
@@ -2842,7 +2932,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "31": {
@@ -2915,7 +3008,10 @@
                 "match_character_personality": false,
                 "match_character_depth_prompt": false,
                 "match_scenario": false,
-                "match_creator_notes": false
+                "match_creator_notes": false,
+                "outlet_name": "",
+                "triggers": [],
+                "ignore_budget": false
             }
         }
     },
@@ -2961,7 +3057,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -3004,7 +3103,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -3077,7 +3179,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -3120,7 +3225,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -3163,7 +3271,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -3206,7 +3317,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -3249,7 +3363,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -3332,7 +3449,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -3415,7 +3535,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -3486,7 +3609,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -3557,7 +3683,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -3620,7 +3749,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -3680,7 +3812,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -3744,7 +3879,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -3809,7 +3947,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -3883,7 +4024,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -3947,7 +4091,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -4007,7 +4154,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -4066,7 +4216,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -4126,7 +4279,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -4183,7 +4339,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -4265,7 +4424,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -4348,7 +4510,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -4428,7 +4593,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -4488,7 +4656,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -4548,7 +4719,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -4607,7 +4781,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -4664,7 +4841,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -4724,7 +4904,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -4790,7 +4973,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -4833,7 +5019,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -4876,7 +5065,10 @@
                     "match_character_personality": false,
                     "match_character_depth_prompt": false,
                     "match_scenario": false,
-                    "match_creator_notes": false
+                    "match_creator_notes": false,
+                    "outlet_name": "",
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             }
         ],

@@ -87,23 +87,13 @@
         "AlertRegex_openai_【MoM】梦梦K2T1.1.12ttt丨喵喵电波@ameng": "true",
         "AlertWI_纪向渊2.png": "true",
         "AlertRegex_openai_【索多玛】Peccadex†V1.2.0": "true",
-        "AlertWI_隐庐谷.png": "true",
-        "AlertWI_秦炽.png": "true",
-        "AlertRegex_秦炽.png": "true",
-        "AlertWI_李将远.png": "true",
-        "AlertRegex_李将远.png": "true",
-        "AlertWI_仁青嘉措.png": "true",
-        "AlertRegex_仁青嘉措.png": "true",
-        "AlertWI_秦逞.png": "true",
-        "AlertWI_《操操你的》女性向bl游戏.png": "true",
-        "AlertWI_陌惊玉.png": "true",
-        "AlertWI_木今逢.png": "true"
+        "AlertWI_隐庐谷.png": "true"
     },
     "currentVersion": "1.13.5",
-    "username": "茂卯",
-    "active_character": "木今逢.png",
+    "username": "常九",
+    "active_character": "隐庐谷.png",
     "active_group": null,
-    "user_avatar": "1746509319576-.png",
+    "user_avatar": "1746404021892-.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -529,9 +519,9 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "女的，身高171",
+        "persona_description": "男的。山中的精怪，蛇。原型有一米长。人形身高186。",
         "persona_description_position": 0,
-        "persona_description_role": 0,
+        "persona_description_role": 1,
         "persona_description_depth": 2,
         "persona_description_lorebook": "",
         "persona_show_notifications": true,
@@ -2001,11 +1991,7 @@
             "言旭.png",
             "秦枭1.3.5.png",
             "《凡人修仙传V9.1》女性向特化.png",
-            "《凤锦凰权》1.png",
-            "秦炽.png",
-            "李将远.png",
-            "仁青嘉措.png",
-            "森川富江.png"
+            "《凤锦凰权》1.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2203,8 +2189,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2977,
-                "LAST_RECEIVE_CHARS": 7816,
+                "LAST_RECEIVE_TOKENS": 521,
+                "LAST_RECEIVE_CHARS": 727,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 113707,
@@ -2490,17 +2476,14 @@
                     ],
                     "characters": [
                         "利恩2",
-                        "喻安1",
-                        "木今逢"
+                        "喻安1"
                     ]
                 },
                 "popuped": {
                     "presets": [
                         "【MoM】梦梦K2T1.1.12ttt丨喵喵电波@ameng"
                     ],
-                    "characters": [
-                        "木今逢"
-                    ]
+                    "characters": []
                 },
                 "scripts": [
                     {
@@ -4364,14 +4347,7 @@
         "《操操你的》女性向bl游戏.png": [],
         "江砚.png": [],
         "隐庐谷.png": [],
-        "陈迟.png": [],
-        "姜溺.png": [],
-        "德米特里.png": [],
-        "贺君宵.png": [],
-        "木今逢.png": [],
-        "陌惊玉.png": [],
-        "李金玉.png": [],
-        "李羡鱼.png": []
+        "森川富江.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
