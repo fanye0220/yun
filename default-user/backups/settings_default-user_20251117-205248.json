@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "NavOpened": "true",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"3090278210222208\":{\"fieldsWarned\":{}}}}",
@@ -221,6 +221,8 @@
         "AlertWI_Cassius.png": "true",
         "AlertRegex_Cassius.png": "true",
         "AlertWI_程妄1.png": "true",
+        "AlertWI_陈迟.png": "true",
+        "AlertRegex_陈迟.png": "true",
         "AlertWI_李金玉.png": "true",
         "AlertWI_德米特里.png": "true",
         "AlertRegex_德米特里.png": "true",
@@ -239,15 +241,11 @@
         "AlertWI_言旭.png": "true",
         "AlertRegex_言旭.png": "true",
         "AlertWI_秦枭1.3.5.png": "true",
-        "AlertRegex_秦枭1.3.5.png": "true",
-        "AlertWI_《凡人修仙传V9.1》女性向特化.png": "true",
-        "AlertRegex_《凡人修仙传V9.1》女性向特化.png": "true",
-        "AlertWI_《凤锦凰权》1.png": "true",
-        "AlertRegex_《凤锦凰权》1.png": "true"
+        "AlertRegex_秦枭1.3.5.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "常九",
-    "active_character": "隐庐谷1.png",
+    "active_character": "《操操你的》女性向bl游戏.png",
     "active_group": null,
     "user_avatar": "1762034097559-.png",
     "amount_gen": 350,
@@ -468,8 +466,9 @@
         "play_sound_unfocused": true,
         "auto_save_msg_edits": true,
         "confirm_message_delete": true,
-        "sort_field": "create_date",
-        "sort_order": "desc",
+        "sort_field": "name",
+        "sort_order": "asc",
+        "sort_rule": null,
         "font_scale": 0.95,
         "blur_strength": 0,
         "shadow_width": 0,
@@ -2145,9 +2144,7 @@
             "江祈先1.png",
             "陈佑礼.png",
             "言旭.png",
-            "秦枭1.3.5.png",
-            "《凡人修仙传V9.1》女性向特化.png",
-            "《凤锦凰权》1.png"
+            "秦枭1.3.5.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2345,12 +2342,12 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 521,
-                "LAST_RECEIVE_CHARS": 727,
+                "LAST_RECEIVE_TOKENS": 1409,
+                "LAST_RECEIVE_CHARS": 1833,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
-                "LAST_SEND_TOKENS": 113707,
-                "LAST_SEND_CHARS": 191911,
+                "LAST_SEND_TOKENS": 84269,
+                "LAST_SEND_CHARS": 144479,
                 "cot": "\n[语言检定] \n\n[果农冒泡](调笑或吐槽<user_input>,解读潜台词，避免过度揣摩.若有特殊需求可根据需求跳过后续思考)\n \n[不抢话]（果农绝不扮演USER，为此允许削减正文，允许停止剧情）\n\n[专注NSFW]（非NSFW场景直接跳过；NSFW场景载入`性爱指导`，强制执行**全部**`NSFW思考`，直接省略跳过后续其他思考）\n     \n\n[基调锚定](载入`CORE RULES`和`长线指导`)\n \n\n[角色打磨]（载入角色设定，深度思考`角色塑造指导`）\n\n[风格适配](严格遵循`写作指导`，引入`文风思考`)\n\n[整合思考]（综合所有思考，并设计一个收束在char方的结尾）\n \n\n[正文字数检测]\n\n[输出顺序检查]\n \n\n（一段果农的自我陈词和反思）\n",
                 "正文标签": "<content>\n顶部状态信息\n(空行)\n正文内容\n \n</content>"
             }
@@ -2386,7 +2383,38 @@
                     }
                 ]
             },
-            "characterConfigs": {}
+            "characterConfigs": {
+                "西奥德.png": {
+                    "setList": []
+                },
+                "岑川.png": {
+                    "setList": []
+                },
+                "沈暮安 灰港往事1.png": {
+                    "setList": []
+                },
+                "訾砚安1.png": {
+                    "setList": []
+                },
+                "江祈先1.png": {
+                    "setList": []
+                },
+                "陈佑礼.png": {
+                    "setList": []
+                },
+                "言旭.png": {
+                    "setList": []
+                },
+                "秦枭1.3.5.png": {
+                    "setList": []
+                },
+                " 陆时宴2.png": {
+                    "setList": []
+                },
+                "《操操你的》女性向bl游戏.png": {
+                    "setList": []
+                }
+            }
         },
         "TavernHelper": {
             "enabled_extension": true,
@@ -2643,6 +2671,7 @@
                         "白忘忧",
                         "老婆我爱你",
                         "Cassius",
+                        "陈迟",
                         "德米特里",
                         "岑川",
                         "秦枭1.3.5"
@@ -2664,6 +2693,7 @@
                         "白忘忧",
                         "老婆我爱你",
                         "Cassius",
+                        "陈迟",
                         "德米特里",
                         "岑川",
                         "秦枭1.3.5"
@@ -5077,7 +5107,7 @@
         "陌惊玉1.png": [],
         "程妄1.png": [],
         "李金玉.png": [],
-        "隐庐谷1.png": []
+        "陈迟.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
