@@ -223,11 +223,12 @@
         "AlertRegex_ 陆时宴2.png": "true",
         "AlertWI_魂断西雅图1.png": "true",
         "AlertWI_Cassius.png": "true",
-        "AlertRegex_Cassius.png": "true"
+        "AlertRegex_Cassius.png": "true",
+        "AlertWI_程妄1.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "茂卯",
-    "active_character": "陌惊玉1.png",
+    "active_character": "程妄1.png",
     "active_group": null,
     "user_avatar": "1746509319576-.png",
     "amount_gen": 350,
@@ -448,8 +449,8 @@
         "play_sound_unfocused": true,
         "auto_save_msg_edits": true,
         "confirm_message_delete": true,
-        "sort_field": "name",
-        "sort_order": "asc",
+        "sort_field": "create_date",
+        "sort_order": "desc",
         "font_scale": 0.95,
         "blur_strength": 0,
         "shadow_width": 0,
@@ -2095,7 +2096,8 @@
             "陈三观.png",
             "傅骁承.png",
             " 陆时宴2.png",
-            "Cassius.png"
+            "Cassius.png",
+            "程妄1.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2293,8 +2295,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 3334,
-                "LAST_RECEIVE_CHARS": 6399,
+                "LAST_RECEIVE_TOKENS": 1202,
+                "LAST_RECEIVE_CHARS": 1520,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 194131,
@@ -2334,32 +2336,7 @@
                     }
                 ]
             },
-            "characterConfigs": {
-                "常疏.png": {
-                    "setList": []
-                },
-                "筱原冬弥.png": {
-                    "setList": []
-                },
-                "徐知意.png": {
-                    "setList": []
-                },
-                "伊凡德.png": {
-                    "setList": []
-                },
-                " 陆时宴2.png": {
-                    "setList": []
-                },
-                "魂断西雅图1.png": {
-                    "setList": []
-                },
-                "Cassius.png": {
-                    "setList": []
-                },
-                "陌惊玉1.png": {
-                    "setList": []
-                }
-            }
+            "characterConfigs": {}
         },
         "TavernHelper": {
             "enabled_extension": true,
@@ -5046,7 +5023,8 @@
         "西奥德.png": [],
         "梁文峰👌.png": [],
         "德米特里.png": [],
-        "陌惊玉1.png": []
+        "陌惊玉1.png": [],
+        "程妄1.png": []
     },
     "nai_settings": {
         "temperature": 1.5,

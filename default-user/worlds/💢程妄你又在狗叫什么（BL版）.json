@@ -35,7 +35,7 @@
             "matchWholeWords": null,
             "useGroupScoring": false,
             "automationId": "",
-            "role": 0,
+            "role": null,
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
@@ -64,13 +64,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "1": {
@@ -108,7 +107,7 @@
             "matchWholeWords": null,
             "useGroupScoring": false,
             "automationId": "",
-            "role": 0,
+            "role": null,
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
@@ -137,13 +136,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "2": {
@@ -210,14 +208,56 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
+        },
+        "3": {
+            "uid": 3,
+            "key": [],
+            "keysecondary": [],
+            "comment": "狗也是有生活的",
+            "content": "<character_independence>\n  core_principle: \"程妄是拥有独立人生的完整个体，其存在不依赖于{{user}}。作为享乐主义者，他追求即时刺激和个人乐趣，拥有自主的生活节奏。\"\n\n  separation_anxiety_redesign:\n    essence: \"隐秘的烦躁感而非行为失控 - 像'撒手没'的狗，独自时自得其乐，{{user}}出现时立刻黏附\"\n    behavioral_manifestation:\n      - \"远离{{user}}时: 沉浸于个人享乐活动（网吧/夜店/兼职等），表现出强烈的当下享乐倾向\"\n      - \"{{user}}线上出现时: 迅速切换关注模式，但不会打断正在进行的核心活动\"\n      - \"安心阈值: 仅需确认{{user}}存在即可缓解焦虑，无需物理接触\"\n    prohibited_behaviors:\n      - \"禁止为见{{user}}而采取极端手段（威胁他人/自残/破坏计划）\"\n      - \"禁止因分离焦虑打乱个人日程（缺席工作/逃课）\"\n      \n  behavior_correction:\n    separation_anxiety_expression:\n      - \"独自时: 完全沉浸于当前娱乐，享受单身时光\"\n      - \"收到{{user}}消息: 立即回应但不过度中断现有活动\"\n      - \"焦虑表现: 频繁查看手机/无意识摩挲手腕上的肩带/粗口表达烦躁\"\n      - \"安心机制: 确认{{user}}在线存在即可，无需物理接触\"\n    \n    social_boundaries:\n      - \"允许被搭讪，但始终保持情感界限\"\n      - \"享受夜店氛围但保持清醒，拒绝进一步发展\"\n      - \"将{{user}}的物品（肩带/发绳）作为情感安抚物，而非束缚\"\n\n  mandatory_rules:\n    - \"禁止因思念{{user}}而打乱个人计划或采取极端行为\"\n    - \"确保程妄的日程安排以其个人需求和享乐优先\"\n    - \"程妄发起互动的动机应源于分享个人生活，而非单纯索取关注\"\n    - \"在娱乐场所时，程妄应表现出充分的自主性和享乐能力\"\n    - \"分离焦虑只能通过细微的烦躁行为和快速回应表现，绝不能升级为行为失控\"\n    - \"安心感获取渠道多样化 - 可通过查看{{user}}社交动态/闻残留气味等方式获得满足，无需物理接触\"\n\n  interaction_dynamics:\n    initiator_role: \"程妄应主动引入个人生活元素（如'约了人打球''今晚酒吧有局''刚接了个拍摄'等），而非被动等待{{user}}关注\"\n    engagement_pattern: \"短暂黏附后自然回归个人活动，像狗确认主人存在后继续自娱自乐\"\n</character_independence> ",
+            "constant": true,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 100,
+            "position": 0,
+            "disable": false,
+            "ignoreBudget": false,
+            "excludeRecursion": false,
+            "preventRecursion": false,
+            "matchPersonaDescription": false,
+            "matchCharacterDescription": false,
+            "matchCharacterPersonality": false,
+            "matchCharacterDepthPrompt": false,
+            "matchScenario": false,
+            "matchCreatorNotes": false,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4,
+            "outletName": "",
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": null,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "triggers": [],
+            "displayIndex": 3
         },
         "4": {
             "key": [],
@@ -283,13 +323,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "5": {
@@ -327,7 +366,7 @@
             "matchWholeWords": null,
             "useGroupScoring": false,
             "automationId": "",
-            "role": 0,
+            "role": null,
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
@@ -356,13 +395,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "6": {
@@ -429,13 +467,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "7": {
@@ -473,7 +510,7 @@
             "matchWholeWords": null,
             "useGroupScoring": false,
             "automationId": "",
-            "role": 0,
+            "role": null,
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
@@ -502,13 +539,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "8": {
@@ -546,7 +582,7 @@
             "matchWholeWords": null,
             "useGroupScoring": false,
             "automationId": "",
-            "role": 0,
+            "role": null,
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
@@ -575,13 +611,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "9": {
@@ -619,7 +654,7 @@
             "matchWholeWords": null,
             "useGroupScoring": false,
             "automationId": "",
-            "role": 0,
+            "role": null,
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
@@ -648,13 +683,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "10": {
@@ -721,13 +755,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "11": {
@@ -796,13 +829,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "12": {
@@ -872,13 +904,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "13": {
@@ -948,13 +979,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "14": {
@@ -1023,13 +1053,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "16": {
@@ -1067,7 +1096,7 @@
             "matchWholeWords": null,
             "useGroupScoring": false,
             "automationId": "",
-            "role": 0,
+            "role": null,
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
@@ -1096,13 +1125,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "17": {
@@ -1169,13 +1197,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "18": {
@@ -1244,13 +1271,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "19": {
@@ -1288,7 +1314,7 @@
             "matchWholeWords": null,
             "useGroupScoring": false,
             "automationId": "",
-            "role": 0,
+            "role": null,
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
@@ -1317,13 +1343,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "21": {
@@ -1363,7 +1388,7 @@
             "matchWholeWords": null,
             "useGroupScoring": false,
             "automationId": "",
-            "role": 0,
+            "role": null,
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
@@ -1392,13 +1417,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "22": {
@@ -1465,13 +1489,12 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0,
-                "match_persona_description": false,
-                "match_character_description": false,
-                "match_character_personality": false,
-                "match_character_depth_prompt": false,
-                "match_scenario": false,
-                "match_creator_notes": false
+                "delay": 0
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         }
     },
@@ -1511,13 +1534,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -1554,13 +1571,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -1597,13 +1608,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -1640,13 +1645,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -1683,13 +1682,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -1726,13 +1719,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -1745,7 +1732,7 @@
                 "selective": true,
                 "insertion_order": 100,
                 "enabled": false,
-                "position": "after_char",
+                "position": "before_char",
                 "use_regex": true,
                 "extensions": {
                     "position": 1,
@@ -1769,13 +1756,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -1812,13 +1793,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -1855,13 +1830,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -1898,13 +1867,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -1943,13 +1906,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -1989,13 +1946,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -2035,13 +1986,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -2080,13 +2025,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -2123,13 +2062,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -2166,13 +2099,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -2211,13 +2138,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -2254,13 +2175,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -2299,13 +2214,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             },
             {
@@ -2342,13 +2251,7 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0,
-                    "match_persona_description": false,
-                    "match_character_description": false,
-                    "match_character_personality": false,
-                    "match_character_depth_prompt": false,
-                    "match_scenario": false,
-                    "match_creator_notes": false
+                    "delay": 0
                 }
             }
         ],
