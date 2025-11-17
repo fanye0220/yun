@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "NavOpened": "true",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"3090278210222208\":{\"fieldsWarned\":{}}}}",
@@ -220,13 +220,17 @@
         "AlertWI_魂断西雅图1.png": "true",
         "AlertWI_Cassius.png": "true",
         "AlertRegex_Cassius.png": "true",
-        "AlertWI_程妄1.png": "true"
+        "AlertWI_程妄1.png": "true",
+        "AlertWI_陈迟.png": "true",
+        "AlertRegex_陈迟.png": "true",
+        "AlertWI_木今逢.png": "true",
+        "AlertRegex_木今逢.png": "true"
     },
     "currentVersion": "1.13.5",
-    "username": "沈长昀",
-    "active_character": "常疏.png",
+    "username": "茂卯",
+    "active_character": "木今逢.png",
     "active_group": null,
-    "user_avatar": "1747381429587-user.png",
+    "user_avatar": "1746509319576-.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -445,9 +449,8 @@
         "play_sound_unfocused": true,
         "auto_save_msg_edits": true,
         "confirm_message_delete": true,
-        "sort_field": "name",
-        "sort_order": "asc",
-        "sort_rule": null,
+        "sort_field": "create_date",
+        "sort_order": "desc",
         "font_scale": 0.95,
         "blur_strength": 0,
         "shadow_width": 0,
@@ -653,9 +656,9 @@
                 "lorebook": ""
             }
         },
-        "persona_description": " 男的 身高186 能与常家平分秋色的商贾",
-        "persona_description_position": 3,
-        "persona_description_role": 1,
+        "persona_description": "女的，身高171",
+        "persona_description_position": 0,
+        "persona_description_role": 0,
         "persona_description_depth": 2,
         "persona_description_lorebook": "",
         "persona_show_notifications": true,
@@ -2112,7 +2115,10 @@
             "傅骁承.png",
             " 陆时宴2.png",
             "Cassius.png",
-            "程妄1.png"
+            "程妄1.png",
+            "陆君心.png",
+            "陈迟.png",
+            "木今逢.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2310,8 +2316,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 19,
-                "LAST_RECEIVE_CHARS": 94,
+                "LAST_RECEIVE_TOKENS": 1366,
+                "LAST_RECEIVE_CHARS": 3049,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 84269,
@@ -2351,35 +2357,7 @@
                     }
                 ]
             },
-            "characterConfigs": {
-                "筱原冬弥.png": {
-                    "setList": []
-                },
-                "Cassius.png": {
-                    "setList": []
-                },
-                "程妄1.png": {
-                    "setList": []
-                },
-                "李羡鱼.png": {
-                    "setList": []
-                },
-                "陌惊玉1.png": {
-                    "setList": []
-                },
-                "魂断西雅图1.png": {
-                    "setList": []
-                },
-                "常疏.png": {
-                    "setList": []
-                },
-                "后明昭.png": {
-                    "setList": []
-                },
-                "反向饲养人鱼版.png": {
-                    "setList": []
-                }
-            }
+            "characterConfigs": {}
         },
         "TavernHelper": {
             "enabled_extension": true,
@@ -2633,7 +2611,9 @@
                         "张靖辞",
                         "白忘忧",
                         "老婆我爱你",
-                        "Cassius"
+                        "Cassius",
+                        "陈迟",
+                        "木今逢"
                     ]
                 },
                 "popuped": {
@@ -2651,7 +2631,9 @@
                         "张靖辞",
                         "白忘忧",
                         "老婆我爱你",
-                        "Cassius"
+                        "Cassius",
+                        "陈迟",
+                        "木今逢"
                     ]
                 },
                 "scripts": [
@@ -5063,7 +5045,6 @@
         "程妄1.png": [],
         "木今逢.png": [],
         "李金玉.png": [],
-        "陆君心.png": [],
         "陈迟.png": []
     },
     "nai_settings": {
@@ -7205,10 +7186,10 @@
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
         "reverse_proxy": "http://127.0.0.1:8889/",
-        "chat_completion_source": "makersuite",
+        "chat_completion_source": "custom",
         "max_context_unlocked": true,
         "show_external_models": true,
-        "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
+        "proxy_password": "",
         "assistant_prefill": "",
         "assistant_impersonation": "",
         "claude_use_sysprompt": false,
