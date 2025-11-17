@@ -1,5 +1,5 @@
 {
-    "chat_completion_source": "makersuite",
+    "chat_completion_source": "custom",
     "openai_model": "gpt-4-turbo",
     "claude_model": "claude-3-5-sonnet-20240620",
     "openrouter_model": "OR_Website",
@@ -23,8 +23,8 @@
     "moonshot_model": "kimi-latest",
     "fireworks_model": "accounts/fireworks/models/kimi-k2-instruct",
     "cometapi_model": "gpt-4o",
-    "custom_model": "gemini-2.5-pro-preview-06-05",
-    "custom_url": "https://st.dslzl.top/v1",
+    "custom_model": "gemini-2.5-pro-preview-06-05[真流-GG公益-200/次]",
+    "custom_url": "https://gemini.beijixingxing.com/v1",
     "custom_include_body": "",
     "custom_exclude_body": "",
     "custom_include_headers": "",
@@ -1912,7 +1912,7 @@
                 },
                 {
                     "identifier": "468054ca-a009-499f-a940-cccf1bce66f7",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "a5cb89e2-bb2d-47aa-af45-257a7fa629d2",
@@ -1932,7 +1932,7 @@
                 },
                 {
                     "identifier": "0644a23d-55d5-44c2-bea5-741d3ae21dbb",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "bf69506f-a34c-4731-98af-b388e66481f4",
