@@ -3,7 +3,7 @@
     "accountStorage": {
         "__migrated": "1",
         "LNavOpened": "false",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"3090278210222208\":{\"fieldsWarned\":{}}}}",
         "SelectedNavTab": "rm_button_characters",
@@ -228,13 +228,22 @@
         "AlertRegex_德米特里.png": "true",
         "AlertWI_梁文峰👌.png": "true",
         "AlertWI_西奥德.png": "true",
-        "AlertRegex_西奥德.png": "true"
+        "AlertRegex_西奥德.png": "true",
+        "AlertWI_岑川.png": "true",
+        "AlertRegex_岑川.png": "true",
+        "AlertWI_沈暮安 灰港往事1.png": "true",
+        "AlertWI_訾砚安1.png": "true",
+        "AlertRegex_訾砚安1.png": "true",
+        "AlertWI_江祈先1.png": "true",
+        "AlertRegex_江祈先1.png": "true",
+        "AlertWI_陈佑礼.png": "true",
+        "AlertRegex_陈佑礼.png": "true"
     },
     "currentVersion": "1.13.5",
-    "username": "沈长昀",
-    "active_character": "西奥德.png",
+    "username": "茂卯",
+    "active_character": "陈佑礼.png",
     "active_group": null,
-    "user_avatar": "1747381429587-user.png",
+    "user_avatar": "1746509319576-.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -661,9 +670,9 @@
                 "lorebook": ""
             }
         },
-        "persona_description": " 男的 身高186 能与常家平分秋色的商贾",
-        "persona_description_position": 3,
-        "persona_description_role": 1,
+        "persona_description": "女的，身高171",
+        "persona_description_position": 0,
+        "persona_description_role": 0,
         "persona_description_depth": 2,
         "persona_description_lorebook": "",
         "persona_show_notifications": true,
@@ -2125,7 +2134,11 @@
             "陈迟.png",
             "木今逢.png",
             "德米特里.png",
-            "西奥德.png"
+            "西奥德.png",
+            "岑川.png",
+            "訾砚安1.png",
+            "江祈先1.png",
+            "陈佑礼.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2323,8 +2336,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 3527,
-                "LAST_RECEIVE_CHARS": 10521,
+                "LAST_RECEIVE_TOKENS": 2812,
+                "LAST_RECEIVE_CHARS": 9365,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 84269,
@@ -2366,6 +2379,21 @@
             },
             "characterConfigs": {
                 "西奥德.png": {
+                    "setList": []
+                },
+                "岑川.png": {
+                    "setList": []
+                },
+                "沈暮安 灰港往事1.png": {
+                    "setList": []
+                },
+                "訾砚安1.png": {
+                    "setList": []
+                },
+                "江祈先1.png": {
+                    "setList": []
+                },
+                "陈佑礼.png": {
                     "setList": []
                 }
             }
@@ -2554,15 +2582,17 @@
                 "额外模型解析中": true
             },
             "快照保留间隔": 50,
+            "更新到聊天变量": false,
             "auto_cleanup": {
-                "启用": false,
+                "启用": true,
                 "要保留变量的最近楼层数": 20,
                 "触发恢复变量的最近楼层数": 10
             },
             "internal": {
                 "已提醒更新了配置界面": true,
                 "已提醒自动清理旧变量功能": true,
-                "已提醒更新了API温度等配置": true
+                "已提醒更新了API温度等配置": true,
+                "已默认开启自动清理旧变量功能": true
             }
         },
         "world-info-cleanup": {
@@ -2624,7 +2654,8 @@
                         "老婆我爱你",
                         "Cassius",
                         "陈迟",
-                        "德米特里"
+                        "德米特里",
+                        "岑川"
                     ]
                 },
                 "popuped": {
@@ -2644,7 +2675,8 @@
                         "老婆我爱你",
                         "Cassius",
                         "陈迟",
-                        "德米特里"
+                        "德米特里",
+                        "岑川"
                     ]
                 },
                 "scripts": [
