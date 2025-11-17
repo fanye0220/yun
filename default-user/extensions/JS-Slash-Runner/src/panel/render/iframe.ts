@@ -89,6 +89,7 @@ export function createSrcContent(content: string, use_blob_url: boolean) {
   ${third_party}
   ${use_blob_url ? `<base href="${window.location.origin}"/>` : ''}
   <script src="${predefine_url}"></script>
+  <script src="https://testingcf.jsdelivr.net/gh/N0VI028/JS-Slash-Runner/src/iframe/node_modules/log.js"></script>
   <script src="${emit_loaded_event_url}"></script>
   <script src="${adjust_viewport_url}"></script>
 </head>

@@ -1,4 +1,4 @@
-node_modules
+/node_modules
 
 .DS_Store
 Thumbs.db
@@ -9,3 +9,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+auto-imports.d.ts
+components.d.ts
