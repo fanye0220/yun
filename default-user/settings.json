@@ -221,11 +221,13 @@
         "AlertRegex_openai_【索多玛】Peccadex†V1.2.0": "true",
         "AlertWI_ 陆时宴2.png": "true",
         "AlertRegex_ 陆时宴2.png": "true",
-        "AlertWI_魂断西雅图1.png": "true"
+        "AlertWI_魂断西雅图1.png": "true",
+        "AlertWI_Cassius.png": "true",
+        "AlertRegex_Cassius.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "茂卯",
-    "active_character": "魂断西雅图1.png",
+    "active_character": "陌惊玉1.png",
     "active_group": null,
     "user_avatar": "1746509319576-.png",
     "amount_gen": 350,
@@ -2092,7 +2094,8 @@
             "秦枭1.2.png",
             "陈三观.png",
             "傅骁承.png",
-            " 陆时宴2.png"
+            " 陆时宴2.png",
+            "Cassius.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2290,8 +2293,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 42,
-                "LAST_RECEIVE_CHARS": 78,
+                "LAST_RECEIVE_TOKENS": 3334,
+                "LAST_RECEIVE_CHARS": 6399,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 194131,
@@ -2348,6 +2351,12 @@
                     "setList": []
                 },
                 "魂断西雅图1.png": {
+                    "setList": []
+                },
+                "Cassius.png": {
+                    "setList": []
+                },
+                "陌惊玉1.png": {
                     "setList": []
                 }
             }
@@ -2603,7 +2612,8 @@
                         "时未",
                         "张靖辞",
                         "白忘忧",
-                        "老婆我爱你"
+                        "老婆我爱你",
+                        "Cassius"
                     ]
                 },
                 "popuped": {
@@ -2620,7 +2630,8 @@
                         "陈暮宇",
                         "张靖辞",
                         "白忘忧",
-                        "老婆我爱你"
+                        "老婆我爱你",
+                        "Cassius"
                     ]
                 },
                 "scripts": [
@@ -4388,6 +4399,17 @@
             "color": "",
             "color2": "",
             "create_date": 1763293530193
+        },
+        {
+            "id": "354c437e-8ec4-4f10-a854-120c09c96f94",
+            "name": "养子，年下",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": 146,
+            "is_hidden_on_character_card": false,
+            "color": "",
+            "color2": "",
+            "create_date": 1763364033642
         }
     ],
     "tag_map": {
@@ -5016,7 +5038,15 @@
         "陈佑礼.png": [],
         "江祈先1.png": [],
         "訾砚安1.png": [],
-        "沈暮安 灰港往事1.png": []
+        "沈暮安 灰港往事1.png": [],
+        "Cassius.png": [
+            "354c437e-8ec4-4f10-a854-120c09c96f94"
+        ],
+        "岑川.png": [],
+        "西奥德.png": [],
+        "梁文峰👌.png": [],
+        "德米特里.png": [],
+        "陌惊玉1.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
