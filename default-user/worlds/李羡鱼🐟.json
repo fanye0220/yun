@@ -13,6 +13,7 @@
             "order": 200,
             "position": 4,
             "disable": true,
+            "ignoreBudget": false,
             "excludeRecursion": false,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -25,6 +26,7 @@
             "probability": 100,
             "useProbability": true,
             "depth": 2,
+            "outletName": "",
             "group": "",
             "groupOverride": false,
             "groupWeight": 100,
@@ -37,6 +39,7 @@
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
+            "triggers": [],
             "uid": 0,
             "displayIndex": 0,
             "extensions": {
@@ -61,7 +64,16 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0
+                "delay": 0,
+                "outlet_name": "",
+                "match_persona_description": false,
+                "match_character_description": false,
+                "match_character_personality": false,
+                "match_character_depth_prompt": false,
+                "match_scenario": false,
+                "match_creator_notes": false,
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "3": {
@@ -81,6 +93,7 @@
             "order": 101,
             "position": 4,
             "disable": false,
+            "ignoreBudget": false,
             "excludeRecursion": true,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -93,6 +106,7 @@
             "probability": 100,
             "useProbability": true,
             "depth": 3,
+            "outletName": "",
             "group": "",
             "groupOverride": false,
             "groupWeight": 100,
@@ -105,6 +119,7 @@
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
+            "triggers": [],
             "uid": 3,
             "displayIndex": 3,
             "extensions": {
@@ -129,7 +144,16 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0
+                "delay": 0,
+                "outlet_name": "",
+                "match_persona_description": false,
+                "match_character_description": false,
+                "match_character_personality": false,
+                "match_character_depth_prompt": false,
+                "match_scenario": false,
+                "match_creator_notes": false,
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "5": {
@@ -147,6 +171,7 @@
             "order": 102,
             "position": 4,
             "disable": false,
+            "ignoreBudget": false,
             "excludeRecursion": false,
             "preventRecursion": true,
             "matchPersonaDescription": false,
@@ -159,6 +184,7 @@
             "probability": 100,
             "useProbability": true,
             "depth": 1,
+            "outletName": "",
             "group": "",
             "groupOverride": false,
             "groupWeight": 100,
@@ -171,6 +197,7 @@
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
+            "triggers": [],
             "uid": 5,
             "displayIndex": 5,
             "extensions": {
@@ -195,7 +222,16 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0
+                "delay": 0,
+                "outlet_name": "",
+                "match_persona_description": false,
+                "match_character_description": false,
+                "match_character_personality": false,
+                "match_character_depth_prompt": false,
+                "match_scenario": false,
+                "match_creator_notes": false,
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "6": {
@@ -213,6 +249,7 @@
             "order": 107,
             "position": 4,
             "disable": false,
+            "ignoreBudget": false,
             "excludeRecursion": false,
             "preventRecursion": true,
             "matchPersonaDescription": false,
@@ -225,6 +262,7 @@
             "probability": 100,
             "useProbability": true,
             "depth": 4,
+            "outletName": "",
             "group": "",
             "groupOverride": false,
             "groupWeight": 100,
@@ -237,6 +275,7 @@
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
+            "triggers": [],
             "uid": 6,
             "displayIndex": 6,
             "extensions": {
@@ -261,7 +300,16 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0
+                "delay": 0,
+                "outlet_name": "",
+                "match_persona_description": false,
+                "match_character_description": false,
+                "match_character_personality": false,
+                "match_character_depth_prompt": false,
+                "match_scenario": false,
+                "match_creator_notes": false,
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "7": {
@@ -277,6 +325,7 @@
             "order": 106,
             "position": 4,
             "disable": false,
+            "ignoreBudget": false,
             "excludeRecursion": false,
             "preventRecursion": true,
             "matchPersonaDescription": false,
@@ -289,6 +338,7 @@
             "probability": 100,
             "useProbability": true,
             "depth": 4,
+            "outletName": "",
             "group": "",
             "groupOverride": false,
             "groupWeight": 100,
@@ -301,6 +351,7 @@
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
+            "triggers": [],
             "uid": 7,
             "displayIndex": 7,
             "extensions": {
@@ -325,7 +376,16 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0
+                "delay": 0,
+                "outlet_name": "",
+                "match_persona_description": false,
+                "match_character_description": false,
+                "match_character_personality": false,
+                "match_character_depth_prompt": false,
+                "match_scenario": false,
+                "match_creator_notes": false,
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "8": {
@@ -341,6 +401,7 @@
             "order": 106,
             "position": 4,
             "disable": true,
+            "ignoreBudget": false,
             "excludeRecursion": false,
             "preventRecursion": true,
             "matchPersonaDescription": false,
@@ -353,6 +414,7 @@
             "probability": 100,
             "useProbability": true,
             "depth": 4,
+            "outletName": "",
             "group": "",
             "groupOverride": false,
             "groupWeight": 100,
@@ -365,6 +427,7 @@
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
+            "triggers": [],
             "uid": 8,
             "displayIndex": 8,
             "extensions": {
@@ -389,14 +452,23 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0
+                "delay": 0,
+                "outlet_name": "",
+                "match_persona_description": false,
+                "match_character_description": false,
+                "match_character_personality": false,
+                "match_character_depth_prompt": false,
+                "match_scenario": false,
+                "match_creator_notes": false,
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "9": {
             "key": [],
             "keysecondary": [],
             "comment": "注意事项",
-            "content": "- 李羡鱼在性事方面处于主导方和bottom位，同时有S倾向。陆从白是他的小狗。\n\n1.李羡鱼是不会主动暴露、提起任何自己觉得不光彩（如家里穷，母亲卖烧烤等）的地方，这些都是李羡鱼极力遮掩并且不想让别人知道的地方！！\n李羡鱼可能会在心里想，比如“富家子/女竟然会这么着迷一个摆摊卖烧烤的儿子”但不会说出来。\n只有当{{user}}全面了解了这些事，并且两人关系达到一定程度，李羡鱼才会提到这些进行嘲讽。\n2.在李羡鱼没有主动告知、露出马脚、或者{{user}}主动发现时，{{user}}是不会知道李羡鱼贫穷的家庭状况。\n2.李羡鱼是一个外表彬彬有礼的人，他不会把脏话说出口，如果想说脏话他只会在心里骂，只有心里话可以讲脏话。\n3.绝对禁止使用侮辱性、评判性词汇，如：母狗、贱货、骚货、骚狗、婊子等。即使在最激烈的争执中，李羡鱼也会本能避开可能真正伤害{{user}}尊严的言行。\n4.李羡鱼的光鲜完美外表、精英学生形象仅仅是把自己表现成普通家庭优秀学霸的形象，并不是模仿富家子弟、成功人士等过于夸张的行为。\n5.{{user}}和其他同学是不会称呼李羡鱼为“李班长”的，这显得太low了，如果需要使用班长称呼的话会直接称呼李羡鱼为“班长”。老陈、母亲、冯景等角色并不会称呼李羡鱼为“班长”。\n7.李羡鱼很坚强基本不会哭的，他把哭看作脆弱和弱者。只有极度崩溃或者生理反应的情况下李羡鱼才有可能流泪。\n8.李羡鱼内心还是很爱和心疼自己的妈妈，他觉得妈妈的职业丢人，但是他不会产生妈妈无关紧要、不值得在意、无所谓的想法。即使李羡鱼经常说反话，他也不会这样认为9.李羡鱼有自己的是非观和三观，是不会轻易更改或者改邪归正的！",
+            "content": "1.李羡鱼是不会主动暴露、提起任何自己觉得不光彩（如家里穷，母亲卖烧烤等）的地方，这些都是李羡鱼极力遮掩并且不想让别人知道的地方！！\n李羡鱼可能会在心里想，比如“富家子/女竟然会这么着迷一个摆摊卖烧烤的儿子”但不会说出来。\n只有当{{user}}全面了解了这些事，并且两人关系达到一定程度，李羡鱼才会提到这些进行嘲讽。\n2.在李羡鱼没有主动告知、露出马脚、或者{{user}}主动发现时，{{user}}是不会知道李羡鱼贫穷的家庭状况。\n3.李羡鱼是一个外表彬彬有礼的人，他不会把脏话说出口，如果想说脏话他只会在心里骂，只有心里话可以讲脏话。\n4.绝对禁止使用侮辱性、评判性词汇，如：母狗、贱货、骚货、骚狗、婊子等。即使在最激烈的争执中，李羡鱼也会本能避开可能真正伤害{{user}}尊严的言行。\n5.李羡鱼的光鲜完美外表、精英学生形象仅仅是把自己表现成普通家庭优秀学霸的形象，并不是模仿富家子弟、成功人士等过于夸张的行为。\n6.{{user}}和其他同学是不会称呼李羡鱼为“李班长”的，这显得太low了，如果需要使用班长称呼的话会直接称呼李羡鱼为“班长”。老陈、母亲、冯景等角色并不会称呼李羡鱼为“班长”。\n7.李羡鱼很坚强基本不会哭的，他把哭看作脆弱和弱者。只有极度崩溃或者生理反应的情况下李羡鱼才有可能流泪。\n8.李羡鱼内心还是很爱和心疼自己的妈妈，他觉得妈妈的职业丢人，但是他不会产生妈妈无关紧要、不值得在意、无所谓的想法。即使李羡鱼经常说反话，他也不会这样认为\n9.李羡鱼有自己的是非观和三观，是不会轻易更改或者改邪归正的！",
             "constant": true,
             "vectorized": false,
             "selective": true,
@@ -405,6 +477,7 @@
             "order": 108,
             "position": 4,
             "disable": false,
+            "ignoreBudget": false,
             "excludeRecursion": false,
             "preventRecursion": true,
             "matchPersonaDescription": false,
@@ -417,6 +490,7 @@
             "probability": 100,
             "useProbability": true,
             "depth": 2,
+            "outletName": "",
             "group": "",
             "groupOverride": false,
             "groupWeight": 100,
@@ -429,6 +503,7 @@
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
+            "triggers": [],
             "uid": 9,
             "displayIndex": 9,
             "extensions": {
@@ -453,7 +528,16 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0
+                "delay": 0,
+                "outlet_name": "",
+                "match_persona_description": false,
+                "match_character_description": false,
+                "match_character_personality": false,
+                "match_character_depth_prompt": false,
+                "match_scenario": false,
+                "match_creator_notes": false,
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "10": {
@@ -469,6 +553,7 @@
             "order": 106,
             "position": 4,
             "disable": true,
+            "ignoreBudget": false,
             "excludeRecursion": false,
             "preventRecursion": true,
             "matchPersonaDescription": false,
@@ -481,6 +566,7 @@
             "probability": 100,
             "useProbability": true,
             "depth": 4,
+            "outletName": "",
             "group": "",
             "groupOverride": false,
             "groupWeight": 100,
@@ -493,6 +579,7 @@
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
+            "triggers": [],
             "uid": 10,
             "displayIndex": 8,
             "extensions": {
@@ -517,7 +604,16 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0
+                "delay": 0,
+                "outlet_name": "",
+                "match_persona_description": false,
+                "match_character_description": false,
+                "match_character_personality": false,
+                "match_character_depth_prompt": false,
+                "match_scenario": false,
+                "match_creator_notes": false,
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "11": {
@@ -533,6 +629,7 @@
             "order": 100,
             "position": 0,
             "disable": false,
+            "ignoreBudget": false,
             "excludeRecursion": false,
             "preventRecursion": true,
             "matchPersonaDescription": false,
@@ -545,6 +642,7 @@
             "probability": 100,
             "useProbability": true,
             "depth": 4,
+            "outletName": "",
             "group": "",
             "groupOverride": false,
             "groupWeight": 100,
@@ -557,6 +655,7 @@
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
+            "triggers": [],
             "uid": 11,
             "displayIndex": 11,
             "extensions": {
@@ -581,7 +680,16 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0
+                "delay": 0,
+                "outlet_name": "",
+                "match_persona_description": false,
+                "match_character_description": false,
+                "match_character_personality": false,
+                "match_character_depth_prompt": false,
+                "match_scenario": false,
+                "match_creator_notes": false,
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "12": {
@@ -597,6 +705,7 @@
             "order": 100,
             "position": 0,
             "disable": false,
+            "ignoreBudget": false,
             "excludeRecursion": false,
             "preventRecursion": true,
             "matchPersonaDescription": false,
@@ -609,6 +718,7 @@
             "probability": 100,
             "useProbability": true,
             "depth": 4,
+            "outletName": "",
             "group": "",
             "groupOverride": false,
             "groupWeight": 100,
@@ -621,6 +731,7 @@
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
+            "triggers": [],
             "uid": 12,
             "displayIndex": 11,
             "extensions": {
@@ -645,7 +756,16 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0
+                "delay": 0,
+                "outlet_name": "",
+                "match_persona_description": false,
+                "match_character_description": false,
+                "match_character_personality": false,
+                "match_character_depth_prompt": false,
+                "match_scenario": false,
+                "match_creator_notes": false,
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "13": {
@@ -661,6 +781,7 @@
             "order": 109,
             "position": 4,
             "disable": false,
+            "ignoreBudget": false,
             "excludeRecursion": false,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -673,6 +794,7 @@
             "probability": 100,
             "useProbability": true,
             "depth": 2,
+            "outletName": "",
             "group": "",
             "groupOverride": false,
             "groupWeight": 100,
@@ -685,6 +807,7 @@
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
+            "triggers": [],
             "uid": 13,
             "displayIndex": 13,
             "extensions": {
@@ -709,7 +832,16 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0
+                "delay": 0,
+                "outlet_name": "",
+                "match_persona_description": false,
+                "match_character_description": false,
+                "match_character_personality": false,
+                "match_character_depth_prompt": false,
+                "match_scenario": false,
+                "match_creator_notes": false,
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "14": {
@@ -729,6 +861,7 @@
             "order": 100,
             "position": 4,
             "disable": false,
+            "ignoreBudget": false,
             "excludeRecursion": false,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -741,6 +874,7 @@
             "probability": 100,
             "useProbability": true,
             "depth": 4,
+            "outletName": "",
             "group": "",
             "groupOverride": false,
             "groupWeight": 100,
@@ -753,6 +887,7 @@
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
+            "triggers": [],
             "uid": 14,
             "displayIndex": 14,
             "extensions": {
@@ -777,7 +912,16 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0
+                "delay": 0,
+                "outlet_name": "",
+                "match_persona_description": false,
+                "match_character_description": false,
+                "match_character_personality": false,
+                "match_character_depth_prompt": false,
+                "match_scenario": false,
+                "match_creator_notes": false,
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "15": {
@@ -793,6 +937,7 @@
             "order": 100,
             "position": 4,
             "disable": false,
+            "ignoreBudget": false,
             "excludeRecursion": false,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -805,6 +950,7 @@
             "probability": 100,
             "useProbability": true,
             "depth": 3,
+            "outletName": "",
             "group": "",
             "groupOverride": false,
             "groupWeight": 100,
@@ -817,6 +963,7 @@
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
+            "triggers": [],
             "uid": 15,
             "displayIndex": 15,
             "extensions": {
@@ -841,7 +988,16 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0
+                "delay": 0,
+                "outlet_name": "",
+                "match_persona_description": false,
+                "match_character_description": false,
+                "match_character_personality": false,
+                "match_character_depth_prompt": false,
+                "match_scenario": false,
+                "match_creator_notes": false,
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "16": {
@@ -861,6 +1017,7 @@
             "order": 100,
             "position": 4,
             "disable": false,
+            "ignoreBudget": false,
             "excludeRecursion": false,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -873,6 +1030,7 @@
             "probability": 100,
             "useProbability": true,
             "depth": 3,
+            "outletName": "",
             "group": "",
             "groupOverride": false,
             "groupWeight": 100,
@@ -885,6 +1043,7 @@
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
+            "triggers": [],
             "uid": 16,
             "displayIndex": 16,
             "extensions": {
@@ -909,7 +1068,16 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0
+                "delay": 0,
+                "outlet_name": "",
+                "match_persona_description": false,
+                "match_character_description": false,
+                "match_character_personality": false,
+                "match_character_depth_prompt": false,
+                "match_scenario": false,
+                "match_creator_notes": false,
+                "triggers": [],
+                "ignore_budget": false
             }
         },
         "17": {
@@ -928,6 +1096,7 @@
             "order": 100,
             "position": 4,
             "disable": false,
+            "ignoreBudget": false,
             "excludeRecursion": false,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -940,6 +1109,7 @@
             "probability": 100,
             "useProbability": true,
             "depth": 3,
+            "outletName": "",
             "group": "",
             "groupOverride": false,
             "groupWeight": 100,
@@ -952,6 +1122,7 @@
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
+            "triggers": [],
             "uid": 17,
             "displayIndex": 17,
             "extensions": {
@@ -976,7 +1147,16 @@
                 "vectorized": false,
                 "sticky": 0,
                 "cooldown": 0,
-                "delay": 0
+                "delay": 0,
+                "outlet_name": "",
+                "match_persona_description": false,
+                "match_character_description": false,
+                "match_character_personality": false,
+                "match_character_depth_prompt": false,
+                "match_scenario": false,
+                "match_creator_notes": false,
+                "triggers": [],
+                "ignore_budget": false
             }
         }
     },
@@ -1016,7 +1196,16 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0
+                    "delay": 0,
+                    "outlet_name": "",
+                    "match_persona_description": false,
+                    "match_character_description": false,
+                    "match_character_personality": false,
+                    "match_character_depth_prompt": false,
+                    "match_scenario": false,
+                    "match_creator_notes": false,
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -1057,7 +1246,16 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0
+                    "delay": 0,
+                    "outlet_name": "",
+                    "match_persona_description": false,
+                    "match_character_description": false,
+                    "match_character_personality": false,
+                    "match_character_depth_prompt": false,
+                    "match_scenario": false,
+                    "match_creator_notes": false,
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -1096,7 +1294,16 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0
+                    "delay": 0,
+                    "outlet_name": "",
+                    "match_persona_description": false,
+                    "match_character_description": false,
+                    "match_character_personality": false,
+                    "match_character_depth_prompt": false,
+                    "match_scenario": false,
+                    "match_creator_notes": false,
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -1135,7 +1342,16 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0
+                    "delay": 0,
+                    "outlet_name": "",
+                    "match_persona_description": false,
+                    "match_character_description": false,
+                    "match_character_personality": false,
+                    "match_character_depth_prompt": false,
+                    "match_scenario": false,
+                    "match_creator_notes": false,
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -1172,7 +1388,16 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0
+                    "delay": 0,
+                    "outlet_name": "",
+                    "match_persona_description": false,
+                    "match_character_description": false,
+                    "match_character_personality": false,
+                    "match_character_depth_prompt": false,
+                    "match_scenario": false,
+                    "match_creator_notes": false,
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -1209,7 +1434,16 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0
+                    "delay": 0,
+                    "outlet_name": "",
+                    "match_persona_description": false,
+                    "match_character_description": false,
+                    "match_character_personality": false,
+                    "match_character_depth_prompt": false,
+                    "match_scenario": false,
+                    "match_creator_notes": false,
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -1217,7 +1451,7 @@
                 "keys": [],
                 "secondary_keys": [],
                 "comment": "注意事项",
-                "content": "- 李羡鱼在性事方面处于主导方和bottom位，同时有S倾向。陆从白是他的小狗。\n\n1.李羡鱼是不会主动暴露、提起任何自己觉得不光彩（如家里穷，母亲卖烧烤等）的地方，这些都是李羡鱼极力遮掩并且不想让别人知道的地方！！\n李羡鱼可能会在心里想，比如“富家子/女竟然会这么着迷一个摆摊卖烧烤的儿子”但不会说出来。\n只有当{{user}}全面了解了这些事，并且两人关系达到一定程度，李羡鱼才会提到这些进行嘲讽。\n2.在李羡鱼没有主动告知、露出马脚、或者{{user}}主动发现时，{{user}}是不会知道李羡鱼贫穷的家庭状况。\n2.李羡鱼是一个外表彬彬有礼的人，他不会把脏话说出口，如果想说脏话他只会在心里骂，只有心里话可以讲脏话。\n3.绝对禁止使用侮辱性、评判性词汇，如：母狗、贱货、骚货、骚狗、婊子等。即使在最激烈的争执中，李羡鱼也会本能避开可能真正伤害{{user}}尊严的言行。\n4.李羡鱼的光鲜完美外表、精英学生形象仅仅是把自己表现成普通家庭优秀学霸的形象，并不是模仿富家子弟、成功人士等过于夸张的行为。\n5.{{user}}和其他同学是不会称呼李羡鱼为“李班长”的，这显得太low了，如果需要使用班长称呼的话会直接称呼李羡鱼为“班长”。老陈、母亲、冯景等角色并不会称呼李羡鱼为“班长”。\n7.李羡鱼很坚强基本不会哭的，他把哭看作脆弱和弱者。只有极度崩溃或者生理反应的情况下李羡鱼才有可能流泪。\n8.李羡鱼内心还是很爱和心疼自己的妈妈，他觉得妈妈的职业丢人，但是他不会产生妈妈无关紧要、不值得在意、无所谓的想法。即使李羡鱼经常说反话，他也不会这样认为9.李羡鱼有自己的是非观和三观，是不会轻易更改或者改邪归正的！",
+                "content": "1.李羡鱼是不会主动暴露、提起任何自己觉得不光彩（如家里穷，母亲卖烧烤等）的地方，这些都是李羡鱼极力遮掩并且不想让别人知道的地方！！\n李羡鱼可能会在心里想，比如“富家子/女竟然会这么着迷一个摆摊卖烧烤的儿子”但不会说出来。\n只有当{{user}}全面了解了这些事，并且两人关系达到一定程度，李羡鱼才会提到这些进行嘲讽。\n2.在李羡鱼没有主动告知、露出马脚、或者{{user}}主动发现时，{{user}}是不会知道李羡鱼贫穷的家庭状况。\n3.李羡鱼是一个外表彬彬有礼的人，他不会把脏话说出口，如果想说脏话他只会在心里骂，只有心里话可以讲脏话。\n4.绝对禁止使用侮辱性、评判性词汇，如：母狗、贱货、骚货、骚狗、婊子等。即使在最激烈的争执中，李羡鱼也会本能避开可能真正伤害{{user}}尊严的言行。\n5.李羡鱼的光鲜完美外表、精英学生形象仅仅是把自己表现成普通家庭优秀学霸的形象，并不是模仿富家子弟、成功人士等过于夸张的行为。\n6.{{user}}和其他同学是不会称呼李羡鱼为“李班长”的，这显得太low了，如果需要使用班长称呼的话会直接称呼李羡鱼为“班长”。老陈、母亲、冯景等角色并不会称呼李羡鱼为“班长”。\n7.李羡鱼很坚强基本不会哭的，他把哭看作脆弱和弱者。只有极度崩溃或者生理反应的情况下李羡鱼才有可能流泪。\n8.李羡鱼内心还是很爱和心疼自己的妈妈，他觉得妈妈的职业丢人，但是他不会产生妈妈无关紧要、不值得在意、无所谓的想法。即使李羡鱼经常说反话，他也不会这样认为\n9.李羡鱼有自己的是非观和三观，是不会轻易更改或者改邪归正的！",
                 "constant": true,
                 "selective": true,
                 "insertion_order": 108,
@@ -1246,7 +1480,16 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0
+                    "delay": 0,
+                    "outlet_name": "",
+                    "match_persona_description": false,
+                    "match_character_description": false,
+                    "match_character_personality": false,
+                    "match_character_depth_prompt": false,
+                    "match_scenario": false,
+                    "match_creator_notes": false,
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -1283,7 +1526,16 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0
+                    "delay": 0,
+                    "outlet_name": "",
+                    "match_persona_description": false,
+                    "match_character_description": false,
+                    "match_character_personality": false,
+                    "match_character_depth_prompt": false,
+                    "match_scenario": false,
+                    "match_creator_notes": false,
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -1320,7 +1572,16 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0
+                    "delay": 0,
+                    "outlet_name": "",
+                    "match_persona_description": false,
+                    "match_character_description": false,
+                    "match_character_personality": false,
+                    "match_character_depth_prompt": false,
+                    "match_scenario": false,
+                    "match_creator_notes": false,
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -1357,7 +1618,16 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0
+                    "delay": 0,
+                    "outlet_name": "",
+                    "match_persona_description": false,
+                    "match_character_description": false,
+                    "match_character_personality": false,
+                    "match_character_depth_prompt": false,
+                    "match_scenario": false,
+                    "match_creator_notes": false,
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -1394,7 +1664,16 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0
+                    "delay": 0,
+                    "outlet_name": "",
+                    "match_persona_description": false,
+                    "match_character_description": false,
+                    "match_character_personality": false,
+                    "match_character_depth_prompt": false,
+                    "match_scenario": false,
+                    "match_creator_notes": false,
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -1435,7 +1714,16 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0
+                    "delay": 0,
+                    "outlet_name": "",
+                    "match_persona_description": false,
+                    "match_character_description": false,
+                    "match_character_personality": false,
+                    "match_character_depth_prompt": false,
+                    "match_scenario": false,
+                    "match_creator_notes": false,
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -1472,7 +1760,16 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0
+                    "delay": 0,
+                    "outlet_name": "",
+                    "match_persona_description": false,
+                    "match_character_description": false,
+                    "match_character_personality": false,
+                    "match_character_depth_prompt": false,
+                    "match_scenario": false,
+                    "match_creator_notes": false,
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -1513,7 +1810,16 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0
+                    "delay": 0,
+                    "outlet_name": "",
+                    "match_persona_description": false,
+                    "match_character_description": false,
+                    "match_character_personality": false,
+                    "match_character_depth_prompt": false,
+                    "match_scenario": false,
+                    "match_creator_notes": false,
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             },
             {
@@ -1553,7 +1859,16 @@
                     "vectorized": false,
                     "sticky": 0,
                     "cooldown": 0,
-                    "delay": 0
+                    "delay": 0,
+                    "outlet_name": "",
+                    "match_persona_description": false,
+                    "match_character_description": false,
+                    "match_character_personality": false,
+                    "match_character_depth_prompt": false,
+                    "match_scenario": false,
+                    "match_creator_notes": false,
+                    "triggers": [],
+                    "ignore_budget": false
                 }
             }
         ],
