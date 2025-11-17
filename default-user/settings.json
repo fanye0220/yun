@@ -223,13 +223,18 @@
         "AlertWI_程妄1.png": "true",
         "AlertWI_陈迟.png": "true",
         "AlertRegex_陈迟.png": "true",
-        "AlertWI_李金玉.png": "true"
+        "AlertWI_李金玉.png": "true",
+        "AlertWI_德米特里.png": "true",
+        "AlertRegex_德米特里.png": "true",
+        "AlertWI_梁文峰👌.png": "true",
+        "AlertWI_西奥德.png": "true",
+        "AlertRegex_西奥德.png": "true"
     },
     "currentVersion": "1.13.5",
-    "username": "茂卯",
-    "active_character": "陌惊玉1.png",
+    "username": "沈长昀",
+    "active_character": "西奥德.png",
     "active_group": null,
-    "user_avatar": "1746509319576-.png",
+    "user_avatar": "1747381429587-user.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -450,6 +455,7 @@
         "confirm_message_delete": true,
         "sort_field": "create_date",
         "sort_order": "desc",
+        "sort_rule": null,
         "font_scale": 0.95,
         "blur_strength": 0,
         "shadow_width": 0,
@@ -655,9 +661,9 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "女的，身高171",
-        "persona_description_position": 0,
-        "persona_description_role": 0,
+        "persona_description": " 男的 身高186 能与常家平分秋色的商贾",
+        "persona_description_position": 3,
+        "persona_description_role": 1,
         "persona_description_depth": 2,
         "persona_description_lorebook": "",
         "persona_show_notifications": true,
@@ -2117,7 +2123,9 @@
             "程妄1.png",
             "陆君心.png",
             "陈迟.png",
-            "木今逢.png"
+            "木今逢.png",
+            "德米特里.png",
+            "西奥德.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2315,8 +2323,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 3338,
-                "LAST_RECEIVE_CHARS": 6400,
+                "LAST_RECEIVE_TOKENS": 3527,
+                "LAST_RECEIVE_CHARS": 10521,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 84269,
@@ -2356,7 +2364,11 @@
                     }
                 ]
             },
-            "characterConfigs": {}
+            "characterConfigs": {
+                "西奥德.png": {
+                    "setList": []
+                }
+            }
         },
         "TavernHelper": {
             "enabled_extension": true,
@@ -2611,7 +2623,8 @@
                         "白忘忧",
                         "老婆我爱你",
                         "Cassius",
-                        "陈迟"
+                        "陈迟",
+                        "德米特里"
                     ]
                 },
                 "popuped": {
@@ -2630,7 +2643,8 @@
                         "白忘忧",
                         "老婆我爱你",
                         "Cassius",
-                        "陈迟"
+                        "陈迟",
+                        "德米特里"
                     ]
                 },
                 "scripts": [
