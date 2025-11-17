@@ -131,12 +131,15 @@
         "AlertRegex_藤本斋一1.png": "true",
         "AlertWI_何意.png": "true",
         "AlertRegex_何意.png": "true",
-        "AlertWI_安羡之.png": "true",
-        "AlertRegex_安羡之.png": "true"
+        "AlertWI_傅骁承.png": "true",
+        "AlertWI_李闵.png": "true",
+        "AlertRegex_李闵.png": "true",
+        "AlertWI_以斯拉.png": "true",
+        "AlertRegex_以斯拉.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "茂卯",
-    "active_character": "安羡之.png",
+    "active_character": "以斯拉.png",
     "active_group": null,
     "user_avatar": "1746509319576-.png",
     "amount_gen": 350,
@@ -2066,7 +2069,10 @@
             "梁砚修.png",
             "白海潮.png",
             "何意.png",
-            "安羡之.png"
+            "安羡之.png",
+            "李闵.png",
+            "Ethan Cross.png",
+            "以斯拉.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2264,8 +2270,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 770,
-                "LAST_RECEIVE_CHARS": 1057,
+                "LAST_RECEIVE_TOKENS": 4293,
+                "LAST_RECEIVE_CHARS": 9852,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 113707,
@@ -2555,7 +2561,8 @@
                         "岑川",
                         "Cassius",
                         "祝千禾",
-                        "何意"
+                        "何意",
+                        "李闵"
                     ]
                 },
                 "popuped": {
@@ -2566,7 +2573,8 @@
                         "岑川",
                         "Cassius",
                         "祝千禾",
-                        "何意"
+                        "何意",
+                        "李闵"
                     ]
                 },
                 "scripts": [
@@ -4472,9 +4480,29 @@
         "魔法学院.png": [],
         "康雁南.png": [],
         "何意.png": [],
-        "安羡之.png": [],
-        "付庭深.png": [],
-        "藤本斋一1.png": []
+        "藤本斋一1.png": [],
+        "傅骁承.png": [],
+        "李闵.png": [],
+        "《凡人修仙传V9.4》女性向特化.png": [],
+        "谢子临.png": [],
+        "以斯拉.png": [],
+        "Cain Lyer.png": [],
+        "顾盼.png": [],
+        "【百合】关于死对头森川同学似乎是小狗这件事？！.png": [],
+        "纽约往事.png": [],
+        "沈悠枫.png": [],
+        "郁净山.png": [],
+        "夕照珞珈.png": [
+            "ada43d20-ba0e-4912-9a6d-61c916c46865",
+            "b00c319b-3627-493f-bc25-938c85a9d086",
+            "7973b8c2-8930-45b4-b64e-9f0ebc2dca0f",
+            "74ebac98-942c-4263-8b89-a962f0cffa34",
+            "65d5f042-7d2a-42f3-8c72-fd88d3bd16be",
+            "9b01d84f-8006-40fc-8987-6fae32ede0a8",
+            "298404c2-2bde-40e3-83e9-27ef4a5f0bb0"
+        ],
+        "陈三观.png": [],
+        "🤍北欧神秘寄宿学校一枚呀🤍.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
