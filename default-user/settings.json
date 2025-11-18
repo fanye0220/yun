@@ -2,8 +2,8 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
-        "NavOpened": "true",
+        "LNavOpened": "false",
+        "NavOpened": "false",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"3090278210222208\":{\"fieldsWarned\":{}}}}",
         "SelectedNavTab": "rm_button_characters",
@@ -2311,8 +2311,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1613,
-                "LAST_RECEIVE_CHARS": 2295,
+                "LAST_RECEIVE_TOKENS": 2398,
+                "LAST_RECEIVE_CHARS": 3330,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 47287,
@@ -8373,7 +8373,7 @@
                     },
                     {
                         "identifier": "6e389db4-240e-41be-9222-e62f01d0914a",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "c80071e9-6083-4359-8a3c-aeea2e3ef730",
@@ -8734,7 +8734,7 @@
         "chat_completion_source": "makersuite",
         "max_context_unlocked": true,
         "show_external_models": true,
-        "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
+        "proxy_password": "",
         "assistant_prefill": "",
         "assistant_impersonation": "",
         "claude_use_sysprompt": false,

@@ -1,5 +1,5 @@
 {
-    "chat_completion_source": "custom",
+    "chat_completion_source": "makersuite",
     "openai_model": "[云愿]claude-4-sonnet",
     "claude_model": "claude-3-7-sonnet-20250219",
     "openrouter_model": "OR_Website",
@@ -29,7 +29,7 @@
     "custom_exclude_body": "",
     "custom_include_headers": "",
     "custom_prompt_post_processing": "strict",
-    "google_model": "kingfall-ab-test",
+    "google_model": "gemini-2.5-pro",
     "vertexai_model": "gemini-2.0-flash-001",
     "azure_base_url": "",
     "azure_deployment_name": "",
@@ -54,7 +54,7 @@
     "new_example_chat_prompt": "[Example Chat]",
     "continue_nudge_prompt": "[Continue the following message. Do not include ANY parts of the original message. Use capitalization and punctuation as if your reply is a part of the original message: {{lastChatMessage}}]",
     "bias_preset_selected": "Default (none)",
-    "reverse_proxy": "",
+    "reverse_proxy": "http://127.0.0.1:8889/",
     "proxy_password": "",
     "max_context_unlocked": true,
     "wi_format": "{0}",
@@ -2718,7 +2718,7 @@
                 },
                 {
                     "identifier": "6e389db4-240e-41be-9222-e62f01d0914a",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "c80071e9-6083-4359-8a3c-aeea2e3ef730",
