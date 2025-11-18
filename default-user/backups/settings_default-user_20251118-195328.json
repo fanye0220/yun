@@ -29,7 +29,7 @@
         "AlertWI_向未.png": "true",
         "mediaWarningShown:伊凡德.png": "true",
         "mediaWarningShown:伊凡德1.png": "true",
-        "extension_update_nag": "Mon Nov 17 2025",
+        "extension_update_nag": "Tue Nov 18 2025",
         "Proxy_SkipConfirm_5834304746370893": "true",
         "AlertWI_贺劲草.png": "true",
         "AlertRegex_贺劲草.png": "true",
@@ -66,19 +66,12 @@
         "AlertWI_巧克力盖饭试吃版.png": "true",
         "AlertWI_秦纪3.png": "true",
         "AlertRegex_秦纪3.png": "true",
-        "AlertWI_姜藏.png": "true",
-        "AlertWI_渔庐外.png": "true",
-        "AlertRegex_渔庐外.png": "true",
         "AlertWI_破产Omega.png": "true",
         "AlertRegex_破产Omega.png": "true",
         "AlertWI_昭会之幸.png": "true",
         "AlertRegex_昭会之幸.png": "true",
         "AlertWI_宝宝你不是男孩子呀.png": "true",
         "AlertRegex_宝宝你不是男孩子呀.png": "true",
-        "AlertWI_陈浩南.png": "true",
-        "AlertRegex_陈浩南.png": "true",
-        "AlertWI_持之以恒的■■.png": "true",
-        "AlertRegex_持之以恒的■■.png": "true",
         "characterSearchFormVisible": "true",
         "AlertWI_沈雀里.png": "true",
         "AlertRegex_沈雀里.png": "true",
@@ -105,8 +98,6 @@
         "AlertRegex_段易然.png": "true",
         "AlertWI_祝千禾.png": "true",
         "AlertRegex_祝千禾.png": "true",
-        "AlertWI_宴白.png": "true",
-        "AlertRegex_宴白.png": "true",
         "AlertWI_月.png": "true",
         "AlertRegex_月.png": "true",
         "AlertWI_魂断西雅图.png": "true",
@@ -127,8 +118,6 @@
         "AlertWI_江雨杭.png": "true",
         "AlertWI_楼驰川.png": "true",
         "AlertRegex_楼驰川.png": "true",
-        "AlertWI_藤本斋一1.png": "true",
-        "AlertRegex_藤本斋一1.png": "true",
         "AlertWI_何意.png": "true",
         "AlertRegex_何意.png": "true",
         "AlertWI_李闵.png": "true",
@@ -141,16 +130,10 @@
         "AlertRegex_顾盼.png": "true",
         "AlertWI_凌寒.png": "true",
         "AlertRegex_凌寒.png": "true",
-        "AlertWI_余嫉.png": "true",
-        "AlertRegex_余嫉.png": "true",
-        "AlertWI_风靳.png": "true",
-        "AlertRegex_风靳.png": "true",
         "AlertWI_佘柳.png": "true",
         "AlertRegex_佘柳.png": "true",
         "AlertWI_The Third.png": "true",
         "AlertRegex_The Third.png": "true",
-        "AlertWI_虞宴.png": "true",
-        "AlertRegex_虞宴.png": "true",
         "AlertWI_Keith.png": "true",
         "AlertRegex_Keith.png": "true",
         "AlertWI_李盛雨.png": "true",
@@ -158,13 +141,20 @@
         "AlertWI_李焉识1.png": "true",
         "AlertWI_李深安.png": "true",
         "AlertWI_Essex.png": "true",
-        "AlertRegex_Essex.png": "true"
+        "AlertRegex_Essex.png": "true",
+        "AlertWI_小林和也.png": "true",
+        "AlertWI_老婆我爱你1.png": "true",
+        "AlertWI_你要应观朝师傅炒，还是应逢期师傅炒？1.png": "true",
+        "AlertRegex_你要应观朝师傅炒，还是应逢期师傅炒？1.png": "true",
+        "AlertWI_塞维安1.png": "true",
+        "AlertWI_虞宴1.png": "true",
+        "AlertRegex_虞宴1.png": "true"
     },
     "currentVersion": "1.13.5",
-    "username": "茂卯",
-    "active_character": null,
+    "username": "律",
+    "active_character": "小林和也.png",
     "active_group": null,
-    "user_avatar": "1746509319576-.png",
+    "user_avatar": "1748691468583-.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -383,8 +373,9 @@
         "play_sound_unfocused": true,
         "auto_save_msg_edits": true,
         "confirm_message_delete": true,
-        "sort_field": "name",
-        "sort_order": "asc",
+        "sort_field": "create_date",
+        "sort_order": "desc",
+        "sort_rule": null,
         "font_scale": 0.95,
         "blur_strength": 0,
         "shadow_width": 0,
@@ -569,7 +560,7 @@
                 "connections": []
             },
             "1748691468583-.png": {
-                "description": "律的人设:186身高 男的 35岁",
+                "description": "律的人设:186身高 男的 ",
                 "position": 0,
                 "depth": 2,
                 "role": 0,
@@ -590,7 +581,7 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "女的，身高171",
+        "persona_description": "律的人设:186身高 男的 ",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -736,7 +727,7 @@
             "promptType": "raw"
         },
         "connectionManager": {
-            "selectedProfile": "cd9588e9-f9ea-470a-bef1-99de04081912",
+            "selectedProfile": "888cd142-89b5-4a8c-8940-82549ab832c8",
             "profiles": [
                 {
                     "id": "cd9588e9-f9ea-470a-bef1-99de04081912",
@@ -790,7 +781,7 @@
                     "name": "曦月"
                 },
                 {
-                    "id": "a41504bf-0076-4372-9f0e-af12200842f0",
+                    "id": "888cd142-89b5-4a8c-8940-82549ab832c8",
                     "mode": "cc",
                     "exclude": [
                         "preset"
@@ -798,13 +789,13 @@
                     "api": "custom",
                     "api-url": "https://wcesa.zeabur.app/v1",
                     "model": "流式抗截断/gemini-2.5-pro",
-                    "proxy": "None",
+                    "proxy": "build",
                     "stop-strings": "[]",
                     "start-reply-with": "",
                     "reasoning-template": "DeepSeek",
                     "prompt-post-processing": "strict",
-                    "secret-id": "e1427848-bb62-4e0b-8e30-73a3b09b978f",
-                    "name": "自用api"
+                    "secret-id": "b70eedb5-e1fa-4e5c-b637-ab21f0241d3c",
+                    "name": "自用"
                 },
                 {
                     "id": "7f526c67-0442-43b2-a2f4-95dac3ae8c9d",
@@ -814,8 +805,8 @@
                     ],
                     "api": "custom",
                     "api-url": "https://st.dslzl.top/v1",
-                    "model": "gemini-2.5-pro",
-                    "proxy": "None",
+                    "model": "gemini-2.5-pro-preview-06-05",
+                    "proxy": "build",
                     "stop-strings": "[]",
                     "start-reply-with": "",
                     "reasoning-template": "DeepSeek",
@@ -2118,7 +2109,11 @@
             "Essex.png",
             " 江屿声.png",
             "《多重社Project》.png",
-            "宝宝你不是男孩子呀1.png"
+            "宝宝你不是男孩子呀1.png",
+            "林宥谦.png",
+            "破产Omega1.png",
+            "你要应观朝师傅炒，还是应逢期师傅炒？1.png",
+            "虞宴1.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2316,12 +2311,12 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1189,
-                "LAST_RECEIVE_CHARS": 3247,
+                "LAST_RECEIVE_TOKENS": 2228,
+                "LAST_RECEIVE_CHARS": 3069,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
-                "LAST_SEND_TOKENS": 113707,
-                "LAST_SEND_CHARS": 191911,
+                "LAST_SEND_TOKENS": 36503,
+                "LAST_SEND_CHARS": 62494,
                 "cot": "\n[语言检定] \n\n[果农冒泡](调笑或吐槽<user_input>,解读潜台词，避免过度揣摩.若有特殊需求可根据需求跳过后续思考)\n \n[不抢话]（果农绝不扮演USER，为此允许削减正文，允许停止剧情）\n\n[专注NSFW]（非NSFW场景直接跳过；NSFW场景载入`性爱指导`，强制执行**全部**`NSFW思考`，直接省略跳过后续其他思考）\n     \n\n[基调锚定](载入`CORE RULES`和`长线指导`)\n \n\n[角色打磨]（载入角色设定，深度思考`角色塑造指导`）\n\n[风格适配](严格遵循`写作指导`，引入`文风思考`)\n\n[整合思考]（综合所有思考，并设计一个收束在char方的结尾）\n \n\n[正文字数检测]\n\n[输出顺序检查]\n \n\n（一段果农的自我陈词和反思）\n",
                 "正文标签": "<content>\n顶部状态信息\n(空行)\n正文内容\n \n</content>"
             }
@@ -2357,7 +2352,32 @@
                     }
                 ]
             },
-            "characterConfigs": {}
+            "characterConfigs": {
+                "利恩2.png": {
+                    "setList": []
+                },
+                "矢原祐志.png": {
+                    "setList": []
+                },
+                "小林和也.png": {
+                    "setList": []
+                },
+                "老婆我爱你1.png": {
+                    "setList": []
+                },
+                "你要应观朝师傅炒，还是应逢期师傅炒？1.png": {
+                    "setList": []
+                },
+                "塞维安1.png": {
+                    "setList": []
+                },
+                "筱原冬弥.png": {
+                    "setList": []
+                },
+                "虞宴1.png": {
+                    "setList": []
+                }
+            }
         },
         "TavernHelper": {
             "enabled_extension": true,
@@ -2608,7 +2628,9 @@
                         "Cassius",
                         "祝千禾",
                         "何意",
-                        "李闵"
+                        "李闵",
+                        "利恩",
+                        "老婆我爱你"
                     ]
                 },
                 "popuped": {
@@ -2621,7 +2643,9 @@
                         "祝千禾",
                         "何意",
                         "李闵",
-                        "佘柳"
+                        "佘柳",
+                        "利恩",
+                        "老婆我爱你"
                     ]
                 },
                 "scripts": [
@@ -4587,28 +4611,20 @@
         "端木川（哨兵向导）1.png": [],
         "向哨！哨向！.png": [],
         "哨向&水仙.png": [],
-        "辻迁粼喑.png": [],
         "墨旗(新)1.png": [],
         "秦纪.png": [],
         "秦纪3.png": [],
         "秦纪2.png": [],
-        "陈浩南.png": [],
         "墨寻1.png": [],
         "黎繁.png": [],
-        "霖止衍.png": [],
-        "持之以恒的■■.png": [],
         "破产Omega.png": [],
         "你们很缺向导？1.png": [],
         "巧克力盖饭试吃版.png": [],
-        "姜藏.png": [],
-        "渔庐外.png": [],
         "秦纪1.png": [],
         "昭会之幸.png": [],
         "Sub-Control.png": [],
         "宝宝你不是男孩子呀.png": [],
-        "方则均.png": [],
         "沈雀里.png": [],
-        "藤本斋一.png": [],
         "周郁白.png": [],
         "纪向渊2.png": [],
         "秦炽.png": [],
@@ -4631,9 +4647,6 @@
         "陈佑礼.png": [],
         "段易然.png": [],
         "王洧蔚.png": [],
-        "宴白.png": [
-            "c680c8f5-a6eb-4283-a27c-0404dcc3c620"
-        ],
         "月.png": [],
         "魂断西雅图.png": [],
         "邹安遂.png": [],
@@ -4648,7 +4661,6 @@
         "魔法学院.png": [],
         "康雁南.png": [],
         "何意.png": [],
-        "藤本斋一1.png": [],
         "李闵.png": [],
         "《凡人修仙传V9.4》女性向特化.png": [],
         "谢子临.png": [],
@@ -4656,41 +4668,12 @@
         "Cain Lyer.png": [],
         "顾盼.png": [],
         "凌寒.png": [],
-        "余嫉.png": [],
-        "风靳.png": [],
         "佘柳.png": [],
-        "儿子老爹争夺赛.png": [],
         "权步凭.png": [],
         "作为黑道万事屋的日常.png": [],
         "宋岐.png": [],
-        "第一中学.png": [],
-        "陈彻.png": [],
-        "梅檀雪.png": [],
-        "纽约往事.png": [],
-        "张行晞.png": [],
-        "廖柊冬.png": [],
-        "巡演马戏团.png": [],
-        "应抱玉.png": [],
-        "莱安德.png": [],
-        "乔行止.png": [],
-        "应不获.png": [],
-        "虞山行.png": [],
-        "黄兆宇.png": [],
         "邹峥.png": [],
-        "蒋禹.png": [],
-        "宁灵渊.png": [],
-        "李焉识.png": [],
-        "朴宰元.png": [],
-        "郑明渊.png": [],
-        "陈稳.png": [],
-        "喻修.png": [],
-        "路昀.png": [],
-        "洛弈.png": [],
-        "夜一.png": [],
         "The Third.png": [],
-        "虞宴.png": [
-            "e786f14e-7be6-4916-81c7-13fed4c1ff71"
-        ],
         "怎么恋爱脑包围了！？.png": [],
         "宋妄.png": [],
         "藤本斋一2.png": [],
@@ -4715,7 +4698,6 @@
         "地狱空荡荡.png": [],
         "田瑾泽.png": [],
         "港娱模拟器-璀璨之城💎.png": [],
-        "林砚.png": [],
         "宁采飞.png": [],
         "钻石男高狠狠爱.png": [],
         "江成墨.png": [],
@@ -4739,7 +4721,6 @@
         "长谷川莲.png": [],
         "程北极.png": [],
         "玉家纪事.png": [],
-        "季淮北.png": [],
         "季忱朗.png": [],
         "裴世钺.png": [],
         "师叔.png": [],
@@ -4809,7 +4790,6 @@
         "宵町和真.png": [],
         "李玄.png": [],
         "兄长沦为废人后我成了下一代家主.png": [],
-        "贺无忧.png": [],
         "林亦哲.png": [],
         "宋沛然.png": [],
         "沈暮安 灰港往事.png": [],
@@ -4820,7 +4800,6 @@
         "德里.png": [],
         "你能不能正常点！！！.png": [],
         "苏青芸.png": [],
-        "卡埃尔.png": [],
         "Adam.png": [],
         "莫旌.png": [],
         "Eleutheria.png": [],
@@ -4874,8 +4853,6 @@
             "231f90f4-ac82-47ae-898f-898fd19d2b26"
         ],
         "程景珩.png": [],
-        "郁衔烛.png": [],
-        "纪川.png": [],
         "顾川赦.png": [],
         "💐是心跳说谎.png": [],
         "南波兔男鬼系统.png": [],
@@ -4929,7 +4906,6 @@
         "沈凛.png": [],
         "武齐齐.png": [],
         "柳知夏.png": [],
-        "塞维安.png": [],
         "程弋.png": [],
         "Keith.png": [],
         "色色！！.png": [],
@@ -5020,7 +4996,6 @@
         "陈奕辉.png": [],
         "沈诫.png": [],
         "我的快穿系统南波万.png": [],
-        "林宥谦.png": [],
         "陈浩南1.png": [],
         "江瀛.png": [],
         "陈汐.png": [],
@@ -5056,7 +5031,6 @@
         "凌风.png": [],
         "陈闯.png": [],
         "夏洛克.png": [],
-        "墨寻.png": [],
         "Shattered Butterfly.png": [],
         "甘霖.png": [],
         "章庆淮.png": [],
@@ -5261,7 +5235,6 @@
         "魅魔的诞生.png": [],
         "沈观厌.png": [],
         "周言.png": [],
-        "沈竹《捡来的流浪小狗变成幼驯染金丝雀了怎么办》.png": [],
         "江宸.png": [],
         "叶无尘.png": [],
         "柳三思.png": [],
@@ -5277,7 +5250,6 @@
         "镜方朔野.png": [],
         "王晨光.png": [],
         "裴让.png": [],
-        "月皇今晚不回家.png": [],
         "只有做爱才能回蓝是不是哪里搞错了.png": [],
         "郁衔烛1.png": [],
         "叶栖迟.png": [],
@@ -5300,7 +5272,6 @@
         "莱昂.png": [],
         "幻欲之境.png": [],
         "云昭明.png": [],
-        "喻安.png": [],
         "君迁.png": [],
         "何朔野.png": [],
         "改造系统.png": [],
@@ -5310,7 +5281,6 @@
         "燕逐云.png": [],
         "沈孤城.png": [],
         "叶从桉.png": [],
-        "琼纳斯.png": [],
         "张经典.png": [],
         "七零年代换亲文学（酒馆版）.png": [],
         "祁曜.png": [],
@@ -5323,15 +5293,12 @@
         "心之回响.png": [],
         "温知繁.png": [],
         "Kaelith Andromedae.png": [],
-        "荣言欢.png": [],
-        "破产Omega1.png": [],
         "史莱姆大王来啦.png": [],
         "Love Will Tear Us Apart.png": [],
         "路怀远.png": [],
         "萧离1.png": [],
         "后明昭.png": [],
         "齐雩.png": [],
-        "你们很缺向导？.png": [],
         "江止陆.png": [],
         "什么？你们怎么都在勾引我！.png": [],
         "顾叙砚.png": [],
@@ -5344,7 +5311,6 @@
         "楼亿任.png": [],
         "裴时璟.png": [],
         "童岭.png": [],
-        "沈砚(Y).png": [],
         "李丹青.png": [],
         "姜池.png": [],
         "璇清娱乐.png": [],
@@ -5354,7 +5320,6 @@
         "李若早.png": [],
         "沈从谦.png": [],
         "许时雨.png": [],
-        "姜行云.png": [],
         "金陵旧梦.png": [],
         "时未1.png": [],
         "陈天雄.png": [],
@@ -5470,7 +5435,6 @@
         "纽约往事1.png": [],
         "张行晞1.png": [],
         "廖柊冬1.png": [],
-        "巡演马戏团1.png": [],
         "应抱玉1.png": [],
         "莱安德1.png": [],
         "姜藏1.png": [],
@@ -5491,7 +5455,6 @@
         "洛弈1.png": [],
         "夜一1.png": [],
         "The Third1.png": [],
-        "虞宴1.png": [],
         "《这个古代不传统》1.png": [],
         "方则均1.png": [],
         "糟糕，被三个大佬盯上了.png": [],
@@ -5507,7 +5470,6 @@
         "纪行.png": [],
         "楼祈晏.png": [],
         "爸爸妈妈我出生了！.png": [],
-        "你要应观朝师傅炒，还是应逢期师傅炒？.png": [],
         "卞向阳.png": [],
         "人质为所欲为中.png": [],
         "你不是说你家猫会后空翻吗？.png": [],
@@ -5591,7 +5553,6 @@
         "眼泪是男人最好嫁妆.png": [],
         "沈砚卿.png": [],
         "炎边叙.png": [],
-        "老爸老妈浪漫史.png": [],
         "郁川.png": [],
         "《社会上的事你少打听！》.png": [],
         "周之霖.png": [],
@@ -5634,7 +5595,6 @@
         "埃利奥·温斯顿.png": [],
         "沈鸢.png": [],
         "奇美.png": [],
-        "慕辛.png": [],
         "李尘一.png": [],
         "卫沧回.png": [],
         "温辞玉.png": [],
@@ -5645,7 +5605,6 @@
         "这也能绑错？.png": [],
         "周让.png": [],
         "季燃.png": [],
-        "慕辛1.png": [],
         "曲逆蝶.png": [],
         "江念一.png": [],
         "哥儿模拟器.png": [],
@@ -5675,7 +5634,11 @@
         "林砚1.png": [],
         "塞维安1.png": [],
         "你要应观朝师傅炒，还是应逢期师傅炒？1.png": [],
-        "老婆我爱你1.png": []
+        "老婆我爱你1.png": [],
+        "小林和也.png": [],
+        "虞宴1.png": [
+            "e786f14e-7be6-4916-81c7-13fed4c1ff71"
+        ]
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -7803,8 +7766,8 @@
         "azure_deployment_name": "",
         "azure_api_version": "2024-02-15-preview",
         "azure_openai_model": "",
-        "custom_model": "gemini-2.5-pro-preview-06-05[真流-GG公益-200/次]",
-        "custom_url": "https://gemini.beijixingxing.com/v1",
+        "custom_model": "流式抗截断/gemini-2.5-pro",
+        "custom_url": "https://wcesa.zeabur.app/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
@@ -7816,7 +7779,7 @@
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
         "reverse_proxy": "http://127.0.0.1:8889/",
-        "chat_completion_source": "custom",
+        "chat_completion_source": "makersuite",
         "max_context_unlocked": true,
         "show_external_models": true,
         "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
@@ -7843,7 +7806,7 @@
         "request_images": false,
         "seed": -1,
         "n": 1,
-        "bind_preset_to_connection": true,
+        "bind_preset_to_connection": false,
         "extensions": {}
     },
     "background": {
