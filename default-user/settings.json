@@ -162,10 +162,10 @@
         "AlertWI_迟砚尘.png": "true"
     },
     "currentVersion": "1.13.5",
-    "username": "常九",
-    "active_character": "咱们宗.png",
+    "username": "沈长昀",
+    "active_character": "常疏.png",
     "active_group": null,
-    "user_avatar": "1746404021892-.png",
+    "user_avatar": "1747381429587-user.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -592,8 +592,8 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "男的。山中的精怪，蛇。原型有一米长。人形身高186。",
-        "persona_description_position": 0,
+        "persona_description": " 男的 身高186 能与常家平分秋色的商贾",
+        "persona_description_position": 3,
         "persona_description_role": 1,
         "persona_description_depth": 2,
         "persona_description_lorebook": "",
@@ -2326,12 +2326,12 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2082,
-                "LAST_RECEIVE_CHARS": 2714,
+                "LAST_RECEIVE_TOKENS": 70,
+                "LAST_RECEIVE_CHARS": 87,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
-                "LAST_SEND_TOKENS": 69944,
-                "LAST_SEND_CHARS": 109438,
+                "LAST_SEND_TOKENS": 78131,
+                "LAST_SEND_CHARS": 137481,
                 "cot": "\n[语言检定] \n\n[果农冒泡](调笑或吐槽<user_input>,解读潜台词，避免过度揣摩.若有特殊需求可根据需求跳过后续思考)\n \n[不抢话]（果农绝不扮演USER，为此允许削减正文，允许停止剧情）\n\n[专注NSFW]（非NSFW场景直接跳过；NSFW场景载入`性爱指导`，强制执行**全部**`NSFW思考`，直接省略跳过后续其他思考）\n     \n\n[基调锚定](载入`CORE RULES`和`长线指导`)\n \n\n[角色打磨]（载入角色设定，深度思考`角色塑造指导`）\n\n[风格适配](严格遵循`写作指导`，引入`文风思考`)\n\n[整合思考]（综合所有思考，并设计一个收束在char方的结尾）\n \n\n[正文字数检测]\n\n[输出顺序检查]\n \n\n（一段果农的自我陈词和反思）\n",
                 "正文标签": "<content>\n顶部状态信息\n(空行)\n正文内容\n \n</content>"
             }
@@ -7686,7 +7686,7 @@
                     },
                     {
                         "identifier": "3aadd42e-b5d8-44c8-85c8-8e4ad9a38a10",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "0d5b3d2a-40aa-434a-9d7a-0b46dc62f867",
@@ -7694,7 +7694,7 @@
                     },
                     {
                         "identifier": "84b1bf91-f126-43a7-8db5-1948e236df21",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "fbb0eb27-de80-465a-b2e3-4cbad57a7f2a",
