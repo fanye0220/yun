@@ -3,7 +3,7 @@
     "accountStorage": {
         "__migrated": "1",
         "LNavOpened": "false",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"3090278210222208\":{\"fieldsWarned\":{}}}}",
         "SelectedNavTab": "rm_button_characters",
@@ -149,7 +149,7 @@
     },
     "currentVersion": "1.13.5",
     "username": "律",
-    "active_character": "老婆我爱你1.png",
+    "active_character": "小林和也.png",
     "active_group": null,
     "user_avatar": "1748691468583-.png",
     "amount_gen": 350,
