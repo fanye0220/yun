@@ -23,13 +23,13 @@
     "moonshot_model": "kimi-latest",
     "fireworks_model": "accounts/fireworks/models/kimi-k2-instruct",
     "cometapi_model": "gpt-4o",
-    "custom_model": "gemini-2.5-pro-preview-06-05[真流-GG公益-200/次]",
-    "custom_url": "https://gemini.beijixingxing.com/v1",
+    "custom_model": "流式抗截断/gemini-3-pro-preview-11-2025",
+    "custom_url": "https://wcesa.zeabur.app/v1",
     "custom_include_body": "",
     "custom_exclude_body": "",
     "custom_include_headers": "",
     "custom_prompt_post_processing": "strict",
-    "google_model": "gemini-2.5-pro",
+    "google_model": "gemini-3-pro-preview",
     "vertexai_model": "gemini-2.0-flash-001",
     "azure_base_url": "",
     "azure_deployment_name": "",
@@ -1978,11 +1978,11 @@
                 },
                 {
                     "identifier": "0d5b3d2a-40aa-434a-9d7a-0b46dc62f867",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "84b1bf91-f126-43a7-8db5-1948e236df21",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "fbb0eb27-de80-465a-b2e3-4cbad57a7f2a",
