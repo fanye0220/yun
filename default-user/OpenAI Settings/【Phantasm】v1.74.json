@@ -23,8 +23,8 @@
     "moonshot_model": "kimi-latest",
     "fireworks_model": "accounts/fireworks/models/kimi-k2-instruct",
     "cometapi_model": "gpt-4o",
-    "custom_model": "流式抗截断/gemini-2.5-pro",
-    "custom_url": "https://wcesa.zeabur.app/v1",
+    "custom_model": "[paid-key]gemini-3-pro-preview",
+    "custom_url": "https://ar26710.online/v1",
     "custom_include_body": "",
     "custom_exclude_body": "",
     "custom_include_headers": "",
@@ -2706,11 +2706,11 @@
                 },
                 {
                     "identifier": "1735f4f1-faa4-420d-8ca9-46ec0169de66",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "747dca51-69bc-4318-aa8f-39f105c3e371",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "c9025382-7876-42fc-9eef-91c7a69ec42e",
@@ -2718,7 +2718,7 @@
                 },
                 {
                     "identifier": "6e389db4-240e-41be-9222-e62f01d0914a",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "c80071e9-6083-4359-8a3c-aeea2e3ef730",
@@ -2862,11 +2862,11 @@
                 },
                 {
                     "identifier": "fafbd472-502f-4a8d-a6f7-f79fc17899ba",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "60fe34c0-4d7d-4762-90d2-a159165d114e",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "1d1c3369-ec95-43aa-9686-a1a72c8a1f35",
@@ -2874,11 +2874,11 @@
                 },
                 {
                     "identifier": "f3a9311f-470f-40f6-934c-3a9c519a13d8",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "296eb13f-06f0-4ab6-8180-460ca926cc6c",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "c356107c-7c74-493f-a3e6-7dfb7c7de00f",
