@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "NavOpened": "false",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"3090278210222208\":{\"fieldsWarned\":{}}}}",
@@ -160,10 +160,10 @@
         "AlertRegex_日川悠斗.png": "true"
     },
     "currentVersion": "1.13.5",
-    "username": "沈长昀",
-    "active_character": "徐知意.png",
+    "username": "常九",
+    "active_character": "林宥谦1.png",
     "active_group": null,
-    "user_avatar": "1747381429587-user.png",
+    "user_avatar": "1748165328926-.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -545,7 +545,7 @@
                 "connections": []
             },
             "1747381429587-user.png": {
-                "description": " 男的 身高186 能与常家平分秋色的商贾",
+                "description": " 男的 身高186 35岁",
                 "position": 3,
                 "depth": 2,
                 "role": 1,
@@ -590,9 +590,9 @@
                 "lorebook": ""
             }
         },
-        "persona_description": " 男的 身高186 能与常家平分秋色的商贾",
+        "persona_description": "常九人设：男的。身高187，体重78kg，看着瘦削，私下有锻炼。有薄肌。 家里人供了邪神牌位 气场变得很差 身边有鬼跟",
         "persona_description_position": 3,
-        "persona_description_role": 1,
+        "persona_description_role": 0,
         "persona_description_depth": 2,
         "persona_description_lorebook": "",
         "persona_show_notifications": true,
@@ -2328,12 +2328,12 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1622,
-                "LAST_RECEIVE_CHARS": 2181,
+                "LAST_RECEIVE_TOKENS": 1295,
+                "LAST_RECEIVE_CHARS": 1973,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
-                "LAST_SEND_TOKENS": 80570,
-                "LAST_SEND_CHARS": 135306,
+                "LAST_SEND_TOKENS": 11180,
+                "LAST_SEND_CHARS": 19006,
                 "cot": "\n[语言检定] \n\n[果农冒泡](调笑或吐槽<user_input>,解读潜台词，避免过度揣摩.若有特殊需求可根据需求跳过后续思考)\n \n[不抢话]（果农绝不扮演USER，为此允许削减正文，允许停止剧情）\n\n[专注NSFW]（非NSFW场景直接跳过；NSFW场景载入`性爱指导`，强制执行**全部**`NSFW思考`，直接省略跳过后续其他思考）\n     \n\n[基调锚定](载入`CORE RULES`和`长线指导`)\n \n\n[角色打磨]（载入角色设定，深度思考`角色塑造指导`）\n\n[风格适配](严格遵循`写作指导`，引入`文风思考`)\n\n[整合思考]（综合所有思考，并设计一个收束在char方的结尾）\n \n\n[正文字数检测]\n\n[输出顺序检查]\n \n\n（一段果农的自我陈词和反思）\n",
                 "正文标签": "<content>\n顶部状态信息\n正文内容\n尾部状态信息\n</content>"
             }
@@ -8032,7 +8032,7 @@
                     },
                     {
                         "identifier": "ed70db3b-00cd-4268-a0ee-0226196c50ec",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "03639a71-6c94-45ce-a734-86744891ca52",
