@@ -75,8 +75,6 @@
         "characterSearchFormVisible": "true",
         "AlertWI_沈雀里.png": "true",
         "AlertRegex_沈雀里.png": "true",
-        "AlertWI_周郁白.png": "true",
-        "AlertRegex_周郁白.png": "true",
         "AlertRegex_openai_【MoM】梦梦K2T1.1.12ttt丨喵喵电波@ameng": "true",
         "AlertWI_纪向渊2.png": "true",
         "AlertRegex_openai_【索多玛】Peccadex†V1.2.0": "true",
@@ -128,8 +126,6 @@
         "AlertRegex_Cain Lyer.png": "true",
         "AlertWI_顾盼.png": "true",
         "AlertRegex_顾盼.png": "true",
-        "AlertWI_凌寒.png": "true",
-        "AlertRegex_凌寒.png": "true",
         "AlertWI_佘柳.png": "true",
         "AlertRegex_佘柳.png": "true",
         "AlertWI_The Third.png": "true",
@@ -163,7 +159,7 @@
     },
     "currentVersion": "1.13.5",
     "username": "律",
-    "active_character": "筱原冬弥.png",
+    "active_character": null,
     "active_group": null,
     "user_avatar": "1748691468583-.png",
     "amount_gen": 350,
@@ -384,9 +380,8 @@
         "play_sound_unfocused": true,
         "auto_save_msg_edits": true,
         "confirm_message_delete": true,
-        "sort_field": "chat_size",
+        "sort_field": "create_date",
         "sort_order": "desc",
-        "sort_rule": null,
         "font_scale": 0.95,
         "blur_strength": 0,
         "shadow_width": 0,
@@ -2128,7 +2123,9 @@
             "林砚1.png",
             "尤兰达·菲斯坎.png",
             "任怀瑾.png",
-            "明月VTuber企划.png"
+            "明月VTuber企划.png",
+            "谢千雪.png",
+            "💐是心跳说谎1.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2326,8 +2323,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2434,
-                "LAST_RECEIVE_CHARS": 3381,
+                "LAST_RECEIVE_TOKENS": 242,
+                "LAST_RECEIVE_CHARS": 224,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 110631,
@@ -2367,71 +2364,7 @@
                     }
                 ]
             },
-            "characterConfigs": {
-                "利恩2.png": {
-                    "setList": []
-                },
-                "矢原祐志.png": {
-                    "setList": []
-                },
-                "小林和也.png": {
-                    "setList": []
-                },
-                "老婆我爱你1.png": {
-                    "setList": []
-                },
-                "你要应观朝师傅炒，还是应逢期师傅炒？1.png": {
-                    "setList": []
-                },
-                "塞维安1.png": {
-                    "setList": []
-                },
-                "筱原冬弥.png": {
-                    "setList": []
-                },
-                "虞宴1.png": {
-                    "setList": []
-                },
-                "林砚1.png": {
-                    "setList": []
-                },
-                "Essex.png": {
-                    "setList": []
-                },
-                "卡埃尔1.png": {
-                    "setList": []
-                },
-                "尤兰达·菲斯坎.png": {
-                    "setList": []
-                },
-                "珀西亚.png": {
-                    "setList": []
-                },
-                "任怀瑾.png": {
-                    "setList": []
-                },
-                "明月VTuber企划.png": {
-                    "setList": []
-                },
-                "迟砚尘.png": {
-                    "setList": []
-                },
-                "破产Omega.png": {
-                    "setList": []
-                },
-                "徐知意.png": {
-                    "setList": []
-                },
-                "林宥谦1.png": {
-                    "setList": []
-                },
-                "常疏.png": {
-                    "setList": []
-                },
-                "咱们宗.png": {
-                    "setList": []
-                }
-            }
+            "characterConfigs": {}
         },
         "TavernHelper": {
             "enabled_extension": true,
@@ -2685,7 +2618,6 @@
                         "何意",
                         "李闵",
                         "利恩",
-                        "老婆我爱你",
                         "明月VTuber企划"
                     ]
                 },
@@ -2701,7 +2633,6 @@
                         "李闵",
                         "佘柳",
                         "利恩",
-                        "老婆我爱你",
                         "明月VTuber企划"
                     ]
                 },
@@ -4682,7 +4613,6 @@
         "Sub-Control.png": [],
         "宝宝你不是男孩子呀.png": [],
         "沈雀里.png": [],
-        "周郁白.png": [],
         "纪向渊2.png": [],
         "秦炽.png": [],
         "李将远.png": [],
@@ -4696,7 +4626,6 @@
         "李羡鱼.png": [],
         "江惊闲.png": [],
         "岑川.png": [],
-        "谢以声.png": [],
         "Cassius.png": [
             "354c437e-8ec4-4f10-a854-120c09c96f94"
         ],
@@ -4724,12 +4653,8 @@
         "以斯拉.png": [],
         "Cain Lyer.png": [],
         "顾盼.png": [],
-        "凌寒.png": [],
         "佘柳.png": [],
         "权步凭.png": [],
-        "作为黑道万事屋的日常.png": [],
-        "宋岐.png": [],
-        "邹峥.png": [],
         "The Third.png": [],
         "怎么恋爱脑包围了！？.png": [],
         "宋妄.png": [],
@@ -4911,7 +4836,6 @@
         ],
         "程景珩.png": [],
         "顾川赦.png": [],
-        "💐是心跳说谎.png": [],
         "南波兔男鬼系统.png": [],
         "戚斟雪.png": [],
         "陈暮宇.png": [],
@@ -4926,7 +4850,6 @@
         "☘️心跳说谎.png": [],
         "顾行止.png": [],
         "张雪彦.png": [],
-        "谢千雪.png": [],
         "许归期.png": [],
         "太太我喜欢你！.png": [],
         "非典型西幻.png": [],
@@ -5423,7 +5346,6 @@
         "凌孤雁.png": [],
         "阳希.png": [],
         "洛行.png": [],
-        "老婆我爱你.png": [],
         "卡洛斯.png": [],
         "蒋序时.png": [],
         "高枕.png": [],
@@ -5432,7 +5354,6 @@
         "顾仞.png": [],
         "祝叙白.png": [],
         "塞缪尔.png": [],
-        "Evergreen.png": [],
         "只是人畜无害的小动物.png": [],
         "寂妙.png": [],
         "盛骁.png": [],
@@ -5695,7 +5616,10 @@
         "小林和也.png": [],
         "虞宴1.png": [
             "e786f14e-7be6-4916-81c7-13fed4c1ff71"
-        ]
+        ],
+        "梁俊杰.png": [],
+        "谢千雪1.png": [],
+        "💐是心跳说谎.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
