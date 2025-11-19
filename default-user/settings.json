@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "NavOpened": "true",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"3090278210222208\":{\"fieldsWarned\":{}}}}",
@@ -738,7 +738,7 @@
             "promptType": "raw"
         },
         "connectionManager": {
-            "selectedProfile": "cd9588e9-f9ea-470a-bef1-99de04081912",
+            "selectedProfile": "0206e91f-e509-4bed-be2a-6e5a33861e50",
             "profiles": [
                 {
                     "id": "cd9588e9-f9ea-470a-bef1-99de04081912",
@@ -7823,8 +7823,8 @@
         "azure_deployment_name": "",
         "azure_api_version": "2024-02-15-preview",
         "azure_openai_model": "",
-        "custom_model": "gemini-2.5-pro-preview-06-05[真流-GG公益-200/次]",
-        "custom_url": "https://gemini.beijixingxing.com/v1",
+        "custom_model": "[WEB]claude-4.5-sonnet",
+        "custom_url": "https://ar26710.online/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
@@ -7836,7 +7836,7 @@
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
         "reverse_proxy": "http://127.0.0.1:8889/",
-        "chat_completion_source": "makersuite",
+        "chat_completion_source": "custom",
         "max_context_unlocked": true,
         "show_external_models": true,
         "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
