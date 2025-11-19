@@ -2326,8 +2326,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2434,
-                "LAST_RECEIVE_CHARS": 3381,
+                "LAST_RECEIVE_TOKENS": 1994,
+                "LAST_RECEIVE_CHARS": 2832,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 110631,
@@ -7836,7 +7836,7 @@
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
         "reverse_proxy": "http://127.0.0.1:8889/",
-        "chat_completion_source": "custom",
+        "chat_completion_source": "makersuite",
         "max_context_unlocked": true,
         "show_external_models": true,
         "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
