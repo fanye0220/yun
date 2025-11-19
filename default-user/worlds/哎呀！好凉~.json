@@ -13,7 +13,7 @@
             "addMemo": true,
             "order": 100,
             "position": 4,
-            "disable": false,
+            "disable": true,
             "excludeRecursion": false,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -38,7 +38,15 @@
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
-            "displayIndex": 0
+            "displayIndex": 0,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "1": {
             "uid": 1,
@@ -78,7 +86,15 @@
             "sticky": 0,
             "cooldown": 0,
             "delay": 0,
-            "displayIndex": 1
+            "displayIndex": 1,
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         }
     }
 }

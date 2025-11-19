@@ -1,5 +1,5 @@
 {
-    "chat_completion_source": "makersuite",
+    "chat_completion_source": "custom",
     "openai_model": "[云愿]claude-4-sonnet",
     "claude_model": "claude-3-7-sonnet-20250219",
     "openrouter_model": "OR_Website",
@@ -23,8 +23,8 @@
     "moonshot_model": "kimi-latest",
     "fireworks_model": "accounts/fireworks/models/kimi-k2-instruct",
     "cometapi_model": "gpt-4o",
-    "custom_model": "流式抗截断/gemini-3-pro-preview-11-2025",
-    "custom_url": "https://wcesa.zeabur.app/v1",
+    "custom_model": "[paid-key]gemini-3-pro-preview",
+    "custom_url": "https://ar26710.online/v1",
     "custom_include_body": "",
     "custom_exclude_body": "",
     "custom_include_headers": "",
@@ -893,10 +893,11 @@
             "injection_depth": 4,
             "injection_order": 100,
             "role": "system",
-            "content": "<字数>\n正文长度须在1501–2090汉字之间。\n</字数>",
+            "content": "<字数>\n正文长度须在1000–1500汉字之间。\n</字数>",
             "system_prompt": false,
             "marker": false,
-            "forbid_overrides": false
+            "forbid_overrides": false,
+            "injection_trigger": []
         },
         {
             "identifier": "407f8153-ec2b-4d88-b500-7e1963126dfc",
