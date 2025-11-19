@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "NavOpened": "true",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"3090278210222208\":{\"fieldsWarned\":{}}}}",
@@ -160,10 +160,10 @@
         "AlertRegex_日川悠斗.png": "true"
     },
     "currentVersion": "1.13.5",
-    "username": "律",
-    "active_character": "矢原祐志.png",
+    "username": "沈长昀",
+    "active_character": "小林和也.png",
     "active_group": null,
-    "user_avatar": "1748691468583-.png",
+    "user_avatar": "1747381429587-user.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -589,9 +589,9 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "律的人设:186身高 男的 ",
-        "persona_description_position": 0,
-        "persona_description_role": 0,
+        "persona_description": " 男的 身高186 能与常家平分秋色的商贾",
+        "persona_description_position": 3,
+        "persona_description_role": 1,
         "persona_description_depth": 2,
         "persona_description_lorebook": "",
         "persona_show_notifications": true,
@@ -2327,12 +2327,12 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1507,
-                "LAST_RECEIVE_CHARS": 2030,
+                "LAST_RECEIVE_TOKENS": 1327,
+                "LAST_RECEIVE_CHARS": 1999,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
-                "LAST_SEND_TOKENS": 15823,
-                "LAST_SEND_CHARS": 38733,
+                "LAST_SEND_TOKENS": 48695,
+                "LAST_SEND_CHARS": 82068,
                 "cot": "\n[语言检定] \n\n[果农冒泡](调笑或吐槽<user_input>,解读潜台词，避免过度揣摩.若有特殊需求可根据需求跳过后续思考)\n \n[不抢话]（果农绝不扮演USER，为此允许削减正文，允许停止剧情）\n\n[专注NSFW]（非NSFW场景直接跳过；NSFW场景载入`性爱指导`，强制执行**全部**`NSFW思考`，直接省略跳过后续其他思考）\n     \n\n[基调锚定](载入`CORE RULES`和`长线指导`)\n \n\n[角色打磨]（载入角色设定，深度思考`角色塑造指导`）\n\n[风格适配](严格遵循`写作指导`，引入`文风思考`)\n\n[整合思考]（综合所有思考，并设计一个收束在char方的结尾）\n \n\n[正文字数检测]\n\n[输出顺序检查]\n \n\n（一段果农的自我陈词和反思）\n",
                 "正文标签": "<content>\n顶部状态信息\n正文内容\n尾部状态信息\n</content>"
             }
@@ -2376,6 +2376,9 @@
                     "setList": []
                 },
                 "矢原祐志.png": {
+                    "setList": []
+                },
+                "小林和也.png": {
                     "setList": []
                 }
             }
@@ -2522,7 +2525,7 @@
                 ]
             },
             "openai_model": "[云愿]claude-4-sonnet",
-            "google_model": "gemini-2.5-pro"
+            "google_model": "gemini-3-pro-preview"
         },
         "codex": true,
         "EjsTemplate": {
@@ -8488,11 +8491,11 @@
                     },
                     {
                         "identifier": "1735f4f1-faa4-420d-8ca9-46ec0169de66",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "747dca51-69bc-4318-aa8f-39f105c3e371",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "c9025382-7876-42fc-9eef-91c7a69ec42e",
@@ -8500,7 +8503,7 @@
                     },
                     {
                         "identifier": "6e389db4-240e-41be-9222-e62f01d0914a",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "c80071e9-6083-4359-8a3c-aeea2e3ef730",
@@ -8644,11 +8647,11 @@
                     },
                     {
                         "identifier": "fafbd472-502f-4a8d-a6f7-f79fc17899ba",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "60fe34c0-4d7d-4762-90d2-a159165d114e",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "1d1c3369-ec95-43aa-9686-a1a72c8a1f35",
@@ -8656,11 +8659,11 @@
                     },
                     {
                         "identifier": "f3a9311f-470f-40f6-934c-3a9c519a13d8",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "296eb13f-06f0-4ab6-8180-460ca926cc6c",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "c356107c-7c74-493f-a3e6-7dfb7c7de00f",
@@ -8823,7 +8826,7 @@
         "personality_format": "{{personality}}",
         "openai_model": "[云愿]claude-4-sonnet",
         "claude_model": "claude-3-7-sonnet-20250219",
-        "google_model": "gemini-2.5-pro",
+        "google_model": "gemini-3-pro-preview",
         "vertexai_model": "gemini-2.0-flash-001",
         "ai21_model": "jamba-1.5-large",
         "mistralai_model": "mistral-medium",
