@@ -1,7 +1,7 @@
 {
-    "chat_completion_source": "custom",
-    "openai_model": "gpt-4-turbo",
-    "claude_model": "claude-3-5-sonnet-20240620",
+    "chat_completion_source": "makersuite",
+    "openai_model": "[云愿]claude-4-sonnet",
+    "claude_model": "claude-3-7-sonnet-20250219",
     "openrouter_model": "OR_Website",
     "openrouter_use_fallback": false,
     "openrouter_group_models": false,
@@ -10,7 +10,7 @@
     "openrouter_allow_fallbacks": true,
     "openrouter_middleout": "on",
     "ai21_model": "jamba-1.5-large",
-    "mistralai_model": "mistral-large-latest",
+    "mistralai_model": "mistral-medium",
     "cohere_model": "command-r",
     "perplexity_model": "llama-3-70b-instruct",
     "groq_model": "llama3-70b-8192",
@@ -23,13 +23,13 @@
     "moonshot_model": "kimi-latest",
     "fireworks_model": "accounts/fireworks/models/kimi-k2-instruct",
     "cometapi_model": "gpt-4o",
-    "custom_model": "流式抗截断/gemini-2.5-pro",
-    "custom_url": "https://wcesa.zeabur.app/v1",
+    "custom_model": "[paid-key]gemini-3-pro-preview",
+    "custom_url": "https://ar26710.online/v1",
     "custom_include_body": "",
     "custom_exclude_body": "",
     "custom_include_headers": "",
     "custom_prompt_post_processing": "strict",
-    "google_model": "gemini-2.5-pro",
+    "google_model": "gemini-3-pro-preview",
     "vertexai_model": "gemini-2.0-flash-001",
     "azure_base_url": "",
     "azure_deployment_name": "",
@@ -54,7 +54,7 @@
     "new_example_chat_prompt": "[Example Chat]",
     "continue_nudge_prompt": "[Continue the following message. Do not include ANY parts of the original message. Use capitalization and punctuation as if your reply is a part of the original message: {{lastChatMessage}}]",
     "bias_preset_selected": "Default (none)",
-    "reverse_proxy": "http://127.0.0.1:8889/",
+    "reverse_proxy": "http://127.0.0.1:8889",
     "proxy_password": "",
     "max_context_unlocked": true,
     "wi_format": "{0}",
@@ -1913,7 +1913,7 @@
                 },
                 {
                     "identifier": "468054ca-a009-499f-a940-cccf1bce66f7",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "a5cb89e2-bb2d-47aa-af45-257a7fa629d2",
@@ -1933,7 +1933,7 @@
                 },
                 {
                     "identifier": "0644a23d-55d5-44c2-bea5-741d3ae21dbb",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "bf69506f-a34c-4731-98af-b388e66481f4",
