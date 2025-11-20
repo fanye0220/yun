@@ -3,7 +3,7 @@
     "accountStorage": {
         "__migrated": "1",
         "LNavOpened": "false",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"3090278210222208\":{\"fieldsWarned\":{}}}}",
         "SelectedNavTab": "rm_button_characters",
@@ -164,10 +164,10 @@
         "Proxy_SkipConfirm_4719797195651333": "true"
     },
     "currentVersion": "1.13.5",
-    "username": "律",
+    "username": "常九",
     "active_character": "林宥谦1.png",
     "active_group": null,
-    "user_avatar": "1748691468583-.png",
+    "user_avatar": "1748165328926-.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -570,32 +570,40 @@
                 "depth": 2,
                 "role": 0,
                 "lorebook": "",
-                "connections": []
+                "connections": [
+                    {
+                        "type": "character",
+                        "id": "林宥谦1.png"
+                    }
+                ]
             },
             "1748691468583-.png": {
                 "description": "律的人设:186身高 男的 ",
                 "position": 0,
                 "depth": 2,
                 "role": 0,
-                "lorebook": ""
+                "lorebook": "",
+                "connections": []
             },
             "1760656722647-user.png": {
                 "description": "",
                 "position": 0,
                 "depth": 2,
                 "role": 0,
-                "lorebook": ""
+                "lorebook": "",
+                "connections": []
             },
             "1762034097559-.png": {
                 "description": "",
                 "position": 0,
                 "depth": 2,
                 "role": 0,
-                "lorebook": ""
+                "lorebook": "",
+                "connections": []
             }
         },
-        "persona_description": "律的人设:186身高 男的 ",
-        "persona_description_position": 0,
+        "persona_description": "常九人设：男的。身高187，体重78kg，看着瘦削，私下有锻炼。有薄肌。 家里人供了邪神牌位 气场变得很差 身边有鬼跟",
+        "persona_description_position": 3,
         "persona_description_role": 0,
         "persona_description_depth": 2,
         "persona_description_lorebook": "",
@@ -648,7 +656,8 @@
             "forceHidden": [],
             "forceShown": []
         },
-        "wi_key_input_plaintext": true
+        "wi_key_input_plaintext": true,
+        "persona_allow_multi_connections": false
     },
     "extension_settings": {
         "apiUrl": "http://localhost:5100",
@@ -2333,8 +2342,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2033,
-                "LAST_RECEIVE_CHARS": 2889,
+                "LAST_RECEIVE_TOKENS": 1716,
+                "LAST_RECEIVE_CHARS": 2459,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 33778,
