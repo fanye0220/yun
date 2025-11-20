@@ -1828,7 +1828,7 @@
                 },
                 {
                     "identifier": "ed70db3b-00cd-4268-a0ee-0226196c50ec",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "0b3f9199-2405-42b4-99aa-f49ddfdbace6",
@@ -1844,7 +1844,7 @@
                 },
                 {
                     "identifier": "jailbreak",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "e250952c-eb2e-4455-8794-b356146f1a8f",
