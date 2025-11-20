@@ -162,11 +162,12 @@
         "Proxy_SkipConfirm_4719797195651333": "true",
         "Proxy_SkipConfirm_4224139546057832": "true",
         "AlertWI_触手.png": "true",
+        "AlertWI_江云礼1.png": "true",
         "AlertRegex_江云礼2.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "沈长昀",
-    "active_character": null,
+    "active_character": "江云礼1.png",
     "active_group": null,
     "user_avatar": "1747381429587-user.png",
     "amount_gen": 350,
@@ -2343,8 +2344,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1628,
-                "LAST_RECEIVE_CHARS": 2164,
+                "LAST_RECEIVE_TOKENS": 1327,
+                "LAST_RECEIVE_CHARS": 1767,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 58474,
@@ -2384,7 +2385,41 @@
                     }
                 ]
             },
-            "characterConfigs": {}
+            "characterConfigs": {
+                "常疏.png": {
+                    "setList": []
+                },
+                "徐知意.png": {
+                    "setList": []
+                },
+                "矢原祐志.png": {
+                    "setList": []
+                },
+                "小林和也.png": {
+                    "setList": []
+                },
+                "伊凡德.png": {
+                    "setList": []
+                },
+                "林宥谦1.png": {
+                    "setList": []
+                },
+                "千山行歌.png": {
+                    "setList": []
+                },
+                "筱原冬弥.png": {
+                    "setList": []
+                },
+                "触手.png": {
+                    "setList": []
+                },
+                "江云礼1.png": {
+                    "setList": []
+                },
+                "江云礼2.png": {
+                    "setList": []
+                }
+            }
         },
         "TavernHelper": {
             "enabled_extension": true,
@@ -4692,17 +4727,6 @@
             "color": "",
             "color2": "",
             "create_date": 1763390709511
-        },
-        {
-            "id": "186aad4e-f365-46fb-abff-ac28c62849ed",
-            "name": "救赎，古风，自卑，童养夫，小草，忠诚，纯爱，慢热",
-            "folder_type": "NONE",
-            "filter_state": "UNDEFINED",
-            "sort_order": 159,
-            "is_hidden_on_character_card": false,
-            "color": "",
-            "color2": "",
-            "create_date": 1763653376824
         }
     ],
     "tag_map": {
@@ -5818,20 +5842,8 @@
         "朱心许.png": [],
         "Caleb Miller.png": [],
         "邹落.png": [],
-        "江云礼2.png": [],
-        "花泽悠1.png": [],
-        "沈凛3.png": [],
-        "季幼清1.png": [],
         "江云礼1.png": [],
-        "陈折.png": [],
-        "默千千.png": [],
-        "Cassius1.png": [],
-        "李殷离.png": [],
-        "Zoe佐伊.png": [],
-        "伏如芥.png": [
-            "186aad4e-f365-46fb-abff-ac28c62849ed"
-        ],
-        "月岛苍真.png": []
+        "江云礼2.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
