@@ -946,10 +946,11 @@
             "injection_depth": 4,
             "injection_order": 100,
             "role": "assistant",
-            "content": "<字数>\n`<content>`内的正文长度须在1201–1591汉字之间。\n</字数>",
+            "content": "<字数>\n`<content>`内的正文长度须在1001–1591汉字之间。\n</字数>",
             "system_prompt": false,
             "marker": false,
-            "forbid_overrides": false
+            "forbid_overrides": false,
+            "injection_trigger": []
         },
         {
             "identifier": "407f8153-ec2b-4d88-b500-7e1963126dfc",
@@ -2159,7 +2160,7 @@
                 },
                 {
                     "identifier": "5abd038e-4ed7-4c9e-82b4-d9a9a4d5a490",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "d6a647bc-8a7f-4cd9-ab88-0cd87afb0903",
@@ -2187,7 +2188,7 @@
                 },
                 {
                     "identifier": "f05334aa-c75f-4db7-9b28-0fd8eda5d372",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "a411e150-d526-4b2a-b534-c9885df6b960",
