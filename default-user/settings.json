@@ -3,7 +3,7 @@
     "accountStorage": {
         "__migrated": "1",
         "LNavOpened": "false",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"3090278210222208\":{\"fieldsWarned\":{}}}}",
         "SelectedNavTab": "rm_button_characters",
@@ -29,7 +29,7 @@
         "AlertWI_向未.png": "true",
         "mediaWarningShown:伊凡德.png": "true",
         "mediaWarningShown:伊凡德1.png": "true",
-        "extension_update_nag": "Wed Nov 19 2025",
+        "extension_update_nag": "Thu Nov 20 2025",
         "Proxy_SkipConfirm_5834304746370893": "true",
         "AlertWI_贺劲草.png": "true",
         "AlertRegex_贺劲草.png": "true",
@@ -157,11 +157,13 @@
         "AlertRegex_明月VTuber企划.png": "true",
         "AlertWI_迟砚尘.png": "true",
         "AlertWI_日川悠斗.png": "true",
-        "AlertRegex_日川悠斗.png": "true"
+        "AlertRegex_日川悠斗.png": "true",
+        "AlertWI_千山行歌.png": "true",
+        "AlertRegex_千山行歌.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "常九",
-    "active_character": "林宥谦1.png",
+    "active_character": "千山行歌.png",
     "active_group": null,
     "user_avatar": "1748165328926-.png",
     "amount_gen": 350,
@@ -2130,7 +2132,8 @@
             "明月VTuber企划.png",
             "谢千雪.png",
             "💐是心跳说谎1.png",
-            "日川悠斗.png"
+            "日川悠斗.png",
+            "千山行歌.png"
         ],
         "preset_allowed_regex": {
             "openai": [
@@ -2328,8 +2331,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2910,
-                "LAST_RECEIVE_CHARS": 4061,
+                "LAST_RECEIVE_TOKENS": 11597,
+                "LAST_RECEIVE_CHARS": 32200,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
                 "LAST_SEND_TOKENS": 28029,
@@ -2386,6 +2389,9 @@
                     "setList": []
                 },
                 "林宥谦1.png": {
+                    "setList": []
+                },
+                "千山行歌.png": {
                     "setList": []
                 }
             }
@@ -5775,7 +5781,8 @@
         "谢以声.png": [],
         "钟绪1.png": [],
         "钟绪.png": [],
-        "日川悠斗.png": []
+        "日川悠斗.png": [],
+        "千山行歌.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -8381,7 +8388,7 @@
         "chat_completion_source": "makersuite",
         "max_context_unlocked": true,
         "show_external_models": true,
-        "proxy_password": "",
+        "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
         "assistant_prefill": "",
         "assistant_impersonation": "",
         "claude_use_sysprompt": false,
